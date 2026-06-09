@@ -3,40 +3,128 @@
 <head>
   <title>PhonePilot</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background: #f5f5f5;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    input {
+      padding: 10px;
+      width: 200px;
+    }
+
+    button {
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+
+    .card {
+      background: white;
+      padding: 15px;
+      margin-top: 10px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+  </style>
 </head>
-<body style="font-family: Arial; padding: 20px;">
+
+<body>
 
 <h1>📱 PhonePilot</h1>
+
 <p>Find the best smartphone for your budget.</p>
 
-<input id="budget" type="number" placeholder="Enter budget">
-<button onclick="findPhones()">Find Phones</button>
+<input id="budget" type="number" placeholder="Enter Budget">
+
+<button onclick="findPhones()">
+  Find Phones
+</button>
 
 <div id="results"></div>
 
 <script>
-  <script src="phones.js"></script>
-function findPhones() {
-  const budget = Number(document.getElementById("budget").value);
 
-  const results = phones.filter(
-    phone => phone.price <= budget
-  );
+const phones = [
 
-  let html = "<h3>Results</h3>";
+{
+brand: "Redmi",
+model: "12 5G",
+price: 11000,
+gaming: 75,
+camera: 70,
+battery: 80
+},
 
-  results.forEach(phone => {
-    html += `
-      <div>
-        <b>${phone.brand} ${phone.model}</b><br>
-        ₹${phone.price}
-      </div>
-      <hr>
-    `;
-  };
+{
+brand: "POCO",
+model: "X7 Pro",
+price: 28000,
+gaming: 92,
+camera: 85,
+battery: 88
+},
 
-  document.getElementById("results").innerHTML = html;
+{
+brand: "Nothing",
+model: "Phone 3a",
+price: 27000,
+gaming: 89,
+camera: 90,
+battery: 84
 }
+
+];
+
+function findPhones() {
+
+const budget =
+Number(document.getElementById("budget").value);
+
+const results =
+phones.filter(phone => phone.price <= budget);
+
+let html = "";
+
+if(results.length === 0) {
+
+html =
+"<h3>No phones found under this budget.</h3>";
+
+} else {
+
+results.forEach(phone => {
+
+html += `
+<div class="card">
+<h3>${phone.brand} ${phone.model}</h3>
+
+<p>Price: ₹${phone.price}</p>
+
+<p>Gaming Score: ${phone.gaming}</p>
+
+<p>Camera Score: ${phone.camera}</p>
+
+<p>Battery Score: ${phone.battery}</p>
+</div>
+`;
+
+});
+
+}
+
+document.getElementById("results").innerHTML =
+html;
+
+}
+
 </script>
+
 </body>
 </html>
