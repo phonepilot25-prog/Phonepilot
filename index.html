@@ -16,12 +16,27 @@
 
 <script>
 function findPhones() {
-  const budget = document.getElementById("budget").value;
+  const budget = Number(document.getElementById("budget").value);
 
-  document.getElementById("results").innerHTML =
-    "<h3>Searching phones under ₹" + budget + "...</h3>";
+  const results = phones.filter(
+    phone => phone.price <= budget
+  );
+
+  let html = "<h3>Results</h3>";
+
+  results.forEach(phone => {
+    html += `
+      <div>
+        <b>${phone.brand} ${phone.model}</b><br>
+        ₹${phone.price}
+      </div>
+      <hr>
+    `;
+  };
+
+  document.getElementById("results").innerHTML = html;
 }
 </script>
-
+<script src="phones.js"></script>
 </body>
 </html>
