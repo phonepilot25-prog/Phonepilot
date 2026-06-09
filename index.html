@@ -1,28 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>PhonePilot</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PhonePilot</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body style="font-family: Arial; text-align:center; padding:40px;">
+<body style="font-family: Arial; padding: 20px;">
 
-    <h1>📱 PhonePilot</h1>
+<h1>📱 PhonePilot</h1>
+<p>Find the best smartphone for your budget.</p>
 
-    <h2>Find Your Perfect Smartphone</h2>
+<input id="budget" type="number" placeholder="Enter budget">
+<button onclick="findPhones()">Find Phones</button>
 
-    <p>AI-powered smartphone recommendations for India.</p>
+<div id="results"></div>
 
-    <input
-        type="number"
-        placeholder="Enter your budget"
-        style="padding:10px;width:220px;"
-    >
+<script>
+function findPhones() {
+  const budget = document.getElementById("budget").value;
 
-    <br><br>
-
-    <button style="padding:10px 20px;">
-        Find Phones
-    </button>
+  document.getElementById("results").innerHTML =
+    "<h3>Searching phones under ₹" + budget + "...</h3>";
+}
+</script>
 
 </body>
 </html>
