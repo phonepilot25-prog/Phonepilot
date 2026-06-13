@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Phone Details - PhonePilot</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    body{
+      font-family:Arial,sans-serif;
+      padding:20px;
+      background:#f5f5f5;
+    }
+
+    .card{
+      background:white;
+      padding:20px;
+      border-radius:10px;
+      box-shadow:0 2px 5px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+
+<body>
+
+<h1>📱 Phone Details</h1>
+
+<div id="phoneDetails"></div>
+
+<script src="smartphoneData.js"></script>
+
+<script>
+
+const params =
+new URLSearchParams(window.location.search);
+
+const phoneName =
+params.get("id");
+
+const phones =
+smartphoneData["Combined Data"];
+
+const phone =
+phones.find(p =>
+`${p.Brand} ${p.Model}` === phoneName
+);
+
+if(phone){
+
+document.getElementById("phoneDetails").innerHTML = `
+<div class="card">
+
+<h2>${phone.Brand} ${phone.Model}</h2>
+
+<p><b>Price:</b> ₹${phone["Price (₹)"]}</p>
+
+<p><b>Processor:</b> ${phone.Processor}</p>
+
+<p><b>RAM:</b> ${phone.RAM}</p>
+
+<p><b>Storage:</b> ${phone.Storage}</p>
+
+<p><b>Gaming Score:</b> ${phone["Gaming Score"]}</p>
+
+<p><b>Camera Score:</b> ${phone["Camera Score"]}</p>
+
+<p><b>Battery Score:</b> ${phone["Battery Score"]}</p>
+
+</div>
+`;
+
+}
+else{
+
+document.getElementById("phoneDetails").innerHTML =
+"<h2>Phone Not Found</h2>";
+
+}
+
+</script>
+
+</body>
+</html>
