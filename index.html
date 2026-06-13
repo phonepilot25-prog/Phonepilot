@@ -146,6 +146,56 @@ function findPhones() {
     html;
 
 }
+
+  function searchPhone() {
+
+  const query =
+    document.getElementById("phoneSearch")
+      .value
+      .toLowerCase();
+
+  const phones =
+    smartphoneData["Combined Data"];
+
+  const results = phones.filter(phone =>
+    `${phone.Brand} ${phone.Model}`
+      .toLowerCase()
+      .includes(query)
+  );
+
+  let html = "";
+
+  if(results.length === 0) {
+
+    html = "<h3>No matching phone found.</h3>";
+
+  } else {
+
+    results.forEach(phone => {
+
+      html += `
+      <div class="card">
+
+        <h3>${phone.Brand} ${phone.Model}</h3>
+
+        <p>Price: ₹${phone["Price (₹)"]}</p>
+
+        <p>Processor: ${phone.Processor}</p>
+
+        <p>RAM: ${phone.RAM}</p>
+
+        <p>Storage: ${phone.Storage}</p>
+
+      </div>
+      `;
+
+    });
+
+  }
+
+  document.getElementById("results").innerHTML =
+    html;
+  }
   
 
 
