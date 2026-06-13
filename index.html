@@ -39,7 +39,15 @@
 
 <h1>📱 PhonePilot</h1>
 
-<p>Find the best smartphone for your budget.</p>
+<p>Find the best smartphone for your budget.</p> 
+
+  <input id="compare1" type="text" placeholder="First Phone">
+
+<input id="compare2" type="text" placeholder="Second Phone">
+
+<button onclick="comparePhones()">
+Compare Phones
+</button>
 
   <input id="phoneSearch" 
        type="text"
@@ -196,7 +204,106 @@ function findPhones() {
   document.getElementById("results").innerHTML =
     html;
   }
-  
+
+  function comparePhones() {
+
+  const phone1Name =
+    document.getElementById("compare1")
+      .value
+      .toLowerCase();
+
+  const phone2Name =
+    document.getElementById("compare2")
+      .value
+      .toLowerCase();
+
+  const phones =
+    smartphoneData["Combined Data"];
+
+  const phone1 = phones.find(phone =>
+    `${phone.Brand} ${phone.Model}`
+      .toLowerCase()
+      .includes(phone1Name)
+  );
+
+  const phone2 = phones.find(phone =>
+    `${phone.Brand} ${phone.Model}`
+      .toLowerCase()
+      .includes(phone2Name)
+  );
+
+  if(!phone1 || !phone2) {
+
+    document.getElementById("results").innerHTML =
+      "<h3>One or both phones not found.</h3>";
+
+    return;
+  }
+
+  document.getElementById("results").innerHTML = `
+    <div class="card">
+
+      <h2>
+        ${phone1.Brand} ${phone1.Model}
+        VS
+        ${phone2.Brand} ${phone2.Model}
+      </h2>
+
+      <table border="1" cellpadding="8" style="width:100%; border-collapse:collapse;">
+
+        <tr>
+          <th>Feature</th>
+          <th>${phone1.Model}</th>
+          <th>${phone2.Model}</th>
+        </tr>
+
+        <tr>
+          <td>Price</td>
+          <td>₹${phone1["Price (₹)"]}</td>
+          <td>₹${phone2["Price (₹)"]}</td>
+        </tr>
+
+        <tr>
+          <td>Processor</td>
+          <td>${phone1.Processor}</td>
+          <td>${phone2.Processor}</td>
+        </tr>
+
+        <tr>
+          <td>RAM</td>
+          <td>${phone1.RAM}</td>
+          <td>${phone2.RAM}</td>
+        </tr>
+
+        <tr>
+          <td>Storage</td>
+          <td>${phone1.Storage}</td>
+          <td>${phone2.Storage}</td>
+        </tr>
+
+        <tr>
+          <td>Gaming Score</td>
+          <td>${phone1["Gaming Score"]}</td>
+          <td>${phone2["Gaming Score"]}</td>
+        </tr>
+
+        <tr>
+          <td>Camera Score</td>
+          <td>${phone1["Camera Score"]}</td>
+          <td>${phone2["Camera Score"]}</td>
+        </tr>
+
+        <tr>
+          <td>Battery Score</td>
+          <td>${phone1["Battery Score"]}</td>
+          <td>${phone2["Battery Score"]}</td>
+        </tr>
+
+      </table>
+
+    </div>
+  `;
+  }
 
 
 </script>
