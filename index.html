@@ -5,32 +5,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      padding: 20px;
-      background: #f5f5f5;
+    body{
+      font-family:Arial,sans-serif;
+      padding:20px;
+      background:#f5f5f5;
     }
 
-    h1 {
-      text-align: center;
+    h1{
+      text-align:center;
     }
 
-    input {
-      padding: 10px;
-      width: 200px;
+    input{
+      padding:10px;
+      width:200px;
     }
 
-    button {
-      padding: 10px 20px;
-      cursor: pointer;
+    button{
+      padding:10px 20px;
+      cursor:pointer;
     }
 
-    .card {
-      background: white;
-      padding: 15px;
-      margin-top: 10px;
-      border-radius: 10px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    .card{
+      background:white;
+      padding:15px;
+      margin-top:10px;
+      border-radius:10px;
+      box-shadow:0 2px 5px rgba(0,0,0,0.1);
     }
   </style>
 </head>
@@ -49,31 +49,104 @@
 
 <div id="results"></div>
 
-  <script src="smartphoneData.js"></script>
+<script src="smartphoneData.js"></script>
 
 <script>
+
 function findPhones() {
 
-  const phones = smartphoneData["Combined Data"];
+  if(typeof smartphoneData === "undefined"){
+    document.getElementById("results").innerHTML =
+      "<h3>smartphoneData.js not loaded.</h3>";
+    return;
+  }
 
-  let html = `
-    <h3>Total Phones Loaded: ${phones.length}</h3>
-  `;
+  const budget =
+    Number(document.getElementById("budget").value);
 
-  phones.slice(0, 10).forEach(phone => {
-    html += `
-      <div class="card">
-        <pre>${JSON.stringify(phone, null, 2)}</pre>
-      </div>
-    `;
+  const phones =
+    smartphoneData["Combined Data"] || [];
+
+  let html = "";
+
+  const results = phones.filter(phone => {
+
+    const rawPrice =
+      phone["Price (₹)"] ||
+      phone.Price ||
+      phone.price ||
+      "0";
+
+    const price = parseInt(
+      String(rawPrice).replace(/[^0-9]/g,"")
+    );
+
+    return price <= budget;
+
   });
+
+  if(results.length === 0){
+
+    html = `
+      <h3>No phones found.</h3>
+      <p>Total phones in database: ${phones.length}</p>
+    `;
+
+  } else {
+
+    results.forEach(phone => {
+
+      html += `
+      <div class="card">
+
+        <h3>
+          ${phone.Brand || phone.brand || ""}
+          ${phone.Model || phone.model || ""}
+        </h3>
+
+        <p>
+          Price:
+          ₹${phone["Price (₹)"] || phone.Price || phone.price || "N/A"}
+        </p>
+
+        <p>
+          Processor:
+          ${phone.Processor || "N/A"}
+        </p>
+
+        <p>
+          RAM:
+          ${phone.RAM || "N/A"}
+        </p>
+
+        <p>
+          Storage:
+          ${phone.Storage || "N/A"}
+        </p>
+
+        <p>
+          Gaming Score:
+          ${phone["Gaming Score"] || "N/A"}
+        </p>
+
+        <p>
+          Camera Score:
+          ${phone["Camera Score"] || "N/A"}
+        </p>
+
+        <p>
+          Battery Score:
+          ${phone["Battery Score"] || "N/A"}
+        </p>
+
+      </div>
+      `;
+    });
+
+  }
 
   document.getElementById("results").innerHTML = html;
 }
-</script>
-  
-
-
 
 </script>
 
