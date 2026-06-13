@@ -50,87 +50,28 @@
 <div id="results"></div>
 
   <script src="smartphoneData.js"></script>
-  
+
 <script>
-
-
 function findPhones() {
-
-  const budget = Number(
-    document.getElementById("budget").value
-  );
 
   const phones = smartphoneData["Combined Data"];
 
-  const results = phones.filter(phone => {
+  let html = `
+    <h3>Total Phones Loaded: ${phones.length}</h3>
+  `;
 
-    const price = Number(
-      String(phone["Price (₹)"])
-        .replace(/,/g, "")
-        .replace("*", "")
-    );
-
-    return price <= budget;
-
+  phones.slice(0, 10).forEach(phone => {
+    html += `
+      <div class="card">
+        <pre>${JSON.stringify(phone, null, 2)}</pre>
+      </div>
+    `;
   });
 
-  let html = "";
-
-  if (results.length === 0) {
-
-    html =
-      "<h3>No phones found under this budget.</h3>";
-
-  } else {
-
-    results.forEach(phone => {
-
-      html += `
-      <div class="card">
-
-        <h3>
-          ${phone.Brand} ${phone.Model}
-        </h3>
-
-        <p>
-          Price: ₹${phone["Price (₹)"]}
-        </p>
-
-        <p>
-          Processor: ${phone.Processor}
-        </p>
-
-        <p>
-          RAM: ${phone.RAM}
-        </p>
-
-        <p>
-          Storage: ${phone.Storage}
-        </p>
-
-        <p>
-          Gaming Score: ${phone["Gaming Score"]}
-        </p>
-
-        <p>
-          Camera Score: ${phone["Camera Score"]}
-        </p>
-
-        <p>
-          Battery Score: ${phone["Battery Score"]}
-        </p>
-
-      </div>
-      `;
-
-    });
-
-  }
-
-  document.getElementById("results").innerHTML =
-    html;
-
+  document.getElementById("results").innerHTML = html;
 }
+</script>
+  
 
 
 
