@@ -55,98 +55,56 @@
 
 function findPhones() {
 
-  if(typeof smartphoneData === "undefined"){
-    document.getElementById("results").innerHTML =
-      "<h3>smartphoneData.js not loaded.</h3>";
-    return;
-  }
+  const budget = Number(
+    document.getElementById("budget").value
+  );
 
-  const budget =
-    Number(document.getElementById("budget").value);
-
-  const phones =
-    smartphoneData["Combined Data"] || [];
-
-  let html = "";
+  const phones = smartphoneData["Combined Data"];
 
   const results = phones.filter(phone => {
 
-    const rawPrice =
-      phone["Price (₹)"] ||
-      phone.Price ||
-      phone.price ||
-      "0";
-
     const price = parseInt(
-      String(rawPrice).replace(/[^0-9]/g,"")
+      String(phone["Price (₹)"])
+        .replace(/[^0-9]/g, "")
     );
 
     return price <= budget;
 
   });
 
-  if(results.length === 0){
+  let html = `<h2>${results.length} Phones Found</h2>`;
 
-    html = `
-      <h3>No phones found.</h3>
-      <p>Total phones in database: ${phones.length}</p>
-    `;
+  results.forEach(phone => {
 
-  } else {
-
-    results.forEach(phone => {
-
-      html += `
+    html += `
       <div class="card">
 
-        <h3>
-          ${phone.Brand || phone.brand || ""}
-          ${phone.Model || phone.model || ""}
-        </h3>
+        <h3>${phone.Brand} ${phone.Model}</h3>
 
-        <p>
-          Price:
-          ₹${phone["Price (₹)"] || phone.Price || phone.price || "N/A"}
-        </p>
+        <p><b>Price:</b> ₹${phone["Price (₹)"]}</p>
 
-        <p>
-          Processor:
-          ${phone.Processor || "N/A"}
-        </p>
+        <p><b>Processor:</b> ${phone.Processor}</p>
 
-        <p>
-          RAM:
-          ${phone.RAM || "N/A"}
-        </p>
+        <p><b>RAM:</b> ${phone.RAM}</p>
 
-        <p>
-          Storage:
-          ${phone.Storage || "N/A"}
-        </p>
+        <p><b>Storage:</b> ${phone.Storage}</p>
 
-        <p>
-          Gaming Score:
-          ${phone["Gaming Score"] || "N/A"}
-        </p>
+        <p><b>Gaming:</b> ${phone["Gaming Score"]}</p>
 
-        <p>
-          Camera Score:
-          ${phone["Camera Score"] || "N/A"}
-        </p>
+        <p><b>Camera:</b> ${phone["Camera Score"]}</p>
 
-        <p>
-          Battery Score:
-          ${phone["Battery Score"] || "N/A"}
-        </p>
+        <p><b>Battery:</b> ${phone["Battery Score"]}</p>
 
       </div>
-      `;
-    });
+    `;
 
-  }
+  });
 
   document.getElementById("results").innerHTML = html;
+
 }
+  
+
 
 </script>
 
