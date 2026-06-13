@@ -1791,4 +1791,3 @@ const smartphoneData = {
   ]
 };
 
-export default smartphoneData;
