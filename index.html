@@ -72,35 +72,70 @@ function findPhones() {
 
   });
 
-  let html = `<h2>${results.length} Phones Found</h2>`;
+  if(results.length === 0){
+    document.getElementById("results").innerHTML =
+      "<h3>No phones found.</h3>";
+    return;
+  }
 
   results.forEach(phone => {
+
+    const gaming =
+      Number(phone["Gaming Score"] || 0);
+
+    const camera =
+      Number(phone["Camera Score"] || 0);
+
+    const battery =
+      Number(phone["Battery Score"] || 0);
+
+    phone.overall =
+      (gaming + camera + battery) / 3;
+
+  });
+
+  results.sort((a,b) =>
+    b.overall - a.overall
+  );
+
+  const top10 = results.slice(0,10);
+
+  let html = `
+    <h2>🏆 Top Phones Under ₹${budget}</h2>
+  `;
+
+  top10.forEach((phone,index) => {
 
     html += `
       <div class="card">
 
-        <h3>${phone.Brand} ${phone.Model}</h3>
+        <h3>
+          #${index + 1}
+          ${phone.Brand}
+          ${phone.Model}
+        </h3>
 
         <p><b>Price:</b> ₹${phone["Price (₹)"]}</p>
 
-        <p><b>Processor:</b> ${phone.Processor}</p>
+        <p><b>Overall Score:</b>
+        ${phone.overall.toFixed(1)}</p>
 
-        <p><b>RAM:</b> ${phone.RAM}</p>
+        <p><b>Gaming:</b>
+        ${phone["Gaming Score"]}</p>
 
-        <p><b>Storage:</b> ${phone.Storage}</p>
+        <p><b>Camera:</b>
+        ${phone["Camera Score"]}</p>
 
-        <p><b>Gaming:</b> ${phone["Gaming Score"]}</p>
-
-        <p><b>Camera:</b> ${phone["Camera Score"]}</p>
-
-        <p><b>Battery:</b> ${phone["Battery Score"]}</p>
+        <p><b>Battery:</b>
+        ${phone["Battery Score"]}</p>
 
       </div>
     `;
 
   });
 
-  document.getElementById("results").innerHTML = html;
+  document.getElementById("results").innerHTML =
+    html;
 
 }
   
