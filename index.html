@@ -356,18 +356,36 @@ ${phone.Brand} ${phone.Model}
   function searchPhone() {
 
   const query =
-    document.getElementById("phoneSearch")
-      .value
-      .toLowerCase();
+  document.getElementById("phoneSearch")
+    .value
+    .toLowerCase();
+
+const budget =
+  Number(
+    document.getElementById("budget").value
+  ) || Infinity;
 
   const phones =
     smartphoneData["Combined Data"];
 
-  const results = phones.filter(phone =>
+  const results = phones.filter(phone => {
+
+  const matchesSearch =
     `${phone.Brand} ${phone.Model}`
       .toLowerCase()
-      .includes(query)
+      .includes(query);
+
+  const price = parseInt(
+    String(phone["Price (₹)"])
+      .replace(/[^0-9]/g,"")
   );
+
+  const matchesBudget =
+    price <= budget;
+
+  return matchesSearch && matchesBudget;
+
+});
 
   let html = "";
 
