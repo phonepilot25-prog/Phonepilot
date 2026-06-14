@@ -266,21 +266,32 @@ a{
 
 function findPhones() {
   const budget = Number(
-    document.getElementById("budget").value
+  document.getElementById("budget").value
+);
+
+const query =
+  document.getElementById("phoneSearch")
+    .value
+    .toLowerCase();
+
+const phones = smartphoneData["Combined Data"];
+
+const results = phones.filter(phone => {
+
+  const price = parseInt(
+    String(phone["Price (₹)"])
+      .replace(/[^0-9]/g, "")
   );
 
-  const phones = smartphoneData["Combined Data"];
+  const matchesSearch =
+    query === "" ||
+    `${phone.Brand} ${phone.Model}`
+      .toLowerCase()
+      .includes(query);
 
-  const results = phones.filter(phone => {
+  return price <= budget && matchesSearch;
 
-    const price = parseInt(
-      String(phone["Price (₹)"])
-        .replace(/[^0-9]/g, "")
-    );
-
-    return price <= budget;
-
-  });
+});
 
   if(results.length === 0){
     document.getElementById("results").innerHTML =
