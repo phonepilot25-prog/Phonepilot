@@ -2,6 +2,15 @@
 <html>
 <head>
   <title>PhonePilot</title>
+  <div class="card">
+
+  <h2>India's Smartphone Intelligence Platform</h2>
+
+  <p>
+    Search, compare, rank and analyze smartphones.
+  </p>
+
+  </div> 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <style> 
@@ -86,6 +95,24 @@ a{
   color:#2563EB;
   font-weight:bold;
 }
+
+    .hero{
+  background:linear-gradient(135deg,#2563EB,#1D4ED8);
+  color:white;
+  padding:25px;
+  border-radius:20px;
+  margin-bottom:20px;
+  text-align:center;
+}
+
+.hero h2{
+  color:white;
+  margin-bottom:10px;
+}
+
+.hero p{
+  color:#E2E8F0;
+}
   </style>
 </head>
 
@@ -93,6 +120,17 @@ a{
 
 <div class="hero">
   <h1>📱 PhonePilot</h1>
+  <div class="card">
+
+  <button onclick="window.location='rankings.html'">
+    🏆 Rankings
+  </button>
+
+  <button onclick="window.location='processors.html'">
+    ⚡ Processors
+  </button>
+
+  </div>
 
   <p class="subtitle">
     Find the perfect smartphone with AI-powered rankings,
@@ -156,7 +194,17 @@ a{
   Results
   </h2>
 
-<div id="results"></div>
+<div id="results">
+
+  <div class="card">
+    <h3>Welcome to PhonePilot</h3>
+    <p>
+      Search a phone, compare two phones,
+      or find the best phones under your budget.
+    </p>
+  </div>
+
+</div>
 
 <script src="smartphoneData.js"></script>
 
