@@ -113,19 +113,37 @@ a{
 
   </div>
 
-  <input id="phoneSearch" 
-       type="text"
-       placeholder="Search Phone Model">
+  <div class="feature-card">
+
+  <h2 class="section-title">
+    🔍 Search Phone
+  </h2>
+
+  <input id="phoneSearch"
+         type="text"
+         placeholder="Search Phone Model">
 
   <button onclick="searchPhone()">
-  Search Phone
+    Search Phone
   </button>
-  
-<input id="budget" type="number" placeholder="Enter Budget">
 
-<button onclick="findPhones()">
-  Find Phones
-</button>
+  </div>
+  
+<div class="feature-card">
+
+  <h2 class="section-title">
+    💰 Budget Finder
+  </h2>
+
+  <input id="budget"
+         type="number"
+         placeholder="Enter Budget">
+
+  <button onclick="findPhones()">
+    Find Phones
+  </button>
+
+</div>
 
 <div id="results"></div>
 
