@@ -38,10 +38,17 @@ button{
   font-weight:bold;
 }
 
-button:hover{
-  opacity:0.9;
+button{
+  background:#2563EB;
+  color:white;
+  border:none;
+  padding:12px 18px;
+  border-radius:10px;
+  cursor:pointer;
+  font-weight:bold;
+  width:100%;
+  margin-top:10px;
 }
-
 .card{
   background:white;
   border-radius:16px;
@@ -144,6 +151,10 @@ a{
   </button>
 
 </div>
+
+  <h2 style="color:#2563EB;">
+  Results
+  </h2>
 
 <div id="results"></div>
 
@@ -274,6 +285,11 @@ ${phone.Brand} ${phone.Model}
 
         <p>Price: ₹${phone["Price (₹)"]}</p>
 
+        <p>
+⭐ View detailed specifications,
+rankings and analysis
+</p>
+
         <p>Processor: ${phone.Processor}</p>
 
         <p>RAM: ${phone.RAM}</p>
@@ -393,6 +409,19 @@ ${phone.Brand} ${phone.Model}
 
 
 </script>
+<footer style="
+text-align:center;
+margin-top:40px;
+padding:20px;
+color:#64748B;
+">
 
+PhonePilot © 2026
+
+<br><br>
+
+Smartphone rankings, comparisons and analysis.
+
+</footer>
 </body>
 </html>
