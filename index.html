@@ -149,6 +149,29 @@ a{
   margin-top:5px;
   color:#64748B;
 }
+    .stats{
+  display:flex;
+  justify-content:space-around;
+  text-align:center;
+  gap:10px;
+  flex-wrap:wrap;
+}
+
+.stat-box{
+  flex:1;
+  min-width:90px;
+}
+
+.stat-number{
+  font-size:28px;
+  font-weight:bold;
+  color:#2563EB;
+}
+
+.stat-label{
+  color:#64748B;
+  font-size:14px;
+}
   </style>
 </head>
 
@@ -183,11 +206,24 @@ a{
     📊 Database Stats
   </h2>
 
-  <p><b>149</b> Smartphones</p>
+  <div class="stats">
 
-  <p><b>20+</b> Brands</p>
+  <div class="stat-box">
+    <div class="stat-number">149</div>
+    <div class="stat-label">Phones</div>
+  </div>
 
-  <p><b>50+</b> Processors</p>
+  <div class="stat-box">
+    <div class="stat-number">20+</div>
+    <div class="stat-label">Brands</div>
+  </div>
+
+  <div class="stat-box">
+    <div class="stat-number">50+</div>
+    <div class="stat-label">Processors</div>
+  </div>
+
+  </div>
 
 </div>
 <div class="feature-card">
