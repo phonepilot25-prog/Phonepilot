@@ -266,7 +266,11 @@ ${phone.Brand} ${phone.Model}
       html += `
       <div class="card">
 
-        <h3>${phone.Brand} ${phone.Model}</h3>
+        <h3>
+<a href="phone.html?id=${encodeURIComponent(phone.Brand + ' ' + phone.Model)}">
+${phone.Brand} ${phone.Model}
+</a>
+</h3>
 
         <p>Price: ₹${phone["Price (₹)"]}</p>
 
