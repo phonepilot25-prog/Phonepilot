@@ -120,52 +120,55 @@ a{
   font-size:42px;
   margin-bottom:15px;
     }
+
+    .hero-buttons{
+  display:flex;
+  justify-content:center;
+  gap:10px;
+  flex-wrap:wrap;
+  margin:20px 0;
+
+      
   </style>
 </head>
 
 <body>
 
-<div class="hero">
+<div class="hero-buttons">
 
-  <h1>📱 PhonePilot</h1>
+<button onclick="window.location='rankings.html'">
+🏆 Rankings
+</button>
 
-  <button onclick="window.location='rankings.html'">
-    🏆 Rankings
-  </button>
-
-  <button onclick="window.location='processors.html'">
-    ⚡ Processors
-  </button>
-
-  <p class="subtitle">
-    Find the perfect smartphone with AI-powered rankings,
-    comparisons and detailed analysis.
-  </p>
+<button onclick="window.location='processors.html'">
+⚡ Processors
+</button>
 
 </div>
 
    
 
-  <div class="feature-card">
+  </div>
+
+<div class="feature-card">
+
+  <h2 class="section-title">
+    📊 Database Stats
+  </h2>
+
+  <p><b>149</b> Smartphones</p>
+
+  <p><b>20+</b> Brands</p>
+
+  <p><b>50+</b> Processors</p>
+
+</div>
+
+<div class="feature-card">
 
   <h2 class="section-title">
     ⚖️ Compare Phones
   </h2>
-
-  <input id="compare1"
-         type="text"
-         placeholder="First Phone">
-
-  <input id="compare2"
-         type="text"
-         placeholder="Second Phone">
-
-  <button onclick="comparePhones()">
-    Compare Phones
-  </button>
-
-  </div>
-
   <div class="feature-card">
 
   <h2 class="section-title">
