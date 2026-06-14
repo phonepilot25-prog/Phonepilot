@@ -375,6 +375,7 @@ const budget =
     String(phone["Price (₹)"])
       .replace(/[^0-9]/g,"")
   );
+    console.log(phone.Model, phone["Price (₹)"], price);
 
   const matchesBudget =
     price <= budget;
