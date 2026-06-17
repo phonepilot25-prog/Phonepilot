@@ -315,10 +315,7 @@ const query =
 const phones = samsungPhones;
 const results = phones.filter(phone => {
 
-  const price = parseInt(
-    String(phone["Price (₹)"])
-      .replace(/[^0-9]/g, "")
-  );
+  const price = phone.price;
 
   const matchesSearch =
   phone.model
@@ -417,12 +414,9 @@ const budget =
     .toLowerCase()
     .includes(query);
 
-  const price = parseInt(
-    String(phone["Price (₹)"])
-      .replace(/[^0-9]/g,"")
-  );
-    console.log(phone.Model, phone["Price (₹)"], price);
-
+  const price = phone.price;
+    
+    console.log(phone.model, phone.price, price);
   const matchesBudget =
     price <= budget;
 
@@ -444,8 +438,8 @@ const budget =
       <div class="card">
 
         <h3>
-<a href="phone.html?id=${encodeURIComponent(phone.Brand + ' ' + phone.Model)}">
-${phone.Brand} ${phone.Model}
+<a href="phone.html?id=${phone.id}">
+${phone.model}
 </a>
 </h3>
 
@@ -456,12 +450,10 @@ ${phone.Brand} ${phone.Model}
 rankings and analysis
 </p>
 
-        <p>Processor: ${phone.Processor}</p>
-
-        <p>RAM: ${phone.RAM}</p>
-
-        <p>Storage: ${phone.Storage}</p>
-
+        <p>Price: ₹${phone.price}</p>
+<p>Processor: ${phone.processorId}</p>
+<p>RAM: ${phone.ram}</p>
+<p>Storage: ${phone.storage}</p>
       </div>
       `;
 
