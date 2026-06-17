@@ -310,8 +310,7 @@ const query =
     .value
     .toLowerCase();
 
-const phones = smartphoneData["Combined Data"];
-
+const phones = samsungPhones;
 const results = phones.filter(phone => {
 
   const price = parseInt(
@@ -408,9 +407,7 @@ const budget =
     document.getElementById("budget").value
   ) || Infinity;
 
-  const phones =
-    smartphoneData["Combined Data"];
-
+  const phones = samsungPhones;
   const results = phones.filter(phone => {
 
   const matchesSearch =
@@ -486,8 +483,7 @@ document.getElementById("resultsTitle").style.display = "block";
       .value
       .toLowerCase();
 
-  const phones =
-    smartphoneData["Combined Data"];
+  const phones = samsungPhones;
 
   const phone1 = phones.find(phone =>
     `${phone.Brand} ${phone.Model}`
