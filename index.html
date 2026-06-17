@@ -409,12 +409,13 @@ const budget =
   ) || Infinity;
 
   const phones = samsungPhones;
+    
   const results = phones.filter(phone => {
 
   const matchesSearch =
-    `${phone.Brand} ${phone.Model}`
-      .toLowerCase()
-      .includes(query);
+  phone.model
+    .toLowerCase()
+    .includes(query);
 
   const price = parseInt(
     String(phone["Price (₹)"])
