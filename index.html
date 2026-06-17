@@ -321,10 +321,9 @@ const results = phones.filter(phone => {
   );
 
   const matchesSearch =
-    query === "" ||
-    `${phone.Brand} ${phone.Model}`
-      .toLowerCase()
-      .includes(query);
+  phone.model
+    .toLowerCase()
+    .includes(query);
 
   return price <= budget && matchesSearch;
 
