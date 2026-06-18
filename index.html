@@ -209,7 +209,7 @@ a{
   <div class="stats">
 
   <div class="stat-box">
-    <div class="stat-number">149</div>
+    <div class="stat-number" id="phoneCount"></div>
     <div class="stat-label">Phones</div>
   </div>
 
@@ -313,36 +313,43 @@ a{
 
 <script src="data/allPhoneData1.js"></script>
 
-</script>
+
 <script>
-console.log(smartphoneData);
-console.log(smartphoneData.length);
+document.getElementById("phoneCount").textContent =
+  smartphoneData.length;
   
 function findPhones() {
-  const budget = Number(
-  document.getElementById("budget").value
-);
 
-const query =
-  document.getElementById("phoneSearch")
-    .value
-    .toLowerCase();
+  const budget =
+    Number(
+      document.getElementById("budget").value
+    ) || Infinity;
 
-const phones = samsungPhones;
-const results = phones.filter(phone => {
+  const query =
+    document.getElementById("phoneSearch")
+      .value
+      .trim()
+      .toLowerCase();
 
-  const price = phone.price;
+  const phones = smartphoneData;
 
-  const matchesSearch =
-  phone.model
-    .toLowerCase()
-    .includes(query);
+  const results = phones.filter(phone => {
 
-  return price <= budget && matchesSearch;
+    const matchesSearch =
+      query === "" ||
+      phone.model
+        .toLowerCase()
+        .includes(query);
 
-});
+    const matchesBudget =
+      phone.price <= budget;
 
-  if(results.length === 0){
+    return matchesSearch && matchesBudget;
+
+  });
+
+  if (results.length === 0) {
+    document.getElementById("resultsTitle").style.display = "block";
     document.getElementById("results").innerHTML =
       "<h3>No phones found.</h3>";
     return;
@@ -350,99 +357,96 @@ const results = phones.filter(phone => {
 
   results.forEach(phone => {
 
-    const gaming =
-      Number(phone["Gaming Score"] || 0);
-
-    const camera =
-      Number(phone["Camera Score"] || 0);
-
-    const battery =
-      Number(phone["Battery Score"] || 0);
+    const gaming = phone.gamingScore || 0;
+    const camera = phone.cameraScore || 0;
+    const battery = phone.batteryScore || 0;
 
     phone.overall =
       (gaming + camera + battery) / 3;
 
   });
 
-  results.sort((a,b) =>
+  results.sort((a, b) =>
     b.overall - a.overall
   );
 
-  const top10 = results.slice(0,10);
+  const top10 = results.slice(0, 10);
 
   let html = `
     <h2>🏆 Top Phones Under ₹${budget}</h2>
   `;
 
-  top10.forEach((phone,index) => {
+  top10.forEach(phone => {
 
     html += `
       <div class="card">
 
         <h3>
-<a href="phone.html?id=${encodeURIComponent(phone.Brand + ' ' + phone.Model)}">
-${phone.Brand} ${phone.Model}
-</a>
-</h3>
+          <a href="phone.html?id=${phone.id}">
+            ${phone.model}
+          </a>
+        </h3>
 
-        <p><b>Price:</b> ₹${phone["Price (₹)"]}</p>
+        <p><b>Price:</b> ₹${phone.price}</p>
 
         <p><b>Overall Score:</b>
-        ${phone.overall.toFixed(1)}</p>
+          ${phone.overall.toFixed(1)}
+        </p>
 
         <p><b>Gaming:</b>
-        ${phone["Gaming Score"]}</p>
+          ${phone.gamingScore}
+        </p>
 
         <p><b>Camera:</b>
-        ${phone["Camera Score"]}</p>
+          ${phone.cameraScore}
+        </p>
 
         <p><b>Battery:</b>
-        ${phone["Battery Score"]}</p>
+          ${phone.batteryScore}
+        </p>
 
       </div>
     `;
 
   });
-document.getElementById("resultsTitle").style.display = "block";
-  document.getElementById("results").innerHTML =
-    html;
 
+  document.getElementById("resultsTitle").style.display = "block";
+  document.getElementById("results").innerHTML = html;
 }
 
   function searchPhone() {
 
   const query =
-  document.getElementById("phoneSearch")
-    .value
-    .toLowerCase();
+    document.getElementById("phoneSearch")
+      .value
+      .trim()
+      .toLowerCase();
 
-const budget =
-  Number(
-    document.getElementById("budget").value
-  ) || Infinity;
+  const budget =
+    Number(
+      document.getElementById("budget").value
+    ) || Infinity;
 
-  const phones = samsungPhones;
-    
+  const phones = smartphoneData;
+
   const results = phones.filter(phone => {
 
-  const matchesSearch =
-  phone.model
-    .toLowerCase()
-    .includes(query);
+    const matchesSearch =
+      query === "" ||
+      phone.model
+        .toLowerCase()
+        .includes(query);
 
-  const price = phone.price;
-    
-    console.log(phone.model, phone.price, price);
-  const matchesBudget =
-    price <= budget;
+    const matchesBudget =
+      phone.price <= budget;
 
-  return matchesSearch && matchesBudget;
+    return matchesSearch && matchesBudget;
 
-});
+  });
 
   let html = "";
 
-  if(results.length === 0) {
+  if (results.length === 0) {
 
     html = "<h3>No matching phone found.</h3>";
 
@@ -451,34 +455,34 @@ const budget =
     results.forEach(phone => {
 
       html += `
-      <div class="card">
+        <div class="card">
 
-        <h3>
-<a href="phone.html?id=${phone.id}">
-${phone.model}
-</a>
-</h3>
+          <h3>
+            <a href="phone.html?id=${phone.id}">
+              ${phone.model}
+            </a>
+          </h3>
 
-        <p>Price: ₹${phone["Price (₹)"]}</p>
+          <p><b>Price:</b> ₹${phone.price}</p>
 
-        <p>
-⭐ View detailed specifications,
-rankings and analysis
-</p>
+          <p>
+            ⭐ View detailed specifications,
+            rankings and analysis
+          </p>
 
-        <p>Price: ₹${phone.price}</p>
-<p>Processor: ${phone.processorId}</p>
-<p>RAM: ${phone.ram}</p>
-<p>Storage: ${phone.storage}</p>
-      </div>
+          <p><b>Processor:</b> ${phone.processorId}</p>
+          <p><b>RAM:</b> ${phone.ram}</p>
+          <p><b>Storage:</b> ${phone.storage}</p>
+
+        </div>
       `;
 
     });
 
   }
-document.getElementById("resultsTitle").style.display = "block";
-  document.getElementById("results").innerHTML =
-    html;
+
+  document.getElementById("resultsTitle").style.display = "block";
+  document.getElementById("results").innerHTML = html;
   }
 
   function comparePhones() {
@@ -493,85 +497,86 @@ document.getElementById("resultsTitle").style.display = "block";
       .value
       .toLowerCase();
 
-  const phones = samsungPhones;
+  const phones = smartphoneData;
 
   const phone1 = phones.find(phone =>
-    `${phone.Brand} ${phone.Model}`
+    phone.model
       .toLowerCase()
       .includes(phone1Name)
   );
 
   const phone2 = phones.find(phone =>
-    `${phone.Brand} ${phone.Model}`
+    phone.model
       .toLowerCase()
       .includes(phone2Name)
   );
 
-  if(!phone1 || !phone2) {
-
+  if (!phone1 || !phone2) {
     document.getElementById("results").innerHTML =
       "<h3>One or both phones not found.</h3>";
-
     return;
   }
-document.getElementById("resultsTitle").style.display = "block";
+
+  document.getElementById("resultsTitle").style.display = "block";
+
   document.getElementById("results").innerHTML = `
     <div class="card">
 
       <h2>
-        ${phone1.Brand} ${phone1.Model}
+        ${phone1.model}
         VS
-        ${phone2.Brand} ${phone2.Model}
+        ${phone2.model}
       </h2>
 
-      <table border="1" cellpadding="8" style="width:100%; border-collapse:collapse;">
+      <table border="1" cellpadding="8"
+             style="width:100%; border-collapse:collapse;">
 
         <tr>
           <th>Feature</th>
-          <th>${phone1.Model}</th>
-          <th>${phone2.Model}</th>
+          <th>${phone1.model}</th>
+          <th>${phone2.model}</th>
         </tr>
 
         <tr>
           <td>Price</td>
-          <td>₹${phone1["Price (₹)"]}</td>
-          <td>₹${phone2["Price (₹)"]}</td>
+          <td>₹${phone1.price}</td>
+          <td>₹${phone2.price}</td>
         </tr>
 
         <tr>
           <td>Processor</td>
-          <td>${phone1.Processor}</td>
-          <td>${phone2.Processor}</td>
+          <td>${phone1.processorId}</td>
+          <td>${phone2.processorId}</td>
         </tr>
 
         <tr>
           <td>RAM</td>
-          <td>${phone1.RAM}</td>
-          <td>${phone2.RAM}</td>
+          <td>${phone1.ram}</td>
+          <td>${phone2.ram}</td>
         </tr>
 
         <tr>
           <td>Storage</td>
-          <td>${phone1.Storage}</td>
-          <td>${phone2.Storage}</td>
+          <td>${phone1.storage}</td>
+          <td>${phone2.storage}</td>
         </tr>
 
         <tr>
           <td>Gaming Score</td>
-          <td>${phone1["Gaming Score"]}</td>
-          <td>${phone2["Gaming Score"]}</td>
+          <td>${phone1.gamingScore}</td>
+          <td>${phone2.gamingScore}</td>
         </tr>
 
         <tr>
           <td>Camera Score</td>
-          <td>${phone1["Camera Score"]}</td>
-          <td>${phone2["Camera Score"]}</td>
+          <td>${phone1.cameraScore}</td>
+          <td>${phone2.cameraScore}</td>
         </tr>
 
         <tr>
           <td>Battery Score</td>
-          <td>${phone1["Battery Score"]}</td>
-          <td>${phone2["Battery Score"]}</td>
+          <td>${phone1.batteryScore}</td>
+          <td>${phone2.batteryScore}</td>
         </tr>
 
       </table>
@@ -579,7 +584,6 @@ document.getElementById("resultsTitle").style.display = "block";
     </div>
   `;
   }
-
 
 </script>
 <footer style="
