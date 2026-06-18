@@ -1,3 +1,3 @@
 const smartphoneData = [
-  ...samsungPhones
+  ...redmiPhones
 ];
