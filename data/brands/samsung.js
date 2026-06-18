@@ -4647,7 +4647,7 @@ const samsungPhones = [
 }
 
 
-
+ ];
 
 
 
