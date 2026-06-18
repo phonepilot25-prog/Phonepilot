@@ -1,6 +1,5 @@
 const redmiPhones = [
 
-
 {
   id: "redmi-note-14-pro-plus-5g",
   brandId: "xiaomi",
@@ -60,7 +59,7 @@ const redmiPhones = [
     "90W Charging",
     "AMOLED"
   ]
-}
+} ,
 
 {
   id: "redmi-note-14-pro-5g",
@@ -121,7 +120,7 @@ const redmiPhones = [
     "IP68",
     "AMOLED"
   ]
-}
+} ,
 
 
 {
@@ -183,7 +182,7 @@ const redmiPhones = [
     "120Hz",
     "Budget"
   ]
-}
+} ,
 
 
 
@@ -248,7 +247,7 @@ const redmiPhones = [
     "120Hz",
     "Budget"
   ]
-}
+} ,
 
 
 
@@ -314,7 +313,7 @@ const redmiPhones = [
     "5000mAh+",
     "120Hz"
   ]
-}
+} ,
 
 
 
@@ -377,7 +376,7 @@ const redmiPhones = [
     "Budget",
     "5000mAh"
   ]
-}
+} ,
 
 
 
@@ -444,7 +443,7 @@ const redmiPhones = [
     "120Hz",
     "Budget"
   ]
-}
+} ,
 
 
 
@@ -507,7 +506,7 @@ const redmiPhones = [
     "Large Battery",
     "Entry Level"
   ]
-}
+} ,
 
 
 
@@ -572,8 +571,14 @@ const redmiPhones = [
     "120Hz",
     "Large Battery"
   ]
-}
+} ,
 
+
+
+
+
+
+  
 
 
 
