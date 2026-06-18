@@ -1,13 +1,13 @@
 {
-  id: "redmi-note-14-pro-plus-5g",
-  brandId: "xiaomi",
-  processorId: "snapdragon-7s-gen-3",
+  id: "realme-gt-7-pro",
+  brandId: "realme",
+  processorId: "snapdragon-8-elite",
 
-  model: "Redmi Note 14 Pro+ 5G",
-  price: 30999,
-  launchDate: "2024-12-09",
+  model: "Realme GT 7 Pro",
+  price: 59999,
+  launchDate: "2024-11-26",
 
-  description: "Premium Redmi Note series smartphone featuring Snapdragon 7s Gen 3, curved AMOLED display, 200MP camera, and ultra-fast charging.",
+  description: "Flagship smartphone powered by Snapdragon 8 Elite featuring a premium AMOLED display, flagship cameras, and ultra-fast charging.",
 
   images: [
     "",
@@ -15,60 +15,192 @@
     ""
   ],
 
-  ram: "8GB / 12GB",
-  storage: "128GB / 256GB",
+  ram: "12GB / 16GB",
+  storage: "256GB / 512GB",
 
-  battery: "6200mAh",
-  charging: "90W HyperCharge",
+  battery: "5800mAh",
+  charging: "120W SUPERVOOC",
 
-  displayType: "AMOLED",
-  displaySize: "6.67-inch",
+  displayType: "LTPO AMOLED",
+  displaySize: "6.78-inch",
   refreshRate: "120Hz",
-  resolution: "2712 x 1220",
+  resolution: "2780 x 1264",
 
-  rearCamera: "200MP + 8MP + 2MP",
-  frontCamera: "20MP",
+  rearCamera: "50MP + 50MP + 8MP",
+  frontCamera: "16MP",
 
-  androidVersion: "Android 14",
-  ipRating: "IP68",
-  weight: "210.8g",
+  androidVersion: "Android 15",
+  ipRating: "IP68/IP69",
+  weight: "222g",
 
-  gamingScore: 88,
-  cameraScore: 92,
+  gamingScore: 99,
+  cameraScore: 93,
   batteryScore: 95,
-  overallScore: 91,
-  rank: 12,
+  overallScore: 97,
+  rank: 4,
 
   pros: [
-    "Excellent 200MP camera",
-    "90W fast charging",
-    "Premium curved AMOLED display"
+    "Snapdragon 8 Elite performance",
+    "120W ultra-fast charging",
+    "IP68/IP69 protection"
+  ],
+
+  cons: [
+    "Heavy device",
+    "Premium price",
+    "No wireless charging"
+  ],
+
+  tags: [
+    "Flagship",
+    "Snapdragon 8 Elite",
+    "120W Charging",
+    "IP69"
+  ]
+}
+
+
+
+
+
+{
+  id: "realme-gt-7",
+  brandId: "realme",
+  processorId: "mediatek-dimensity-9400e",
+
+  model: "Realme GT 7",
+  price: 39999,
+  launchDate: "2025-05-27",
+
+  description: "High-performance flagship killer with Dimensity 9400e, a massive battery, and ultra-fast charging.",
+
+  images: [
+    "",
+    "",
+    ""
+  ],
+
+  ram: "8GB / 12GB / 16GB",
+  storage: "256GB / 512GB",
+
+  battery: "7000mAh",
+  charging: "120W SUPERVOOC",
+
+  displayType: "AMOLED",
+  displaySize: "6.78-inch",
+  refreshRate: "120Hz",
+  resolution: "2780 x 1264",
+
+  rearCamera: "50MP + 50MP + 8MP",
+  frontCamera: "32MP",
+
+  androidVersion: "Android 15",
+  ipRating: "IP68/IP69",
+  weight: "206g",
+
+  gamingScore: 97,
+  cameraScore: 90,
+  batteryScore: 100,
+  overallScore: 95,
+  rank: 7,
+
+  pros: [
+    "Huge 7000mAh battery",
+    "Excellent gaming performance",
+    "120W fast charging"
   ],
 
   cons: [
     "No wireless charging",
-    "Pre-installed apps",
-    "Plastic frame"
+    "Large size may not suit everyone",
+    "Ultrawide camera is average"
   ],
 
   tags: [
-    "5G",
-    "200MP Camera",
-    "90W Charging",
-    "AMOLED"
+    "Gaming",
+    "7000mAh",
+    "120W Charging",
+    "IP69"
   ]
 }
 
+
+
+
 {
-  id: "redmi-note-14-pro-5g",
-  brandId: "xiaomi",
-  processorId: "mediatek-dimensity-7300-ultra",
+  id: "realme-gt-7t",
+  brandId: "realme",
+  processorId: "mediatek-dimensity-8400-max",
 
-  model: "Redmi Note 14 Pro 5G",
-  price: 24999,
-  launchDate: "2024-12-09",
+  model: "Realme GT 7T",
+  price: 34999,
+  launchDate: "2025-05-27",
 
-  description: "Mid-premium Redmi Note smartphone with Dimensity 7300 Ultra, 200MP camera, AMOLED display, and IP68 protection.",
+  description: "Performance-focused smartphone featuring Dimensity 8400 Max, AMOLED display, and a large battery with ultra-fast charging.",
+
+  images: [
+    "",
+    "",
+    ""
+  ],
+
+  ram: "8GB / 12GB",
+  storage: "256GB / 512GB",
+
+  battery: "7000mAh",
+  charging: "120W SUPERVOOC",
+
+  displayType: "AMOLED",
+  displaySize: "6.80-inch",
+  refreshRate: "120Hz",
+  resolution: "2800 x 1280",
+
+  rearCamera: "50MP + 8MP",
+  frontCamera: "32MP",
+
+  androidVersion: "Android 15",
+  ipRating: "IP68/IP69",
+  weight: "202g",
+
+  gamingScore: 92,
+  cameraScore: 83,
+  batteryScore: 100,
+  overallScore: 90,
+  rank: 18,
+
+  pros: [
+    "Massive 7000mAh battery",
+    "120W charging",
+    "Strong gaming performance"
+  ],
+
+  cons: [
+    "No telephoto camera",
+    "Average ultrawide camera",
+    "No wireless charging"
+  ],
+
+  tags: [
+    "Gaming",
+    "7000mAh",
+    "120W Charging",
+    "Dimensity 8400 Max"
+  ]
+}
+
+
+
+
+{
+  id: "realme-14-pro-plus",
+  brandId: "realme",
+  processorId: "snapdragon-7s-gen-3",
+
+  model: "Realme 14 Pro+",
+  price: 29999,
+  launchDate: "2025-01-16",
+
+  description: "Premium mid-range smartphone featuring a curved AMOLED display, periscope telephoto camera, and long battery life.",
 
   images: [
     "",
@@ -79,58 +211,61 @@
   ram: "8GB / 12GB",
   storage: "128GB / 256GB",
 
-  battery: "5500mAh",
-  charging: "45W Turbo Charge",
+  battery: "6000mAh",
+  charging: "80W SUPERVOOC",
 
   displayType: "AMOLED",
-  displaySize: "6.67-inch",
+  displaySize: "6.83-inch",
   refreshRate: "120Hz",
-  resolution: "2712 x 1220",
+  resolution: "2800 x 1272",
 
-  rearCamera: "200MP + 8MP + 2MP",
-  frontCamera: "20MP",
+  rearCamera: "50MP + 50MP + 8MP",
+  frontCamera: "32MP",
 
-  androidVersion: "Android 14",
-  ipRating: "IP68",
-  weight: "190g",
+  androidVersion: "Android 15",
+  ipRating: "IP66/IP68/IP69",
+  weight: "194g",
 
-  gamingScore: 82,
-  cameraScore: 89,
-  batteryScore: 90,
-  overallScore: 87,
-  rank: 20,
+  gamingScore: 85,
+  cameraScore: 92,
+  batteryScore: 95,
+  overallScore: 90,
+  rank: 22,
 
   pros: [
-    "200MP main camera",
-    "IP68 rating",
-    "Good AMOLED display"
+    "Periscope telephoto camera",
+    "Excellent battery life",
+    "Premium curved AMOLED display"
   ],
 
   cons: [
-    "Slower charging than Pro+",
-    "Average ultrawide camera",
-    "Some bloatware"
+    "Not a flagship chipset",
+    "No wireless charging",
+    "Large camera module"
   ],
 
   tags: [
-    "5G",
-    "200MP Camera",
-    "IP68",
-    "AMOLED"
+    "Periscope Camera",
+    "120Hz AMOLED",
+    "80W Charging",
+    "IP69"
   ]
 }
 
 
+
+
+
 {
-  id: "redmi-note-14-5g",
-  brandId: "xiaomi",
-  processorId: "mediatek-dimensity-7025-ultra",
+  id: "realme-14-pro",
+  brandId: "realme",
+  processorId: "mediatek-dimensity-7300-energy",
 
-  model: "Redmi Note 14 5G",
-  price: 17999,
-  launchDate: "2024-12-09",
+  model: "Realme 14 Pro",
+  price: 24999,
+  launchDate: "2025-01-16",
 
-  description: "Affordable 5G smartphone with Dimensity 7025 Ultra processor, AMOLED display, and large battery.",
+  description: "Mid-range smartphone with a curved AMOLED display, Dimensity processor, and large battery.",
 
   images: [
     "",
@@ -138,11 +273,76 @@
     ""
   ],
 
-  ram: "6GB / 8GB",
+  ram: "8GB / 12GB",
   storage: "128GB / 256GB",
 
-  battery: "5110mAh",
-  charging: "45W Fast Charging",
+  battery: "6000mAh",
+  charging: "45W SUPERVOOC",
+
+  displayType: "AMOLED",
+  displaySize: "6.77-inch",
+  refreshRate: "120Hz",
+  resolution: "2392 x 1080",
+
+  rearCamera: "50MP + 2MP",
+  frontCamera: "16MP",
+
+  androidVersion: "Android 15",
+  ipRating: "IP66/IP68/IP69",
+  weight: "179g",
+
+  gamingScore: 80,
+  cameraScore: 82,
+  batteryScore: 94,
+  overallScore: 84,
+  rank: 34,
+
+  pros: [
+    "Excellent battery life",
+    "Premium design",
+    "IP69 protection"
+  ],
+
+  cons: [
+    "No ultrawide camera",
+    "45W charging only",
+    "Average gaming performance"
+  ],
+
+  tags: [
+    "5G",
+    "AMOLED",
+    "6000mAh",
+    "IP69"
+  ]
+}
+
+
+
+
+
+{
+  id: "realme-14",
+  brandId: "realme",
+  processorId: "snapdragon-6-gen-4",
+
+  model: "Realme 14",
+  price: 21999,
+  launchDate: "2025-03-27",
+
+  description: "Balanced mid-range smartphone offering good gaming performance, AMOLED display, and long battery life.",
+
+  images: [
+    "",
+    "",
+    ""
+  ],
+
+  ram: "8GB / 12GB",
+  storage: "128GB / 256GB",
+
+  battery: "6000mAh",
+  charging: "45W SUPERVOOC",
 
   displayType: "AMOLED",
   displaySize: "6.67-inch",
@@ -150,35 +350,35 @@
   resolution: "2400 x 1080",
 
   rearCamera: "50MP + 2MP",
-  frontCamera: "20MP",
+  frontCamera: "16MP",
 
-  androidVersion: "Android 14",
-  ipRating: "IP64",
-  weight: "190g",
+  androidVersion: "Android 15",
+  ipRating: "IP66/IP68/IP69",
+  weight: "196g",
 
-  gamingScore: 74,
+  gamingScore: 82,
   cameraScore: 78,
-  batteryScore: 85,
-  overallScore: 79,
-  rank: 42,
+  batteryScore: 94,
+  overallScore: 82,
+  rank: 39,
 
   pros: [
-    "Affordable 5G",
-    "120Hz AMOLED display",
-    "Good battery life"
+    "Good gaming performance",
+    "Large battery",
+    "IP69 protection"
   ],
 
   cons: [
-    "Average gaming performance",
-    "Basic secondary camera",
-    "Plastic build"
+    "No ultrawide camera",
+    "Average camera system",
+    "45W charging"
   ],
 
   tags: [
-    "5G",
+    "Gaming",
     "AMOLED",
-    "120Hz",
-    "Budget"
+    "6000mAh",
+    "IP69"
   ]
 }
 
@@ -187,15 +387,15 @@
 
 
 {
-  id: "redmi-note-14",
-  brandId: "xiaomi",
-  processorId: "mediatek-helio-g99-ultra",
+  id: "realme-14t",
+  brandId: "realme",
+  processorId: "mediatek-dimensity-6300",
 
-  model: "Redmi Note 14",
+  model: "Realme 14T",
   price: 17999,
-  launchDate: "2024-12-09",
+  launchDate: "2025-04-25",
 
-  description: "Mid-range smartphone with AMOLED display, Helio G99 Ultra processor, and a high-resolution main camera.",
+  description: "Affordable 5G smartphone with AMOLED display, efficient processor, and large battery.",
 
   images: [
     "",
@@ -203,46 +403,46 @@
     ""
   ],
 
-  ram: "6GB / 8GB",
+  ram: "8GB",
   storage: "128GB / 256GB",
 
-  battery: "5500mAh",
-  charging: "33W Fast Charging",
+  battery: "6000mAh",
+  charging: "45W SUPERVOOC",
 
   displayType: "AMOLED",
   displaySize: "6.67-inch",
   refreshRate: "120Hz",
   resolution: "2400 x 1080",
 
-  rearCamera: "108MP + 2MP + 2MP",
-  frontCamera: "20MP",
+  rearCamera: "50MP + 2MP",
+  frontCamera: "16MP",
 
-  androidVersion: "Android 14",
-  ipRating: "IP54",
-  weight: "196.5g",
+  androidVersion: "Android 15",
+  ipRating: "IP66/IP68/IP69",
+  weight: "196g",
 
   gamingScore: 72,
-  cameraScore: 80,
-  batteryScore: 86,
-  overallScore: 79,
-  rank: 48,
+  cameraScore: 74,
+  batteryScore: 93,
+  overallScore: 76,
+  rank: 57,
 
   pros: [
-    "120Hz AMOLED display",
-    "Good battery life",
-    "108MP main camera"
+    "AMOLED display",
+    "Long battery life",
+    "Good durability"
   ],
 
   cons: [
-    "4G only",
-    "Average gaming performance",
-    "Secondary cameras are basic"
+    "Entry-level 5G processor",
+    "Average gaming",
+    "No ultrawide camera"
   ],
 
   tags: [
+    "5G",
     "AMOLED",
-    "108MP Camera",
-    "120Hz",
+    "6000mAh",
     "Budget"
   ]
 }
@@ -253,145 +453,15 @@
 
 
 {
-  id: "redmi-14c",
-  brandId: "xiaomi",
-  processorId: "mediatek-helio-g81-ultra",
+  id: "realme-14x",
+  brandId: "realme",
+  processorId: "mediatek-dimensity-6300",
 
-  model: "Redmi 14C",
-  price: 9999,
-  launchDate: "2024-08-30",
+  model: "Realme 14x",
+  price: 14999,
+  launchDate: "2024-12-18",
 
-  description: "Entry-level Redmi smartphone with a large display, long battery life, and affordable pricing.",
-
-  images: [
-    "",
-    "",
-    ""
-  ],
-
-  ram: "4GB / 6GB / 8GB",
-  storage: "128GB / 256GB",
-
-  battery: "5160mAh",
-  charging: "18W Fast Charging",
-
-  displayType: "IPS LCD",
-  displaySize: "6.88-inch",
-  refreshRate: "120Hz",
-  resolution: "1640 x 720",
-
-  rearCamera: "50MP",
-  frontCamera: "13MP",
-
-  androidVersion: "Android 14",
-  ipRating: "Not officially confirmed",
-  weight: "211g",
-
-  gamingScore: 58,
-  cameraScore: 65,
-  batteryScore: 82,
-  overallScore: 68,
-  rank: 92,
-
-  pros: [
-    "Affordable price",
-    "Large display",
-    "Good battery life"
-  ],
-
-  cons: [
-    "HD+ resolution",
-    "Slow charging",
-    "Entry-level performance"
-  ],
-
-  tags: [
-    "Budget",
-    "Large Display",
-    "5000mAh+",
-    "120Hz"
-  ]
-}
-
-
-
-{
-  id: "redmi-13",
-  brandId: "xiaomi",
-  processorId: "mediatek-helio-g91-ultra",
-
-  model: "Redmi 13",
-  price: 13999,
-  launchDate: "2024-06-05",
-
-  description: "Affordable smartphone featuring a 108MP camera, Helio G91 Ultra processor, and a 90Hz display.",
-
-  images: [
-    "",
-    "",
-    ""
-  ],
-
-  ram: "6GB / 8GB",
-  storage: "128GB / 256GB",
-
-  battery: "5030mAh",
-  charging: "33W Fast Charging",
-
-  displayType: "IPS LCD",
-  displaySize: "6.79-inch",
-  refreshRate: "90Hz",
-  resolution: "2460 x 1080",
-
-  rearCamera: "108MP + 2MP",
-  frontCamera: "13MP",
-
-  androidVersion: "Android 14",
-  ipRating: "IP53",
-  weight: "205g",
-
-  gamingScore: 66,
-  cameraScore: 78,
-  batteryScore: 81,
-  overallScore: 74,
-  rank: 63,
-
-  pros: [
-    "108MP camera",
-    "33W fast charging",
-    "Large FHD+ display"
-  ],
-
-  cons: [
-    "LCD instead of AMOLED",
-    "Average gaming performance",
-    "No 5G support"
-  ],
-
-  tags: [
-    "108MP Camera",
-    "90Hz",
-    "Budget",
-    "5000mAh"
-  ]
-}
-
-
-
-
-
-
-
-{
-  id: "redmi-13-5g",
-  brandId: "xiaomi",
-  processorId: "snapdragon-4-gen-2-ae",
-
-  model: "Redmi 13 5G",
-  price: 13999,
-  launchDate: "2024-07-09",
-
-  description: "Affordable 5G smartphone featuring Snapdragon 4 Gen 2 AE, a large 120Hz display, and a 108MP camera.",
+  description: "Budget 5G smartphone focused on durability, battery life, and everyday performance.",
 
   images: [
     "",
@@ -402,42 +472,431 @@
   ram: "6GB / 8GB",
   storage: "128GB",
 
-  battery: "5030mAh",
-  charging: "33W Fast Charging",
+  battery: "6000mAh",
+  charging: "45W SUPERVOOC",
 
   displayType: "IPS LCD",
-  displaySize: "6.79-inch",
+  displaySize: "6.67-inch",
   refreshRate: "120Hz",
-  resolution: "2460 x 1080",
+  resolution: "1604 x 720",
 
-  rearCamera: "108MP + 2MP",
-  frontCamera: "13MP",
+  rearCamera: "50MP + 2MP",
+  frontCamera: "8MP",
 
   androidVersion: "Android 14",
-  ipRating: "IP53",
-  weight: "205g",
+  ipRating: "IP68/IP69",
+  weight: "197g",
 
-  gamingScore: 70,
-  cameraScore: 80,
-  batteryScore: 82,
-  overallScore: 77,
-  rank: 55,
+  gamingScore: 68,
+  cameraScore: 70,
+  batteryScore: 92,
+  overallScore: 73,
+  rank: 68,
 
   pros: [
-    "108MP main camera",
-    "120Hz display",
-    "Affordable 5G connectivity"
+    "Large 6000mAh battery",
+    "IP69 durability",
+    "Affordable 5G"
   ],
 
   cons: [
+    "HD+ display",
     "LCD panel",
-    "Average low-light photography",
-    "No ultrawide camera"
+    "Basic cameras"
   ],
 
   tags: [
     "5G",
-    "108MP Camera",
+    "6000mAh",
+    "IP69",
+    "Budget"
+  ]
+}
+
+
+
+
+
+{
+  id: "realme-p3-ultra",
+  brandId: "realme",
+  processorId: "mediatek-dimensity-8350-ultra",
+
+  model: "Realme P3 Ultra",
+  price: 26999,
+  launchDate: "2025-03-19",
+
+  description: "Premium P-series smartphone featuring a curved AMOLED display, Dimensity 8350 Ultra processor, and large battery.",
+
+  images: [
+    "",
+    "",
+    ""
+  ],
+
+  ram: "8GB / 12GB",
+  storage: "128GB / 256GB",
+
+  battery: "6000mAh",
+  charging: "80W SUPERVOOC",
+
+  displayType: "AMOLED",
+  displaySize: "6.83-inch",
+  refreshRate: "120Hz",
+  resolution: "2800 x 1272",
+
+  rearCamera: "50MP + 8MP",
+  frontCamera: "16MP",
+
+  androidVersion: "Android 15",
+  ipRating: "IP66/IP68/IP69",
+  weight: "183g",
+
+  gamingScore: 89,
+  cameraScore: 84,
+  batteryScore: 95,
+  overallScore: 88,
+  rank: 26,
+
+  pros: [
+    "Excellent battery life",
+    "Powerful Dimensity 8350 Ultra",
+    "Premium curved AMOLED display"
+  ],
+
+  cons: [
+    "No telephoto camera",
+    "No wireless charging",
+    "Average ultrawide camera"
+  ],
+
+  tags: [
+    "AMOLED",
+    "80W Charging",
+    "Gaming",
+    "IP69"
+  ]
+}
+
+
+
+
+{
+  id: "realme-p3-pro",
+  brandId: "realme",
+  processorId: "snapdragon-7s-gen-3",
+
+  model: "Realme P3 Pro",
+  price: 23999,
+  launchDate: "2025-02-18",
+
+  description: "Performance-focused smartphone with Snapdragon 7s Gen 3, curved AMOLED display, and a large battery.",
+
+  images: [
+    "",
+    "",
+    ""
+  ],
+
+  ram: "8GB / 12GB",
+  storage: "128GB / 256GB",
+
+  battery: "6000mAh",
+  charging: "80W SUPERVOOC",
+
+  displayType: "AMOLED",
+  displaySize: "6.83-inch",
+  refreshRate: "120Hz",
+  resolution: "2800 x 1272",
+
+  rearCamera: "50MP + 2MP",
+  frontCamera: "16MP",
+
+  androidVersion: "Android 15",
+  ipRating: "IP66/IP68/IP69",
+  weight: "190g",
+
+  gamingScore: 84,
+  cameraScore: 80,
+  batteryScore: 95,
+  overallScore: 84,
+  rank: 35,
+
+  pros: [
+    "Large 6000mAh battery",
+    "Premium curved display",
+    "Good gaming performance"
+  ],
+
+  cons: [
+    "No ultrawide camera",
+    "Average camera system",
+    "No wireless charging"
+  ],
+
+  tags: [
+    "AMOLED",
+    "Snapdragon 7s Gen 3",
+    "6000mAh",
+    "IP69"
+  ]
+}
+
+
+
+
+
+{
+  id: "realme-p3",
+  brandId: "realme",
+  processorId: "snapdragon-6-gen-4",
+
+  model: "Realme P3",
+  price: 16999,
+  launchDate: "2025-03-19",
+
+  description: "Mid-range 5G smartphone offering balanced performance, a smooth AMOLED display, and long battery life.",
+
+  images: [
+    "",
+    "",
+    ""
+  ],
+
+  ram: "6GB / 8GB",
+  storage: "128GB / 256GB",
+
+  battery: "6000mAh",
+  charging: "45W SUPERVOOC",
+
+  displayType: "AMOLED",
+  displaySize: "6.67-inch",
+  refreshRate: "120Hz",
+  resolution: "2400 x 1080",
+
+  rearCamera: "50MP + 2MP",
+  frontCamera: "16MP",
+
+  androidVersion: "Android 15",
+  ipRating: "IP69",
+  weight: "194g",
+
+  gamingScore: 78,
+  cameraScore: 74,
+  batteryScore: 93,
+  overallScore: 78,
+  rank: 52,
+
+  pros: [
+    "AMOLED display",
+    "Long battery life",
+    "Good value for money"
+  ],
+
+  cons: [
+    "Average cameras",
+    "No ultrawide lens",
+    "45W charging only"
+  ],
+
+  tags: [
+    "5G",
+    "AMOLED",
+    "6000mAh",
+    "Budget"
+  ]
+}
+
+
+
+
+
+{
+  id: "realme-p3x",
+  brandId: "realme",
+  processorId: "mediatek-dimensity-6400",
+
+  model: "Realme P3x",
+  price: 13999,
+  launchDate: "2025-02-18",
+
+  description: "Affordable 5G smartphone focused on battery life, durability, and everyday performance.",
+
+  images: [
+    "",
+    "",
+    ""
+  ],
+
+  ram: "6GB / 8GB",
+  storage: "128GB",
+
+  battery: "6000mAh",
+  charging: "45W SUPERVOOC",
+
+  displayType: "IPS LCD",
+  displaySize: "6.72-inch",
+  refreshRate: "120Hz",
+  resolution: "2400 x 1080",
+
+  rearCamera: "50MP + 2MP",
+  frontCamera: "8MP",
+
+  androidVersion: "Android 15",
+  ipRating: "IP68/IP69",
+  weight: "197g",
+
+  gamingScore: 70,
+  cameraScore: 69,
+  batteryScore: 92,
+  overallScore: 72,
+  rank: 71,
+
+  pros: [
+    "Large 6000mAh battery",
+    "IP69 durability",
+    "Affordable 5G connectivity"
+  ],
+
+  cons: [
+    "LCD display",
+    "Basic camera setup",
+    "Average gaming performance"
+  ],
+
+  tags: [
+    "5G",
+    "6000mAh",
+    "IP69",
+    "Budget"
+  ]
+}
+
+
+
+
+
+{
+  id: "realme-narzo-80-pro-5g",
+  brandId: "realme",
+  processorId: "mediatek-dimensity-7400",
+
+  model: "Realme Narzo 80 Pro 5G",
+  price: 19999,
+  launchDate: "2025-04-09",
+
+  description: "Performance-oriented Narzo smartphone featuring a Dimensity 7400 processor, AMOLED display, and large battery.",
+
+  images: [
+    "",
+    "",
+    ""
+  ],
+
+  ram: "8GB / 12GB",
+  storage: "128GB / 256GB",
+
+  battery: "6000mAh",
+  charging: "80W SUPERVOOC",
+
+  displayType: "AMOLED",
+  displaySize: "6.72-inch",
+  refreshRate: "120Hz",
+  resolution: "2392 x 1080",
+
+  rearCamera: "50MP + 2MP",
+  frontCamera: "16MP",
+
+  androidVersion: "Android 15",
+  ipRating: "IP66/IP68/IP69",
+  weight: "179g",
+
+  gamingScore: 84,
+  cameraScore: 79,
+  batteryScore: 95,
+  overallScore: 84,
+  rank: 37,
+
+  pros: [
+    "Excellent battery life",
+    "80W fast charging",
+    "Premium AMOLED display"
+  ],
+
+  cons: [
+    "No ultrawide camera",
+    "Average camera system",
+    "No wireless charging"
+  ],
+
+  tags: [
+    "5G",
+    "AMOLED",
+    "80W Charging",
+    "6000mAh"
+  ]
+}
+
+
+
+
+
+{
+  id: "realme-narzo-80x-5g",
+  brandId: "realme",
+  processorId: "mediatek-dimensity-6400",
+
+  model: "Realme Narzo 80x 5G",
+  price: 13999,
+  launchDate: "2025-04-09",
+
+  description: "Affordable 5G smartphone focused on battery life, durability, and everyday performance.",
+
+  images: [
+    "",
+    "",
+    ""
+  ],
+
+  ram: "6GB / 8GB",
+  storage: "128GB",
+
+  battery: "6000mAh",
+  charging: "45W SUPERVOOC",
+
+  displayType: "IPS LCD",
+  displaySize: "6.72-inch",
+  refreshRate: "120Hz",
+  resolution: "2400 x 1080",
+
+  rearCamera: "50MP + 2MP",
+  frontCamera: "8MP",
+
+  androidVersion: "Android 15",
+  ipRating: "IP66/IP68/IP69",
+  weight: "197g",
+
+  gamingScore: 71,
+  cameraScore: 69,
+  batteryScore: 92,
+  overallScore: 73,
+  rank: 69,
+
+  pros: [
+    "Large 6000mAh battery",
+    "120Hz refresh rate",
+    "Durable IP69 design"
+  ],
+
+  cons: [
+    "LCD panel",
+    "Basic cameras",
+    "Average gaming performance"
+  ],
+
+  tags: [
+    "5G",
+    "6000mAh",
     "120Hz",
     "Budget"
   ]
@@ -445,16 +904,18 @@
 
 
 
+
+
 {
-  id: "redmi-a5",
-  brandId: "xiaomi",
-  processorId: "unisoc-t7250",
+  id: "realme-narzo-n65-5g",
+  brandId: "realme",
+  processorId: "mediatek-dimensity-6300",
 
-  model: "Redmi A5",
-  price: 6499,
-  launchDate: "2025-04-15",
+  model: "Realme Narzo N65 5G",
+  price: 11499,
+  launchDate: "2024-05-28",
 
-  description: "Entry-level smartphone designed for basic daily use with a large display and long battery life.",
+  description: "Budget 5G smartphone with a slim design, efficient Dimensity processor, and long battery life.",
 
   images: [
     "",
@@ -462,64 +923,190 @@
     ""
   ],
 
-  ram: "3GB / 4GB",
-  storage: "64GB / 128GB",
+  ram: "4GB / 6GB",
+  storage: "128GB",
 
-  battery: "5200mAh",
+  battery: "5000mAh",
   charging: "15W Charging",
 
   displayType: "IPS LCD",
-  displaySize: "6.88-inch",
+  displaySize: "6.67-inch",
   refreshRate: "120Hz",
-  resolution: "1640 x 720",
+  resolution: "1604 x 720",
+
+  rearCamera: "50MP",
+  frontCamera: "8MP",
+
+  androidVersion: "Android 14",
+  ipRating: "IP54",
+  weight: "190g",
+
+  gamingScore: 66,
+  cameraScore: 67,
+  batteryScore: 80,
+  overallScore: 69,
+  rank: 78,
+
+  pros: [
+    "Affordable 5G",
+    "Slim and lightweight design",
+    "120Hz refresh rate"
+  ],
+
+  cons: [
+    "HD+ display",
+    "15W charging only",
+    "Basic camera setup"
+  ],
+
+  tags: [
+    "5G",
+    "120Hz",
+    "Budget",
+    "Dimensity 6300"
+  ]
+}
+
+
+
+{
+  id: "realme-c75",
+  brandId: "realme",
+  processorId: "mediatek-helio-g92-max",
+
+  model: "Realme C75",
+  price: 12999,
+  launchDate: "2024-12-17",
+
+  description: "Durable budget smartphone with a large battery, fast charging, and high-refresh-rate display.",
+
+  images: [
+    "",
+    "",
+    ""
+  ],
+
+  ram: "6GB / 8GB",
+  storage: "128GB",
+
+  battery: "6000mAh",
+  charging: "45W SUPERVOOC",
+
+  displayType: "IPS LCD",
+  displaySize: "6.72-inch",
+  refreshRate: "90Hz",
+  resolution: "2400 x 1080",
+
+  rearCamera: "50MP",
+  frontCamera: "8MP",
+
+  androidVersion: "Android 14",
+  ipRating: "IP66/IP68/IP69",
+  weight: "196g",
+
+  gamingScore: 68,
+  cameraScore: 70,
+  batteryScore: 92,
+  overallScore: 74,
+  rank: 66,
+
+  pros: [
+    "Large 6000mAh battery",
+    "Strong durability rating",
+    "45W fast charging"
+  ],
+
+  cons: [
+    "LCD display",
+    "No ultrawide camera",
+    "Average gaming performance"
+  ],
+
+  tags: [
+    "6000mAh",
+    "45W Charging",
+    "IP69",
+    "Budget"
+  ]
+}
+
+
+
+
+{
+  id: "realme-c73-5g",
+  brandId: "realme",
+  processorId: "mediatek-dimensity-6300",
+
+  model: "Realme C73 5G",
+  price: 10999,
+  launchDate: "2025-06-02",
+
+  description: "Affordable 5G smartphone designed for everyday use with a large battery and smooth display.",
+
+  images: [
+    "",
+    "",
+    ""
+  ],
+
+  ram: "4GB / 6GB",
+  storage: "64GB / 128GB",
+
+  battery: "6000mAh",
+  charging: "15W Charging",
+
+  displayType: "IPS LCD",
+  displaySize: "6.67-inch",
+  refreshRate: "120Hz",
+  resolution: "1604 x 720",
 
   rearCamera: "32MP",
   frontCamera: "8MP",
 
   androidVersion: "Android 15",
-  ipRating: "",
-  weight: "193g",
+  ipRating: "IP64",
+  weight: "197g",
 
-  gamingScore: 45,
-  cameraScore: 52,
-  batteryScore: 80,
-  overallScore: 58,
-  rank: 120,
+  gamingScore: 62,
+  cameraScore: 60,
+  batteryScore: 90,
+  overallScore: 67,
+  rank: 90,
 
   pros: [
-    "Very affordable",
+    "Affordable 5G",
     "Large battery",
     "120Hz display"
   ],
 
   cons: [
     "HD+ resolution",
-    "Entry-level processor",
-    "Slow charging"
+    "Slow charging",
+    "Basic cameras"
   ],
 
   tags: [
-    "Budget",
+    "5G",
+    "6000mAh",
     "120Hz",
-    "Large Battery",
-    "Entry Level"
+    "Budget"
   ]
 }
 
 
 
 
-
 {
-  id: "redmi-a4-5g",
-  brandId: "xiaomi",
-  processorId: "snapdragon-4s-gen-2",
+  id: "realme-c71",
+  brandId: "realme",
+  processorId: "unisoc-t7250",
 
-  model: "Redmi A4 5G",
-  price: 8499,
-  launchDate: "2024-11-20",
+  model: "Realme C71",
+  price: 7999,
+  launchDate: "2025-05-20",
 
-  description: "Budget 5G smartphone powered by Snapdragon 4s Gen 2 with a large display and efficient battery life.",
+  description: "Entry-level smartphone focused on battery life, affordability, and daily usability.",
 
   images: [
     "",
@@ -527,49 +1114,111 @@
     ""
   ],
 
-  ram: "4GB",
+  ram: "4GB / 6GB",
   storage: "64GB / 128GB",
 
-  battery: "5160mAh",
-  charging: "18W Fast Charging",
+  battery: "6300mAh",
+  charging: "15W Charging",
 
   displayType: "IPS LCD",
-  displaySize: "6.88-inch",
+  displaySize: "6.67-inch",
   refreshRate: "120Hz",
-  resolution: "1640 x 720",
+  resolution: "1604 x 720",
 
   rearCamera: "50MP",
   frontCamera: "5MP",
 
-  androidVersion: "Android 14",
-  ipRating: "",
-  weight: "212g",
+  androidVersion: "Android 15",
+  ipRating: "IP54",
+  weight: "196g",
 
-  gamingScore: 58,
-  cameraScore: 65,
-  batteryScore: 81,
-  overallScore: 67,
-  rank: 95,
+  gamingScore: 48,
+  cameraScore: 55,
+  batteryScore: 95,
+  overallScore: 61,
+  rank: 118,
 
   pros: [
-    "Affordable 5G",
-    "Large 120Hz display",
-    "Good battery life"
+    "Huge battery capacity",
+    "Affordable pricing",
+    "120Hz refresh rate"
   ],
 
   cons: [
-    "HD+ resolution",
-    "Basic front camera",
-    "Limited gaming performance"
+    "Weak gaming performance",
+    "HD+ display",
+    "Basic selfie camera"
   ],
 
   tags: [
-    "5G",
-    "Budget",
+    "6300mAh",
     "120Hz",
-    "Large Battery"
+    "Budget",
+    "Entry Level"
   ]
 }
+
+{
+  id: "realme-c63",
+  brandId: "realme",
+  processorId: "unisoc-t612",
+
+  model: "Realme C63",
+  price: 8999,
+  launchDate: "2024-06-03",
+
+  description: "Budget smartphone featuring a slim design, fast charging, and a large display.",
+
+  images: [
+    "",
+    "",
+    ""
+  ],
+
+  ram: "4GB / 6GB / 8GB",
+  storage: "128GB",
+
+  battery: "5000mAh",
+  charging: "45W SUPERVOOC",
+
+  displayType: "IPS LCD",
+  displaySize: "6.75-inch",
+  refreshRate: "90Hz",
+  resolution: "1600 x 720",
+
+  rearCamera: "50MP",
+  frontCamera: "8MP",
+
+  androidVersion: "Android 14",
+  ipRating: "IP54",
+  weight: "189g",
+
+  gamingScore: 52,
+  cameraScore: 60,
+  batteryScore: 78,
+  overallScore: 63,
+  rank: 108,
+
+  pros: [
+    "45W fast charging",
+    "Slim design",
+    "Affordable"
+  ],
+
+  cons: [
+    "HD+ display",
+    "Entry-level processor",
+    "Average camera performance"
+  ],
+
+  tags: [
+    "45W Charging",
+    "Budget",
+    "90Hz",
+    "Entry Level"
+  ]
+}
+
 
 
 
