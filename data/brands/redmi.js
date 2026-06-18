@@ -1,3 +1,6 @@
+const redmiPhones = [
+
+
 {
   id: "redmi-note-14-pro-plus-5g",
   brandId: "xiaomi",
@@ -574,6 +577,6 @@
 
 
 
-
+ ];
 
   
