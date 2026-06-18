@@ -1,3 +1,6 @@
+const vivoPhones = [
+
+
 {
   id: "vivo-x200-pro-5g",
   brandId: "vivo",
@@ -2117,4 +2120,4 @@
   ]
 }
 
-    
+];
