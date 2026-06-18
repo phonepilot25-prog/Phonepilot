@@ -1,3 +1,8 @@
+
+const pocoPhones = [
+
+
+
 {
   id: "poco-f7-ultra",
   brandId: "poco",
@@ -579,5 +584,4 @@
 
 
 
-
-    
+ ];
