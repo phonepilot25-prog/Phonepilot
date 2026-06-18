@@ -1,10 +1,7 @@
-<!DOCTYPE html>
-<html>
-  <head>
-  <title>Phone Details - PhonePilot</title>
-
-  <meta name="viewport"
-        content="width=device-width, initial-scale=1">
+<!DOCTYPE html><html>
+<head>
+  <title>Phone Details - PhonePilot</title><meta name="viewport"
+content="width=device-width, initial-scale=1">
 
   <style>
 
@@ -13,6 +10,7 @@
       background:#F8FAFC;
       color:#0F172A;
       padding:20px;
+      margin:0;
     }
 
     .card{
@@ -20,14 +18,22 @@
       border-radius:16px;
       padding:20px;
       box-shadow:0 4px 12px rgba(0,0,0,0.08);
+      max-width:800px;
+      margin:auto;
     }
 
     h1{
       color:#2563EB;
+      text-align:center;
+      margin-bottom:20px;
     }
 
     h2{
       color:#2563EB;
+    }
+
+    p{
+      line-height:1.7;
     }
 
     hr{
@@ -36,67 +42,133 @@
       margin:20px 0;
     }
 
-  </style>
+    img{
+      width:100%;
+      max-width:300px;
+      border-radius:12px;
+      display:block;
+      margin:0 auto 20px;
+    }
 
-  </head>
+    a{
+      color:#2563EB;
+      text-decoration:none;
+      font-weight:bold;
+    }
 
-<body>
-
-<h1>📱 Phone Details</h1>
-
-<div id="phoneDetails"></div>
-
-<script src="smartphoneData.js"></script>
-
-<script>
+  </style></head><body><h1>📱 Phone Details</h1><div id="phoneDetails"></div><script src="data/brands/samsung.js"></script><script src="data/brands/redmi.js"></script><script src="data/brands/poco.js"></script><script src="data/brands/realme.js"></script><script src="data/brands/iqoo.js"></script><script src="data/brands/vivo.js"></script><script src="data/brands/oppo.js"></script><script src="data/brands/motorola.js"></script><script src="data/brands/oneplus.js"></script><script src="data/brands/nothing.js"></script><script src="data/brands/googlePixel.js"></script><script src="data/brands/apple.js"></script><script src="data/brands/infinix.js"></script><script src="data/allPhoneData1.js"></script><script>
 
 const params =
-new URLSearchParams(window.location.search);
+  new URLSearchParams(window.location.search);
 
-const phoneName =
-params.get("id");
-
-const phones =
-smartphoneData["Combined Data"];
+const phoneId =
+  params.get("id");
 
 const phone =
-phones.find(p =>
-`${p.Brand} ${p.Model}` === phoneName
-);
+  smartphoneData.find(p =>
+    p.id === phoneId
+  );
 
-if(phone){
+if (phone) {
 
-document.getElementById("phoneDetails").innerHTML = `
-<div class="card">
+  document.getElementById("phoneDetails").innerHTML = `
+    <div class="card">
 
-<h2>${phone.Brand} ${phone.Model}</h2>
+      <img src="${phone.images[0] || ''}"
+           alt="${phone.model}">
 
-<p><b>Price:</b> ₹${phone["Price (₹)"]}</p>
+      <h2>${phone.model}</h2>
 
-<p><b>Processor:</b> ${phone.Processor}</p>
+      <p>${phone.description}</p>
 
-<p><b>RAM:</b> ${phone.RAM}</p>
+      <hr>
 
-<p><b>Storage:</b> ${phone.Storage}</p>
+      <p><b>Price:</b> ₹${phone.price}</p>
 
-<p><b>Gaming Score:</b> ${phone["Gaming Score"]}</p>
+      <p><b>Processor:</b>
+      ${phone.processorId}</p>
 
-<p><b>Camera Score:</b> ${phone["Camera Score"]}</p>
+      <p><b>RAM:</b>
+      ${phone.ram}</p>
 
-<p><b>Battery Score:</b> ${phone["Battery Score"]}</p>
+      <p><b>Storage:</b>
+      ${phone.storage}</p>
 
-</div>
-`;
+      <p><b>Battery:</b>
+      ${phone.battery}</p>
+
+      <p><b>Charging:</b>
+      ${phone.charging}</p>
+
+      <p><b>Display:</b>
+      ${phone.displaySize}
+      ${phone.displayType}
+      ${phone.refreshRate}</p>
+
+      <p><b>Resolution:</b>
+      ${phone.resolution}</p>
+
+      <p><b>Rear Camera:</b>
+      ${phone.rearCamera}</p>
+
+      <p><b>Front Camera:</b>
+      ${phone.frontCamera}</p>
+
+      <p><b>Android:</b>
+      ${phone.androidVersion}</p>
+
+      <p><b>IP Rating:</b>
+      ${phone.ipRating}</p>
+
+      <p><b>Weight:</b>
+      ${phone.weight}</p>
+
+      <hr>
+
+      <h3>Scores</h3>
+
+      <p><b>Gaming Score:</b>
+      ${phone.gamingScore}</p>
+
+      <p><b>Camera Score:</b>
+      ${phone.cameraScore}</p>
+
+      <p><b>Battery Score:</b>
+      ${phone.batteryScore}</p>
+
+      <p><b>Overall Score:</b>
+      ${phone.overallScore}</p>
+
+      <p><b>Rank:</b>
+      #${phone.rank}</p>
+
+      <hr>
+
+      <h3>Pros</h3>
+
+      <ul>
+        ${phone.pros.map(
+          p => `<li>${p}</li>`
+        ).join("")}
+      </ul>
+
+      <h3>Cons</h3>
+
+      <ul>
+        ${phone.cons.map(
+          c => `<li>${c}</li>`
+        ).join("")}
+      </ul>
+
+    </div>
+  `;
+
+} else {
+
+  document.getElementById("phoneDetails").innerHTML =
+    "<h2>Phone Not Found</h2>";
 
 }
-else{
 
-document.getElementById("phoneDetails").innerHTML =
-"<h2>Phone Not Found</h2>";
-
-}
-
-</script>
-
-</body>
+</script></body>
 </html>
