@@ -1,6 +1,3 @@
-
-const iqooPhones = [
-
 {
   id: "iqoo-13",
   brandId: "iqoo",
@@ -60,7 +57,7 @@ const iqooPhones = [
     "120W Charging",
     "Flagship"
   ]
-}
+} ,
 
 
 
@@ -125,7 +122,7 @@ const iqooPhones = [
     "144Hz",
     "120W Charging"
   ]
-}
+} ,
 
 
 
@@ -190,7 +187,7 @@ const iqooPhones = [
     "6400mAh",
     "Snapdragon 8s Gen 3"
   ]
-}
+} ,
 
 
 
@@ -255,7 +252,7 @@ const iqooPhones = [
     "AMOLED",
     "5G"
   ]
-}
+} ,
 
 
 
@@ -319,7 +316,7 @@ const iqooPhones = [
     "Budget",
     "Android 15"
   ]
-}
+} ,
 
 
 {
@@ -381,7 +378,7 @@ const iqooPhones = [
     "120Hz",
     "5G"
   ]
-}
+} ,
 
 
 
@@ -445,7 +442,7 @@ const iqooPhones = [
     "120W Charging",
     "Flagship"
   ]
-}
+} ,
 
 
 
@@ -514,7 +511,7 @@ const iqooPhones = [
     "Curved AMOLED",
     "5G"
   ]
-}
+} ,
 
 
 
@@ -577,7 +574,7 @@ const iqooPhones = [
     "5500mAh",
     "5G"
   ]
-}
+} ,
 
 
 
@@ -644,7 +641,7 @@ const iqooPhones = [
     "120W Charging",
     "Gaming"
   ]
-}
+} ,
 
 
 
@@ -707,7 +704,7 @@ const iqooPhones = [
     "120Hz",
     "5G"
   ]
-}
+} ,
 
 
 
@@ -773,7 +770,7 @@ const iqooPhones = [
     "IP64",
     "5000mAh"
   ]
-}
+} ,
 
 
 
@@ -837,7 +834,7 @@ const iqooPhones = [
     "Dimensity 7200",
     "Lightweight"
   ]
-}
+} ,
 
 
 
@@ -902,7 +899,7 @@ const iqooPhones = [
     "44W Charging",
     "Compact"
   ]
-}
+} ,
 
 
 
@@ -966,7 +963,7 @@ const iqooPhones = [
     "120W Charging",
     "Flagship"
   ]
-}
+} ,
 
 
 
@@ -1030,7 +1027,7 @@ const iqooPhones = [
     "Snapdragon 4 Gen 1",
     "Budget"
   ]
-}
+} ,
 
 
 
@@ -1095,7 +1092,7 @@ const iqooPhones = [
     "Snapdragon 778G",
     "5G"
   ]
-}
+} ,
 
 
 
@@ -1160,7 +1157,7 @@ const iqooPhones = [
     "5G",
     "Budget"
   ]
-}
+} ,
 
 
 
@@ -1225,7 +1222,7 @@ const iqooPhones = [
     "120W Charging",
     "AMOLED"
   ]
-}
+} ,
 
 
 
@@ -1288,7 +1285,7 @@ const iqooPhones = [
     "Gaming",
     "AMOLED"
   ]
-}
+} ,
 
 
 
@@ -1351,7 +1348,7 @@ const iqooPhones = [
     "120Hz",
     "Gaming"
   ]
-}
+} ,
 
 
 
@@ -1415,7 +1412,7 @@ const iqooPhones = [
     "5000mAh",
     "5G"
   ]
-}
+} ,
 
 
 
@@ -1478,7 +1475,7 @@ const iqooPhones = [
     "120W Charging",
     "Snapdragon 8 Gen 1"
   ]
-}
+} ,
 
 
 
@@ -1543,7 +1540,7 @@ const iqooPhones = [
     "Gaming",
     "Flagship"
   ]
-}
+} ,
 
 
 
@@ -1606,7 +1603,7 @@ const iqooPhones = [
     "66W Charging",
     "120Hz"
   ]
-}
+} ,
 
 
 
@@ -1670,7 +1667,7 @@ const iqooPhones = [
     "66W Charging",
     "Flagship"
   ]
-}
+} ,
 
 
 
@@ -1734,7 +1731,7 @@ const iqooPhones = [
     "66W Charging",
     "AMOLED"
   ]
-}
+} ,
 
 
 
@@ -1798,7 +1795,7 @@ const iqooPhones = [
     "55W Charging",
     "5G"
   ]
-}
+} ,
 
 
 
@@ -1862,13 +1859,6 @@ const iqooPhones = [
     "55W Charging",
     "Flagship"
   ]
-}
-
-
-
-
-
-
- ];
-
+} ,
     
+
