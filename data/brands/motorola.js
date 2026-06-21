@@ -1,3 +1,6 @@
+const motorolaPhones = [
+
+
 {
   id: "motorola-edge-60-pro",
   brandId: "motorola",
@@ -1840,5 +1843,5 @@
 
 
 
-
+]
     
