@@ -1,3 +1,6 @@
+const samsungPhones = [
+
+
 {
   "id": "samsung-galaxy-m56",
   "brandId": "samsung",
@@ -685,4 +688,6 @@
     "Long Battery Life"
   ]
 } 
+
+  ];
     
