@@ -2832,9 +2832,572 @@ const samsungPhones = [
     "Quad Camera",
     "Entry Level"
   ]
-} 
+},
 
 
+{
+  "id": "samsung-galaxy-a11",
+  "brandId": "samsung",
+  "processorId": "snapdragon-450",
+
+  "model": "Samsung Galaxy A11",
+  "price": 11999,
+  "launchDate": "2020-03-13",
+
+  "description": "Samsung Galaxy A11 is an entry-level smartphone featuring a large display, triple rear cameras, and dependable battery life.",
+
+  "images": ["", "", ""],
+
+  "ram": "2GB / 3GB",
+  "storage": "32GB",
+
+  "battery": "4000mAh",
+  "charging": "15W Fast Charging",
+
+  "displayType": "PLS TFT LCD",
+  "displaySize": "6.4-inch",
+  "refreshRate": "60Hz",
+  "resolution": "720 x 1560 (HD+)",
+
+  "rearCamera": "13MP + 5MP Ultra-Wide + 2MP Depth",
+  "frontCamera": "8MP",
+
+  "androidVersion": "Android 10",
+  "ipRating": "No Official IP Rating",
+  "weight": "177g",
+
+  "gamingScore": 40,
+  "cameraScore": 58,
+  "batteryScore": 74,
+  "overallScore": 60,
+  "rank": 67,
+
+  "pros": [
+    "Affordable",
+    "Ultra-wide camera",
+    "Decent battery life"
+  ],
+
+  "cons": [
+    "Low performance",
+    "HD+ display",
+    "Limited RAM"
+  ],
+
+  "tags": [
+    "Budget Phone",
+    "Triple Camera",
+    "4000mAh Battery",
+    "Entry Level"
+  ]
+} ,
+
+
+
+{
+  "id": "samsung-galaxy-a10",
+  "brandId": "samsung",
+  "processorId": "exynos-7884",
+
+  "model": "Samsung Galaxy A10",
+  "price": 8490,
+  "launchDate": "2019-03-02",
+
+  "description": "Samsung Galaxy A10 was an affordable smartphone featuring Samsung's Infinity-V display design, decent battery life, and reliable basic performance.",
+
+  "images": ["", "", ""],
+
+  "ram": "2GB",
+  "storage": "32GB eMMC 5.1",
+
+  "battery": "3400mAh",
+  "charging": "10W Charging",
+
+  "displayType": "PLS TFT LCD",
+  "displaySize": "6.2-inch",
+  "refreshRate": "60Hz",
+  "resolution": "720 x 1520 (HD+)",
+
+  "rearCamera": "13MP",
+  "frontCamera": "5MP",
+
+  "androidVersion": "Android 9 Pie (Upgradeable to Android 11)",
+  "ipRating": "No Official IP Rating",
+  "weight": "168g",
+
+  "gamingScore": 38,
+  "cameraScore": 55,
+  "batteryScore": 68,
+  "overallScore": 57,
+  "rank": 72,
+
+  "pros": [
+    "Lightweight design",
+    "Good display for its time",
+    "Affordable price"
+  ],
+
+  "cons": [
+    "Single rear camera",
+    "Weak hardware by modern standards",
+    "Small battery compared to newer phones"
+  ],
+
+  "tags": [
+    "Budget Smartphone",
+    "Infinity-V Display",
+    "Entry Level",
+    "Affordable"
+  ]
+} ,
+
+
+
+{
+  "id": "samsung-galaxy-z-fold7",
+  "brandId": "samsung",
+  "processorId": "snapdragon-8-elite-for-galaxy",
+
+  "model": "Samsung Galaxy Z Fold7",
+  "price": 174999,
+  "launchDate": "2025-07-09",
+
+  "description": "Samsung Galaxy Z Fold7 is Samsung's flagship foldable smartphone featuring the Snapdragon 8 Elite for Galaxy processor, larger displays, improved cameras, and premium foldable design.",
+
+  "images": [
+    "",
+    "",
+    ""
+  ],
+
+  "ram": "12GB",
+  "storage": "256GB / 512GB / 1TB",
+
+  "battery": "4400mAh",
+  "charging": "25W Fast Charging",
+
+  "displayType": "Dynamic AMOLED 2X",
+  "displaySize": "8.0-inch Foldable + 6.5-inch Cover",
+  "refreshRate": "120Hz",
+  "resolution": "2184 x 1968",
+
+  "rearCamera": "200MP + 12MP Ultra-Wide + 10MP Telephoto",
+  "frontCamera": "10MP + 10MP",
+
+  "androidVersion": "Android 16 (One UI 8)",
+  "ipRating": "IP48",
+  "weight": "215g",
+
+  "gamingScore": 98,
+  "cameraScore": 95,
+  "batteryScore": 84,
+  "overallScore": 95,
+  "rank": 2,
+
+  "pros": [
+    "Excellent foldable display",
+    "Powerful Snapdragon 8 Elite for Galaxy",
+    "200MP flagship camera"
+  ],
+
+  "cons": [
+    "Expensive",
+    "25W charging",
+    "Battery size unchanged"
+  ],
+
+  "tags": [
+    "Foldable",
+    "Snapdragon 8 Elite",
+    "Galaxy AI",
+    "Premium Flagship"
+  ]
+} ,
+
+
+{
+  "id": "samsung-galaxy-z-flip7",
+  "brandId": "samsung",
+  "processorId": "exynos-2500",
+
+  "model": "Samsung Galaxy Z Flip7",
+  "price": 109999,
+  "launchDate": "2025-07-09",
+
+  "description": "Samsung Galaxy Z Flip7 is a premium clamshell foldable smartphone featuring a larger cover display, Galaxy AI features, and flagship-level performance.",
+
+  "images": [
+    "",
+    "",
+    ""
+  ],
+
+  "ram": "12GB",
+  "storage": "256GB / 512GB",
+
+  "battery": "4300mAh",
+  "charging": "25W Fast Charging",
+
+  "displayType": "Dynamic AMOLED 2X",
+  "displaySize": "6.9-inch Foldable + 4.1-inch Cover",
+  "refreshRate": "120Hz",
+  "resolution": "2520 x 1080",
+
+  "rearCamera": "50MP + 12MP Ultra-Wide",
+  "frontCamera": "10MP",
+
+  "androidVersion": "Android 16 (One UI 8)",
+  "ipRating": "IP48",
+  "weight": "188g",
+
+  "gamingScore": 92,
+  "cameraScore": 88,
+  "batteryScore": 82,
+  "overallScore": 89,
+  "rank": 8,
+
+  "pros": [
+    "Large cover screen",
+    "Compact foldable design",
+    "Premium build quality"
+  ],
+
+  "cons": [
+    "25W charging",
+    "No telephoto camera",
+    "Premium price"
+  ],
+
+  "tags": [
+    "Flip Phone",
+    "Foldable",
+    "Galaxy AI",
+    "120Hz AMOLED"
+  ]
+} ,
+
+
+
+
+{
+  "id": "samsung-galaxy-z-flip7-fe",
+  "brandId": "samsung",
+  "processorId": "exynos-2400",
+
+  "model": "Samsung Galaxy Z Flip7 FE",
+  "price": 89999,
+  "launchDate": "2025-07-09",
+
+  "description": "Samsung Galaxy Z Flip7 FE is the affordable foldable smartphone in Samsung's lineup, offering the foldable experience with flagship-grade software and Galaxy AI features.",
+
+  "images": [
+    "Not Officially Announced",
+    "Not Officially Announced",
+    "Not Officially Announced"
+  ],
+
+  "ram": "8GB",
+  "storage": "128GB / 256GB",
+
+  "battery": "4000mAh",
+  "charging": "25W Fast Charging",
+
+  "displayType": "Dynamic AMOLED 2X",
+  "displaySize": "6.7-inch Foldable + 3.4-inch Cover",
+  "refreshRate": "120Hz",
+  "resolution": "2640 x 1080",
+
+  "rearCamera": "50MP + 12MP Ultra-Wide",
+  "frontCamera": "10MP",
+
+  "androidVersion": "Android 16 (One UI 8)",
+  "ipRating": "IP48",
+  "weight": "187g",
+
+  "gamingScore": 88,
+  "cameraScore": 85,
+  "batteryScore": 80,
+  "overallScore": 86,
+  "rank": 12,
+
+  "pros": [
+    "Most affordable Samsung foldable",
+    "120Hz AMOLED display",
+    "Galaxy AI features"
+  ],
+
+  "cons": [
+    "Smaller battery than rivals",
+    "25W charging only",
+    "No telephoto camera"
+  ],
+
+  "tags": [
+    "Foldable",
+    "Galaxy AI",
+    "120Hz AMOLED",
+    "Fan Edition"
+  ]
+} ,
+
+
+
+{
+  "id": "samsung-galaxy-s25-ultra",
+  "brandId": "samsung",
+  "processorId": "snapdragon-8-elite-for-galaxy",
+
+  "model": "Samsung Galaxy S25 Ultra",
+  "price": 129999,
+  "launchDate": "2025-01-22",
+
+  "description": "Samsung Galaxy S25 Ultra is Samsung's premium flagship smartphone featuring the Snapdragon 8 Elite for Galaxy, advanced AI capabilities, titanium frame, and professional-grade cameras.",
+
+  "images": [
+    "Not Officially Announced",
+    "Not Officially Announced",
+    "Not Officially Announced"
+  ],
+
+  "ram": "12GB / 16GB",
+  "storage": "256GB / 512GB / 1TB",
+
+  "battery": "5000mAh",
+  "charging": "45W Fast Charging",
+
+  "displayType": "Dynamic AMOLED 2X",
+  "displaySize": "6.9-inch",
+  "refreshRate": "120Hz",
+  "resolution": "3120 x 1440 (QHD+)",
+
+  "rearCamera": "200MP + 50MP Ultra-Wide + 50MP Periscope + 10MP Telephoto",
+  "frontCamera": "12MP",
+
+  "androidVersion": "Android 15 (One UI 7)",
+  "ipRating": "IP68",
+  "weight": "218g",
+
+  "gamingScore": 99,
+  "cameraScore": 98,
+  "batteryScore": 91,
+  "overallScore": 98,
+  "rank": 1,
+
+  "pros": [
+    "Industry-leading camera system",
+    "Excellent AI features",
+    "Outstanding performance"
+  ],
+
+  "cons": [
+    "Expensive",
+    "Large size",
+    "Charging slower than some competitors"
+  ],
+
+  "tags": [
+    "Ultra Flagship",
+    "200MP Camera",
+    "Snapdragon 8 Elite",
+    "Galaxy AI"
+  ]
+} ,
+
+
+
+
+
+{
+  "id": "samsung-galaxy-s25-plus",
+  "brandId": "samsung",
+  "processorId": "snapdragon-8-elite-for-galaxy",
+
+  "model": "Samsung Galaxy S25+",
+  "price": 99999,
+  "launchDate": "2025-01-22",
+
+  "description": "Samsung Galaxy S25+ offers flagship performance, premium build quality, Galaxy AI features, and a large QHD+ AMOLED display.",
+
+  "images": [
+    "Not Officially Announced",
+    "Not Officially Announced",
+    "Not Officially Announced"
+  ],
+
+  "ram": "12GB",
+  "storage": "256GB / 512GB",
+
+  "battery": "4900mAh",
+  "charging": "45W Fast Charging",
+
+  "displayType": "Dynamic AMOLED 2X",
+  "displaySize": "6.7-inch",
+  "refreshRate": "120Hz",
+  "resolution": "3120 x 1440 (QHD+)",
+
+  "rearCamera": "50MP + 12MP Ultra-Wide + 10MP Telephoto",
+  "frontCamera": "12MP",
+
+  "androidVersion": "Android 15 (One UI 7)",
+  "ipRating": "IP68",
+  "weight": "190g",
+
+  "gamingScore": 97,
+  "cameraScore": 90,
+  "batteryScore": 90,
+  "overallScore": 94,
+  "rank": 4,
+
+  "pros": [
+    "Excellent display",
+    "Flagship performance",
+    "Strong battery life"
+  ],
+
+  "cons": [
+    "No Ultra camera features",
+    "Premium price",
+    "Same charging speed as previous model"
+  ],
+
+  "tags": [
+    "Flagship",
+    "Galaxy AI",
+    "QHD+ AMOLED",
+    "Snapdragon 8 Elite"
+  ]
+} ,
+
+
+
+
+
+{
+  "id": "samsung-galaxy-s25",
+  "brandId": "samsung",
+  "processorId": "snapdragon-8-elite-for-galaxy",
+
+  "model": "Samsung Galaxy S25",
+  "price": 80999,
+  "launchDate": "2025-01-22",
+
+  "description": "Samsung Galaxy S25 is the compact flagship in Samsung's lineup, combining top-tier performance with a pocket-friendly design.",
+
+  "images": [
+    "Not Officially Announced",
+    "Not Officially Announced",
+    "Not Officially Announced"
+  ],
+
+  "ram": "12GB",
+  "storage": "128GB / 256GB / 512GB",
+
+  "battery": "4000mAh",
+  "charging": "25W Fast Charging",
+
+  "displayType": "Dynamic AMOLED 2X",
+  "displaySize": "6.2-inch",
+  "refreshRate": "120Hz",
+  "resolution": "2340 x 1080 (FHD+)",
+
+  "rearCamera": "50MP + 12MP Ultra-Wide + 10MP Telephoto",
+  "frontCamera": "12MP",
+
+  "androidVersion": "Android 15 (One UI 7)",
+  "ipRating": "IP68",
+  "weight": "162g",
+
+  "gamingScore": 96,
+  "cameraScore": 88,
+  "batteryScore": 80,
+  "overallScore": 91,
+  "rank": 7,
+
+  "pros": [
+    "Compact flagship design",
+    "Excellent performance",
+    "Premium cameras"
+  ],
+
+  "cons": [
+    "Smaller battery",
+    "25W charging",
+    "Base storage varies by region"
+  ],
+
+  "tags": [
+    "Compact Flagship",
+    "Galaxy AI",
+    "120Hz AMOLED",
+    "Snapdragon 8 Elite"
+  ]
+} ,
+
+
+
+
+
+{
+  "id": "samsung-galaxy-s25-edge",
+  "brandId": "samsung",
+  "processorId": "snapdragon-8-elite-for-galaxy",
+
+  "model": "Samsung Galaxy S25 Edge",
+  "price": 109999,
+  "launchDate": "2025-05-13",
+
+  "description": "Samsung Galaxy S25 Edge is an ultra-thin premium flagship focused on design, lightweight construction, flagship performance, and Galaxy AI features.",
+
+  "images": [
+    "Not Officially Announced",
+    "Not Officially Announced",
+    "Not Officially Announced"
+  ],
+
+  "ram": "12GB",
+  "storage": "256GB / 512GB",
+
+  "battery": "3900mAh",
+  "charging": "25W Fast Charging",
+
+  "displayType": "Dynamic AMOLED 2X",
+  "displaySize": "6.7-inch",
+  "refreshRate": "120Hz",
+  "resolution": "3120 x 1440 (QHD+)",
+
+  "rearCamera": "200MP + 12MP Ultra-Wide",
+  "frontCamera": "12MP",
+
+  "androidVersion": "Android 15 (One UI 7)",
+  "ipRating": "IP68",
+  "weight": "163g",
+
+  "gamingScore": 95,
+  "cameraScore": 92,
+  "batteryScore": 76,
+  "overallScore": 90,
+  "rank": 9,
+
+  "pros": [
+    "Extremely thin and light",
+    "200MP main camera",
+    "Premium titanium build"
+  ],
+
+  "cons": [
+    "Smaller battery",
+    "No telephoto camera",
+    "Premium pricing"
+  ],
+
+  "tags": [
+    "Ultra Thin",
+    "Titanium",
+    "Galaxy AI",
+    "200MP Camera"
+  ]
+}
+  
   
   
   ];
