@@ -1,3 +1,6 @@
+const infinixPhones = [
+
+
 {
   "id": "",
   "brandId": "infinix",
@@ -1518,6 +1521,6 @@
 
 
 
-
+]
   
   
