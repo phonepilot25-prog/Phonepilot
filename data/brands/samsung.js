@@ -4640,7 +4640,7 @@ const samsungPhones = [
     "120Hz AMOLED",
     "Snapdragon 888"
   ]
-} ,
+} 
 
 
 
