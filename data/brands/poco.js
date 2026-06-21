@@ -1,8 +1,3 @@
-
-const pocoPhones = [
-
-
-
 {
   id: "poco-f7-ultra",
   brandId: "poco",
@@ -62,7 +57,7 @@ const pocoPhones = [
     "120W Charging",
     "IP68"
   ]
-}
+} ,
 
 
 
@@ -128,7 +123,7 @@ const pocoPhones = [
     "6000mAh",
     "IP68"
   ]
-}
+} ,
 
 
 
@@ -193,7 +188,7 @@ const pocoPhones = [
     "7550mAh",
     "120Hz AMOLED"
   ]
-}
+} ,
 
 
 
@@ -258,7 +253,7 @@ const pocoPhones = [
     "90W Charging",
     "IP68"
   ]
-}
+} ,
 
 
 
@@ -322,7 +317,7 @@ const pocoPhones = [
     "5G",
     "Curved Display"
   ]
-}
+} ,
 
 
 
@@ -386,7 +381,7 @@ const pocoPhones = [
     "120Hz",
     "Budget"
   ]
-}
+} ,
 
 
 
@@ -449,7 +444,7 @@ const pocoPhones = [
     "120Hz",
     "Large Battery"
   ]
-}
+} ,
 
 
 
@@ -513,7 +508,7 @@ const pocoPhones = [
     "5000mAh+",
     "Entry Level"
   ]
-}
+} ,
 
 
 
@@ -578,10 +573,11 @@ const pocoPhones = [
     "Entry Level",
     "Large Battery"
   ]
-}
+} ,
 
 
 
 
 
- ];
+
+    
