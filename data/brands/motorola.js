@@ -1,5 +1,3 @@
-const motorolaPhones = [
-
 {
   id: "motorola-edge-60-pro",
   brandId: "motorola",
@@ -59,7 +57,7 @@ const motorolaPhones = [
     "90W Charging",
     "pOLED"
   ]
-}
+} ,
 
 
 
@@ -122,7 +120,7 @@ const motorolaPhones = [
     "68W Charging",
     "Curved Display"
   ]
-}
+} ,
 
 
 {
@@ -184,7 +182,7 @@ const motorolaPhones = [
     "68W Charging",
     "Android 15"
   ]
-}
+} ,
 
 
 
@@ -247,7 +245,7 @@ const motorolaPhones = [
     "165Hz",
     "Premium"
   ]
-}
+} ,
 
 
 
@@ -311,7 +309,7 @@ const motorolaPhones = [
     "Android 15",
     "Premium Design"
   ]
-}
+} ,
 
 
 
@@ -374,7 +372,7 @@ const motorolaPhones = [
     "144Hz",
     "IP68"
   ]
-}
+} ,
 
 {
   id: "motorola-edge-50-pro",
@@ -435,7 +433,7 @@ const motorolaPhones = [
     "pOLED",
     "IP68"
   ]
-}
+} ,
 
 
 
@@ -501,7 +499,7 @@ const motorolaPhones = [
     "IP68",
     "Premium"
   ]
-}
+} ,
 
 
 
@@ -565,7 +563,7 @@ const motorolaPhones = [
     "IP68",
     "68W Charging"
   ]
-}
+} ,
 
 {
   id: "moto-g86-power-5g",
@@ -626,7 +624,7 @@ const motorolaPhones = [
     "pOLED",
     "Android 15"
   ]
-}
+} ,
 
 
 
@@ -689,7 +687,7 @@ const motorolaPhones = [
     "120Hz",
     "5G"
   ]
-}
+} ,
 
 
 
@@ -752,7 +750,7 @@ const motorolaPhones = [
     "120Hz",
     "5G"
   ]
-}
+} ,
 
 
 
@@ -817,7 +815,7 @@ const motorolaPhones = [
     "Stereo Speakers",
     "5G"
   ]
-}
+} ,
 
 
 
@@ -881,7 +879,7 @@ const motorolaPhones = [
     "Stereo Speakers",
     "Android 14"
   ]
-}
+} ,
 
 
 
@@ -945,7 +943,7 @@ const motorolaPhones = [
     "FHD+",
     "Stereo Speakers"
   ]
-}
+} ,
 
 
 {
@@ -1007,7 +1005,7 @@ const motorolaPhones = [
     "Android 15",
     "IP52"
   ]
-}
+} ,
 
 
 
@@ -1072,7 +1070,7 @@ const motorolaPhones = [
     "IP68",
     "pOLED"
   ]
-}
+} ,
 
 
 
@@ -1139,7 +1137,7 @@ const motorolaPhones = [
     "IP68",
     "68W Charging"
   ]
-}
+} ,
 
 
 
@@ -1202,7 +1200,7 @@ const motorolaPhones = [
     "5000mAh",
     "Android 14"
   ]
-}
+} ,
 
 
 
@@ -1254,7 +1252,6 @@ const motorolaPhones = [
     "Excellent stereo speakers"
   ],
 
-  
   cons: [
     "Older Snapdragon 695",
     "Only one major Android update",
@@ -1267,7 +1264,7 @@ const motorolaPhones = [
     "12GB RAM",
     "Dolby Atmos"
   ]
-}
+} ,
 
 
 
@@ -1331,7 +1328,7 @@ const motorolaPhones = [
     "Stereo Speakers",
     "5G"
   ]
-}
+} ,
 
 
 
@@ -1395,7 +1392,7 @@ const motorolaPhones = [
     "120Hz",
     "Helio G99"
   ]
-}
+} ,
 
 
 {
@@ -1457,7 +1454,7 @@ const motorolaPhones = [
     "120Hz",
     "5G"
   ]
-}
+} ,
 
 
 {
@@ -1519,7 +1516,7 @@ const motorolaPhones = [
     "Stereo Speakers",
     "Android 14"
   ]
-}
+} ,
 
 
 
@@ -1583,7 +1580,7 @@ const motorolaPhones = [
     "Helio G85",
     "Android 14"
   ]
-}
+} ,
 
 
 
@@ -1647,7 +1644,7 @@ const motorolaPhones = [
     "90Hz",
     "Android 14"
   ]
-}
+} ,
 
 
 
@@ -1712,7 +1709,7 @@ const motorolaPhones = [
     "Helio class",
     "Android 13"
   ]
-}
+} ,
 
 
 
@@ -1776,7 +1773,7 @@ const motorolaPhones = [
     "IP68",
     "ThinkPhone"
   ]
-}
+} ,
 
 
 
@@ -1839,9 +1836,9 @@ const motorolaPhones = [
     "Flagship",
     "pOLED"
   ]
-}
+} ,
 
 
- ];
+
 
     
