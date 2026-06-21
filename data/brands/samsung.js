@@ -3396,8 +3396,514 @@ const samsungPhones = [
     "Galaxy AI",
     "200MP Camera"
   ]
-}
+},
   
+  {
+  "id": "samsung-galaxy-z-fold6",
+  "brandId": "samsung",
+  "processorId": "snapdragon-8-gen-3-for-galaxy",
+
+  "model": "Samsung Galaxy Z Fold6",
+  "price": 164999,
+  "launchDate": "2024-07-10",
+
+  "description": "Samsung Galaxy Z Fold6 is a premium foldable flagship featuring Galaxy AI, Snapdragon 8 Gen 3 for Galaxy, and an enhanced foldable design.",
+
+  "images": [
+    "Not Officially Announced",
+    "Not Officially Announced",
+    "Not Officially Announced"
+  ],
+
+  "ram": "12GB",
+  "storage": "256GB / 512GB / 1TB",
+
+  "battery": "4400mAh",
+  "charging": "25W Fast Charging",
+
+  "displayType": "Dynamic AMOLED 2X",
+  "displaySize": "7.6-inch Foldable + 6.3-inch Cover",
+  "refreshRate": "120Hz",
+  "resolution": "2160 x 1856",
+
+  "rearCamera": "50MP + 12MP Ultra-Wide + 10MP Telephoto",
+  "frontCamera": "10MP Cover + 4MP Under Display",
+
+  "androidVersion": "Android 14 (One UI 6.1.1)",
+  "ipRating": "IP48",
+  "weight": "239g",
+
+  "gamingScore": 97,
+  "cameraScore": 90,
+  "batteryScore": 83,
+  "overallScore": 93,
+  "rank": 5,
+
+  "pros": [
+    "Large foldable display",
+    "Excellent performance",
+    "Galaxy AI features"
+  ],
+
+  "cons": [
+    "Very expensive",
+    "25W charging only",
+    "Battery could be larger"
+  ],
+
+  "tags": [
+    "Foldable",
+    "Galaxy AI",
+    "Snapdragon 8 Gen 3",
+    "Premium Flagship"
+  ]
+} ,
+
+{
+  "id": "samsung-galaxy-z-flip6",
+  "brandId": "samsung",
+  "processorId": "snapdragon-8-gen-3-for-galaxy",
+
+  "model": "Samsung Galaxy Z Flip6",
+  "price": 109999,
+  "launchDate": "2024-07-10",
+
+  "description": "Samsung Galaxy Z Flip6 is a premium clamshell foldable featuring flagship performance, Galaxy AI capabilities, and an improved battery.",
+
+  "images": [
+    "Not Officially Announced",
+    "Not Officially Announced",
+    "Not Officially Announced"
+  ],
+
+  "ram": "12GB",
+  "storage": "256GB / 512GB",
+
+  "battery": "4000mAh",
+  "charging": "25W Fast Charging",
+
+  "displayType": "Dynamic AMOLED 2X",
+  "displaySize": "6.7-inch Foldable + 3.4-inch Cover",
+  "refreshRate": "120Hz",
+  "resolution": "2640 x 1080",
+
+  "rearCamera": "50MP + 12MP Ultra-Wide",
+  "frontCamera": "10MP",
+
+  "androidVersion": "Android 14 (One UI 6.1.1)",
+  "ipRating": "IP48",
+  "weight": "187g",
+
+  "gamingScore": 95,
+  "cameraScore": 87,
+  "batteryScore": 81,
+  "overallScore": 89,
+  "rank": 8,
+
+  "pros": [
+    "Compact foldable design",
+    "Excellent performance",
+    "Improved battery life"
+  ],
+
+  "cons": [
+    "No telephoto camera",
+    "25W charging only",
+    "Premium pricing"
+  ],
+
+  "tags": [
+    "Foldable",
+    "Galaxy AI",
+    "120Hz AMOLED",
+    "Snapdragon 8 Gen 3"
+  ]
+} ,
+
+
+
+
+{
+  "id": "samsung-galaxy-s24-ultra",
+  "brandId": "samsung",
+  "processorId": "snapdragon-8-gen-3-for-galaxy",
+
+  "model": "Samsung Galaxy S24 Ultra",
+  "price": 129999,
+  "launchDate": "2024-01-17",
+
+  "description": "Samsung Galaxy S24 Ultra is Samsung's premium flagship smartphone featuring a titanium frame, Galaxy AI, and a versatile quad-camera system.",
+
+  "images": [
+    "Not Officially Announced",
+    "Not Officially Announced",
+    "Not Officially Announced"
+  ],
+
+  "ram": "12GB",
+  "storage": "256GB / 512GB / 1TB",
+
+  "battery": "5000mAh",
+  "charging": "45W Fast Charging",
+
+  "displayType": "Dynamic AMOLED 2X",
+  "displaySize": "6.8-inch",
+  "refreshRate": "120Hz",
+  "resolution": "3120 x 1440 (QHD+)",
+
+  "rearCamera": "200MP + 50MP Periscope + 10MP Telephoto + 12MP Ultra-Wide",
+  "frontCamera": "12MP",
+
+  "androidVersion": "Android 14 (One UI 6.1)",
+  "ipRating": "IP68",
+  "weight": "232g",
+
+  "gamingScore": 98,
+  "cameraScore": 97,
+  "batteryScore": 90,
+  "overallScore": 97,
+  "rank": 2,
+
+  "pros": [
+    "Outstanding cameras",
+    "Titanium build",
+    "Excellent display"
+  ],
+
+  "cons": [
+    "Expensive",
+    "Heavy",
+    "Large size"
+  ],
+
+  "tags": [
+    "Ultra Flagship",
+    "Galaxy AI",
+    "Titanium",
+    "200MP Camera"
+  ]
+} ,
+
+
+
+{
+  "id": "samsung-galaxy-s24-plus",
+  "brandId": "samsung",
+  "processorId": "exynos-2400",
+
+  "model": "Samsung Galaxy S24+",
+  "price": 99999,
+  "launchDate": "2024-01-17",
+
+  "description": "Samsung Galaxy S24+ combines flagship performance, Galaxy AI features, and a large QHD+ Dynamic AMOLED display.",
+
+  "images": [
+    "Not Officially Announced",
+    "Not Officially Announced",
+    "Not Officially Announced"
+  ],
+
+  "ram": "12GB",
+  "storage": "256GB / 512GB",
+
+  "battery": "4900mAh",
+  "charging": "45W Fast Charging",
+
+  "displayType": "Dynamic AMOLED 2X",
+  "displaySize": "6.7-inch",
+  "refreshRate": "120Hz",
+  "resolution": "3120 x 1440 (QHD+)",
+
+  "rearCamera": "50MP + 12MP Ultra-Wide + 10MP Telephoto",
+  "frontCamera": "12MP",
+
+  "androidVersion": "Android 14 (One UI 6.1)",
+  "ipRating": "IP68",
+  "weight": "196g",
+
+  "gamingScore": 92,
+  "cameraScore": 88,
+  "batteryScore": 89,
+  "overallScore": 91,
+  "rank": 10,
+
+  "pros": [
+    "Excellent display",
+    "Strong battery life",
+    "Galaxy AI features"
+  ],
+
+  "cons": [
+    "Not as capable as Ultra",
+    "Premium pricing",
+    "Camera upgrades are minor"
+  ],
+
+  "tags": [
+    "Flagship",
+    "Galaxy AI",
+    "QHD+ AMOLED",
+    "120Hz"
+  ]
+} ,
+
+
+
+
+{
+  "id": "samsung-galaxy-s24",
+  "brandId": "samsung",
+  "processorId": "exynos-2400",
+
+  "model": "Samsung Galaxy S24",
+  "price": 79999,
+  "launchDate": "2024-01-17",
+
+  "description": "Samsung Galaxy S24 is a compact flagship smartphone featuring Galaxy AI, a Dynamic AMOLED 2X display, premium build quality, and flagship-grade performance.",
+
+  "images": [
+    "Not Officially Announced",
+    "Not Officially Announced",
+    "Not Officially Announced"
+  ],
+
+  "ram": "8GB",
+  "storage": "128GB / 256GB / 512GB",
+
+  "battery": "4000mAh",
+  "charging": "25W Fast Charging",
+
+  "displayType": "Dynamic AMOLED 2X",
+  "displaySize": "6.2-inch",
+  "refreshRate": "120Hz",
+  "resolution": "2340 x 1080 (FHD+)",
+
+  "rearCamera": "50MP + 12MP Ultra-Wide + 10MP Telephoto",
+  "frontCamera": "12MP",
+
+  "androidVersion": "Android 14 (One UI 6.1)",
+  "ipRating": "IP68",
+  "weight": "167g",
+
+  "gamingScore": 90,
+  "cameraScore": 87,
+  "batteryScore": 79,
+  "overallScore": 89,
+  "rank": 12,
+
+  "pros": [
+    "Compact flagship design",
+    "Excellent AMOLED display",
+    "Galaxy AI features"
+  ],
+
+  "cons": [
+    "25W charging only",
+    "Smaller battery than rivals",
+    "Base model has 8GB RAM"
+  ],
+
+  "tags": [
+    "Flagship",
+    "Galaxy AI",
+    "120Hz AMOLED",
+    "Compact Phone"
+  ]
+} ,
+
+
+
+
+{
+  "id": "samsung-galaxy-s24-fe",
+  "brandId": "samsung",
+  "processorId": "exynos-2400e",
+
+  "model": "Samsung Galaxy S24 FE",
+  "price": 59999,
+  "launchDate": "2024-09-26",
+
+  "description": "Samsung Galaxy S24 FE is the Fan Edition flagship offering Galaxy AI features, flagship-level performance, a large AMOLED display, and versatile cameras at a more affordable price.",
+
+  "images": [
+    "Not Officially Announced",
+    "Not Officially Announced",
+    "Not Officially Announced"
+  ],
+
+  "ram": "8GB",
+  "storage": "128GB / 256GB",
+
+  "battery": "4700mAh",
+  "charging": "25W Fast Charging",
+
+  "displayType": "Dynamic AMOLED 2X",
+  "displaySize": "6.7-inch",
+  "refreshRate": "120Hz",
+  "resolution": "2340 x 1080 (FHD+)",
+
+  "rearCamera": "50MP + 12MP Ultra-Wide + 8MP Telephoto",
+  "frontCamera": "10MP",
+
+  "androidVersion": "Android 14 (One UI 6.1)",
+  "ipRating": "IP68",
+  "weight": "213g",
+
+  "gamingScore": 88,
+  "cameraScore": 85,
+  "batteryScore": 87,
+  "overallScore": 87,
+  "rank": 15,
+
+  "pros": [
+    "Large 120Hz AMOLED display",
+    "Galaxy AI features",
+    "Good battery life"
+  ],
+
+  "cons": [
+    "25W charging only",
+    "Heavier than S24",
+    "Telephoto camera is basic"
+  ],
+
+  "tags": [
+    "Fan Edition",
+    "Galaxy AI",
+    "120Hz AMOLED",
+    "Flagship Killer"
+  ]
+} ,
+
+
+
+
+
+{
+  "id": "samsung-galaxy-z-fold5",
+  "brandId": "samsung",
+  "processorId": "snapdragon-8-gen-2-for-galaxy",
+
+  "model": "Samsung Galaxy Z Fold5",
+  "price": 154999,
+  "launchDate": "2023-07-26",
+
+  "description": "Samsung Galaxy Z Fold5 is a premium foldable flagship featuring a large 7.6-inch foldable AMOLED display, Snapdragon 8 Gen 2 for Galaxy chipset, and an improved Flex Hinge design.",
+
+  "images": [
+    "Not Officially Announced",
+    "Not Officially Announced",
+    "Not Officially Announced"
+  ],
+
+  "ram": "12GB",
+  "storage": "256GB / 512GB / 1TB",
+
+  "battery": "4400mAh",
+  "charging": "25W Fast Charging",
+
+  "displayType": "Dynamic AMOLED 2X",
+  "displaySize": "7.6-inch Foldable + 6.2-inch Cover",
+  "refreshRate": "120Hz",
+  "resolution": "2176 x 1812",
+
+  "rearCamera": "50MP + 12MP Ultra-Wide + 10MP Telephoto",
+  "frontCamera": "10MP Cover + 4MP Under Display",
+
+  "androidVersion": "Android 13 (One UI 5.1.1)",
+  "ipRating": "IPX8",
+  "weight": "253g",
+
+  "gamingScore": 94,
+  "cameraScore": 89,
+  "batteryScore": 82,
+  "overallScore": 91,
+  "rank": 9,
+
+  "pros": [
+    "Excellent foldable display",
+    "Powerful Snapdragon chipset",
+    "Premium build quality"
+  ],
+
+  "cons": [
+    "Expensive",
+    "25W charging only",
+    "Heavy device"
+  ],
+
+  "tags": [
+    "Foldable",
+    "Snapdragon 8 Gen 2",
+    "120Hz AMOLED",
+    "Flagship"
+  ]
+} ,
+
+
+
+
+
+{
+  "id": "samsung-galaxy-z-flip5",
+  "brandId": "samsung",
+  "processorId": "snapdragon-8-gen-2-for-galaxy",
+
+  "model": "Samsung Galaxy Z Flip5",
+  "price": 99999,
+  "launchDate": "2023-07-26",
+
+  "description": "Samsung Galaxy Z Flip5 is a premium clamshell foldable smartphone featuring a larger Flex Window, flagship performance, and compact design.",
+
+  "images": [
+    "Not Officially Announced",
+    "Not Officially Announced",
+    "Not Officially Announced"
+  ],
+
+  "ram": "8GB",
+  "storage": "256GB / 512GB",
+
+  "battery": "3700mAh",
+  "charging": "25W Fast Charging",
+
+  "displayType": "Dynamic AMOLED 2X",
+  "displaySize": "6.7-inch Foldable + 3.4-inch Cover",
+  "refreshRate": "120Hz",
+  "resolution": "2640 x 1080",
+
+  "rearCamera": "12MP Wide + 12MP Ultra-Wide",
+  "frontCamera": "10MP",
+
+  "androidVersion": "Android 13 (One UI 5.1.1)",
+  "ipRating": "IPX8",
+  "weight": "187g",
+
+  "gamingScore": 92,
+  "cameraScore": 84,
+  "batteryScore": 74,
+  "overallScore": 87,
+  "rank": 14,
+
+  "pros": [
+    "Compact foldable design",
+    "Large Flex Window",
+    "Excellent performance"
+  ],
+
+  "cons": [
+    "Small battery",
+    "25W charging only",
+    "No telephoto camera"
+  ],
+
+  "tags": [
+    "Flip Phone",
+    "Foldable",
+    "120Hz AMOLED",
+    "Snapdragon 8 Gen 2"
+  ]
+}
   
   
   ];
