@@ -1843,5 +1843,5 @@ const motorolaPhones = [
 
 
 
-]
+] ;
     
