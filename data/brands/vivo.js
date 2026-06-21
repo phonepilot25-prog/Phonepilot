@@ -1,6 +1,3 @@
-const vivoPhones = [
-
-
 {
   id: "vivo-x200-pro-5g",
   brandId: "vivo",
@@ -60,7 +57,7 @@ const vivoPhones = [
     "Flagship",
     "IP69"
   ]
-}
+} ,
 
 
 
@@ -123,7 +120,7 @@ const vivoPhones = [
     "Flagship",
     "IP69"
   ]
-}
+} ,
 
 
 
@@ -186,7 +183,7 @@ const vivoPhones = [
     "ZEISS",
     "Flagship"
   ]
-}
+} ,
 
 
 
@@ -250,7 +247,7 @@ const vivoPhones = [
     "Flagship",
     "IP68"
   ]
-}
+} ,
 
 
 
@@ -314,7 +311,7 @@ const vivoPhones = [
     "90W Charging",
     "AMOLED"
   ]
-}
+} ,
 
 
 
@@ -379,7 +376,7 @@ const vivoPhones = [
     "AMOLED",
     "5G"
   ]
-}
+} ,
 
 
 {
@@ -441,7 +438,7 @@ const vivoPhones = [
     "90W Charging",
     "IP69"
   ]
-}
+} ,
 
 
 
@@ -508,7 +505,7 @@ const vivoPhones = [
     "IP69",
     "5G"
   ]
-}
+} ,
 
 
 
@@ -574,7 +571,7 @@ const vivoPhones = [
     "120Hz",
     "5G"
   ]
-}
+} ,
 
 
 
@@ -638,7 +635,7 @@ const vivoPhones = [
     "90W Charging",
     "IP69"
   ]
-}
+} ,
 
 
 
@@ -703,7 +700,7 @@ const vivoPhones = [
     "AMOLED",
     "IP69"
   ]
-}
+} ,
 
 
 
@@ -769,7 +766,7 @@ const vivoPhones = [
     "5G",
     "Curved Display"
   ]
-}
+} ,
 
 
 
@@ -833,7 +830,7 @@ const vivoPhones = [
     "5G",
     "Budget"
   ]
-}
+} ,
 
 
 
@@ -897,7 +894,7 @@ const vivoPhones = [
     "5G",
     "Lightweight"
   ]
-}
+} ,
 
 
 
@@ -961,7 +958,7 @@ const vivoPhones = [
     "AMOLED",
     "5G"
   ]
-}
+} ,
 
 
 
@@ -1025,7 +1022,7 @@ const vivoPhones = [
     "144Hz",
     "Gaming"
   ]
-}
+} ,
 
 
 
@@ -1089,7 +1086,7 @@ const vivoPhones = [
     "5G",
     "Budget"
   ]
-}
+} ,
 
 
 
@@ -1154,7 +1151,7 @@ const vivoPhones = [
     "120Hz",
     "Budget"
   ]
-}
+} ,
 
 
 
@@ -1219,7 +1216,7 @@ const vivoPhones = [
     "Dimensity 6020",
     "90Hz"
   ]
-}
+} ,
 
 
 
@@ -1283,7 +1280,7 @@ const vivoPhones = [
     "90Hz",
     "Entry Level"
   ]
-}
+} ,
 
 
 
@@ -1349,7 +1346,7 @@ const vivoPhones = [
     "IP64",
     "Budget"
   ]
-}
+} ,
 
 
 
@@ -1412,7 +1409,7 @@ const vivoPhones = [
     "Snapdragon 8 Gen 3",
     "Flagship"
   ]
-}
+} ,
 
 
 
@@ -1475,7 +1472,7 @@ const vivoPhones = [
     "Snapdragon 8 Gen 3",
     "Premium"
   ]
-}
+} ,
 
 
 
@@ -1538,7 +1535,7 @@ const vivoPhones = [
     "6200mAh",
     "Flagship"
   ]
-}
+} ,
 
 
 
@@ -1602,14 +1599,9 @@ const vivoPhones = [
     "80W Charging",
     "Flagship Camera"
   ]
-}
+} ,
 
-
-
-
-
-
-{
+    {
   id: "vivo-v40-5g",
   brandId: "vivo",
   processorId: "snapdragon-7-gen-3",
@@ -1668,7 +1660,7 @@ const vivoPhones = [
     "80W Charging",
     "AMOLED"
   ]
-}
+} ,
 
 
 
@@ -1733,7 +1725,7 @@ const vivoPhones = [
     "80W Charging",
     "AMOLED"
   ]
-}
+} ,
 
 
 
@@ -1797,7 +1789,7 @@ const vivoPhones = [
     "5G",
     "Lightweight"
   ]
-}
+} ,
 
 
 
@@ -1863,7 +1855,7 @@ const vivoPhones = [
     "120W Charging",
     "Flagship"
   ]
-}
+} ,
 
 
 
@@ -1927,7 +1919,7 @@ const vivoPhones = [
     "120W Charging",
     "Flagship"
   ]
-}
+} ,
 
 
 
@@ -1990,7 +1982,7 @@ const vivoPhones = [
     "120Hz",
     "5G"
   ]
-}
+} ,
 
 
 
@@ -2054,7 +2046,7 @@ const vivoPhones = [
     "5000mAh",
     "Entry Level"
   ]
-}
+} ,
 
 
 
@@ -2118,6 +2110,11 @@ const vivoPhones = [
     "5000mAh",
     "Entry Level"
   ]
-}
+} ,
 
-];
+
+
+
+
+
+    
