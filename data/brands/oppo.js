@@ -1,3 +1,6 @@
+const oppoPhones = [
+
+
 {
   id: "oppo-find-x8-ultra",
   brandId: "oppo",
@@ -1734,5 +1737,5 @@
 
 
 
-
+]
     
