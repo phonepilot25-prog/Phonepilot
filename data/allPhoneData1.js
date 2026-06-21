@@ -1,3 +1,16 @@
 const smartphoneData = [
-  ...redmiPhones
+  ...samsungPhones,
+  ...redmiPhones,
+  ...pocoPhones,
+  ...realmePhones,
+  ...iqooPhones,
+  ...vivoPhones,
+  ...oppoPhones,
+  ...motorolaPhones,
+  ...oneplusPhones,
+  ...nothingPhones,
+  ...googlePixelPhones,
+  ...applePhones,
+  ...tecnoPhones,
+  ...infinixPhones
 ];
