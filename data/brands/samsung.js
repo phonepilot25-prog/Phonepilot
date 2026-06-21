@@ -1246,9 +1246,385 @@ const samsungPhones = [
     "Galaxy AI",
     "120Hz AMOLED"
   ]
-} 
+},
 
     
+{
+  "id": "samsung-galaxy-a55",
+  "brandId": "samsung",
+  "processorId": "exynos-1480",
+
+  "model": "Samsung Galaxy A55 5G",
+  "price": 39999,
+  "launchDate": "2024-03-11",
+
+  "description": "Samsung Galaxy A55 5G is a premium mid-range smartphone powered by the Exynos 1480 processor with AMD RDNA-based Xclipse graphics. It features a 6.6-inch Super AMOLED display with a 120Hz refresh rate, a premium metal frame, IP67 water resistance, stereo speakers, and a versatile 50MP OIS camera system. The device offers flagship-inspired design, excellent software support, and strong all-round performance.",
+
+  "images": [
+    "https://images.samsung.com/is/image/samsung/p6pim/in/sm-a556elbbins/",
+    "https://images.samsung.com/is/image/samsung/p6pim/in/sm-a556elvcins/",
+    "https://images.samsung.com/is/image/samsung/p6pim/in/sm-a556ezkwins/"
+  ],
+
+  "ram": "8GB / 12GB LPDDR5",
+  "storage": "128GB / 256GB UFS 3.1",
+
+  "battery": "5000mAh",
+  "charging": "25W Fast Charging",
+
+  "displayType": "Super AMOLED",
+  "displaySize": "6.6-inch",
+  "refreshRate": "120Hz",
+  "resolution": "1080 x 2340 (FHD+)",
+
+  "rearCamera": "50MP OIS + 12MP Ultra-Wide + 5MP Macro",
+  "frontCamera": "32MP",
+
+  "androidVersion": "Android 14 (One UI 6.1)",
+  "ipRating": "IP67",
+  "weight": "213g",
+
+  "gamingScore": 84,
+  "cameraScore": 87,
+  "batteryScore": 86,
+  "overallScore": 87,
+  "rank": 11,
+
+  "pros": [
+    "Premium metal-frame design with IP67 water resistance",
+    "Excellent Super AMOLED 120Hz display and stereo speakers",
+    "Strong cameras with OIS and long-term software support"
+  ],
+
+  "cons": [
+    "25W charging is slower than many competitors",
+    "Relatively heavy at 213g",
+    "Macro camera has limited practical use"
+  ],
+
+  "tags": [
+    "5G",
+    "IP67",
+    "120Hz AMOLED",
+    "Premium Midrange"
+  ]
+} ,
+
+
+{
+  "id": "samsung-galaxy-a54",
+  "brandId": "samsung",
+  "processorId": "exynos-1380",
+
+  "model": "Samsung Galaxy A54 5G",
+  "price": 38999,
+  "launchDate": "2023-03-15",
+
+  "description": "Samsung Galaxy A54 5G is a premium mid-range smartphone featuring the Exynos 1380 processor, a flagship-inspired glass design, and IP67 water resistance. It comes with a 6.4-inch Super AMOLED 120Hz display, a 50MP OIS primary camera, stereo speakers, and long-term software support, making it one of the most balanced smartphones in its segment.",
+
+  "images": [
+    "https://images.samsung.com/is/image/samsung/p6pim/in/sm-a546elvbins/",
+    "https://images.samsung.com/is/image/samsung/p6pim/in/sm-a546elgbins/",
+    "https://images.samsung.com/is/image/samsung/p6pim/in/sm-a546ezkbins/"
+  ],
+
+  "ram": "8GB LPDDR4X",
+  "storage": "128GB / 256GB UFS 2.2",
+
+  "battery": "5000mAh",
+  "charging": "25W Fast Charging",
+
+  "displayType": "Super AMOLED",
+  "displaySize": "6.4-inch",
+  "refreshRate": "120Hz",
+  "resolution": "1080 x 2340 (FHD+)",
+
+  "rearCamera": "50MP OIS + 12MP Ultra-Wide + 5MP Macro",
+  "frontCamera": "32MP",
+
+  "androidVersion": "Android 13 (Upgradeable to Android 17)",
+  "ipRating": "IP67",
+  "weight": "202g",
+
+  "gamingScore": 80,
+  "cameraScore": 88,
+  "batteryScore": 86,
+  "overallScore": 85,
+  "rank": 16,
+
+  "pros": [
+    "Premium glass design with IP67 water resistance",
+    "Excellent cameras with reliable OIS performance",
+    "Bright 120Hz Super AMOLED display and stereo speakers"
+  ],
+
+  "cons": [
+    "25W charging is slower than rivals",
+    "Exynos 1380 is not ideal for heavy gaming",
+    "Slightly thick bezels compared to newer models"
+  ],
+
+  "tags": [
+    "5G",
+    "IP67",
+    "120Hz AMOLED",
+    "OIS Camera"
+  ]
+} ,
+
+
+{
+  "id": "samsung-galaxy-a53",
+  "brandId": "samsung",
+  "processorId": "exynos-1280",
+
+  "model": "Samsung Galaxy A53 5G",
+  "price": 34499,
+  "launchDate": "2022-03-17",
+
+  "description": "Samsung Galaxy A53 5G is a premium mid-range smartphone featuring the Exynos 1280 processor, a 6.5-inch Super AMOLED display with a 120Hz refresh rate, and IP67 water resistance. It offers a versatile 64MP OIS quad-camera setup, stereo speakers, strong battery life, and Samsung's long-term software update commitment.",
+
+  "images": [
+    "https://images.samsung.com/is/image/samsung/p6pim/in/sm-a536elbgins/",
+    "https://images.samsung.com/is/image/samsung/p6pim/in/sm-a536elbigins/",
+    "https://images.samsung.com/is/image/samsung/p6pim/in/sm-a536elvwins/"
+  ],
+
+  "ram": "6GB / 8GB LPDDR4X",
+  "storage": "128GB / 256GB UFS 2.2",
+
+  "battery": "5000mAh",
+  "charging": "25W Fast Charging",
+
+  "displayType": "Super AMOLED",
+  "displaySize": "6.5-inch",
+  "refreshRate": "120Hz",
+  "resolution": "1080 x 2400 (FHD+)",
+
+  "rearCamera": "64MP OIS + 12MP Ultra-Wide + 5MP Macro + 5MP Depth",
+  "frontCamera": "32MP",
+
+  "androidVersion": "Android 12 (Upgradeable to Android 16)",
+  "ipRating": "IP67",
+  "weight": "189g",
+
+  "gamingScore": 74,
+  "cameraScore": 85,
+  "batteryScore": 85,
+  "overallScore": 82,
+  "rank": 23,
+
+  "pros": [
+    "Bright 120Hz Super AMOLED display",
+    "IP67 water resistance and stereo speakers",
+    "Reliable cameras with OIS and long software support"
+  ],
+
+  "cons": [
+    "Exynos 1280 performance is average for gaming",
+    "25W charging is slower than competitors",
+    "No charger included in the retail box"
+  ],
+
+  "tags": [
+    "5G",
+    "IP67",
+    "120Hz AMOLED",
+    "OIS Camera"
+  ]
+} ,
+
+
+
+
+
+{
+  "id": "samsung-galaxy-a52",
+  "brandId": "samsung",
+  "processorId": "snapdragon-720g",
+
+  "model": "Samsung Galaxy A52",
+  "price": 26499,
+  "launchDate": "2021-03-17",
+
+  "description": "Samsung Galaxy A52 is a popular mid-range smartphone featuring the Qualcomm Snapdragon 720G processor, a vibrant 90Hz Super AMOLED display, IP67 water resistance, stereo speakers, and a versatile 64MP OIS quad-camera system. It delivered a near-flagship experience in the mid-range segment with excellent multimedia capabilities and strong software support.",
+
+  "images": [
+    "https://images.samsung.com/is/image/samsung/p6pim/in/sm-a525fzkdins/",
+    "https://images.samsung.com/is/image/samsung/p6pim/in/sm-a525flvdins/",
+    "https://images.samsung.com/is/image/samsung/p6pim/in/sm-a525fzbdins/"
+  ],
+
+  "ram": "6GB / 8GB LPDDR4X",
+  "storage": "128GB / 256GB UFS 2.1",
+
+  "battery": "4500mAh",
+  "charging": "25W Fast Charging",
+
+  "displayType": "Super AMOLED",
+  "displaySize": "6.5-inch",
+  "refreshRate": "90Hz",
+  "resolution": "1080 x 2400 (FHD+)",
+
+  "rearCamera": "64MP OIS + 12MP Ultra-Wide + 5MP Macro + 5MP Depth",
+  "frontCamera": "32MP",
+
+  "androidVersion": "Android 11 (Upgradeable to Android 14 / One UI 6)",
+  "ipRating": "IP67",
+  "weight": "189g",
+
+  "gamingScore": 76,
+  "cameraScore": 86,
+  "batteryScore": 82,
+  "overallScore": 83,
+  "rank": 24,
+
+  "pros": [
+    "IP67 water resistance and stereo speakers",
+    "Excellent 64MP OIS camera system",
+    "Bright Super AMOLED display with 90Hz refresh rate"
+  ],
+
+  "cons": [
+    "Snapdragon 720G is dated by modern standards",
+    "No 120Hz refresh rate",
+    "25W charging feels slow compared to newer devices"
+  ],
+
+  "tags": [
+    "IP67",
+    "Super AMOLED",
+    "OIS Camera",
+    "Stereo Speakers"
+  ]
+} ,
+
+
+
+{
+  "id": "samsung-galaxy-a51",
+  "brandId": "samsung",
+  "processorId": "exynos-9611",
+
+  "model": "Samsung Galaxy A51",
+  "price": 23999,
+  "launchDate": "2019-12-12",
+
+  "description": "Samsung Galaxy A51 is a stylish mid-range smartphone that introduced Samsung's modern Infinity-O display design to the Galaxy A series. It features a 6.5-inch Super AMOLED display, a versatile 48MP quad-camera setup, and the Exynos 9611 processor. The device became one of Samsung's best-selling smartphones thanks to its balanced features, premium design, and excellent display quality.",
+
+  "images": [
+    "https://images.samsung.com/is/image/samsung/in-galaxy-a51-a515-sm-a515fzkgins-frontblack-211095182",
+    "https://images.samsung.com/is/image/samsung/in-galaxy-a51-a515-sm-a515fzbwins-frontblue-211095188",
+    "https://images.samsung.com/is/image/samsung/in-galaxy-a51-a515-sm-a515fzwdins-frontwhite-211095194"
+  ],
+
+  "ram": "6GB / 8GB LPDDR4X",
+  "storage": "128GB UFS 2.1",
+
+  "battery": "4000mAh",
+  "charging": "15W Fast Charging",
+
+  "displayType": "Super AMOLED",
+  "displaySize": "6.5-inch",
+  "refreshRate": "60Hz",
+  "resolution": "1080 x 2400 (FHD+)",
+
+  "rearCamera": "48MP + 12MP Ultra-Wide + 5MP Macro + 5MP Depth",
+  "frontCamera": "32MP",
+
+  "androidVersion": "Android 10 (Upgradeable to Android 13 / One UI 5)",
+  "ipRating": "No Official IP Rating",
+  "weight": "172g",
+
+  "gamingScore": 57,
+  "cameraScore": 77,
+  "batteryScore": 78,
+  "overallScore": 75,
+  "rank": 41,
+
+  "pros": [
+    "Excellent Super AMOLED display with modern Infinity-O design",
+    "Lightweight and comfortable to use",
+    "Good camera versatility with ultra-wide and macro lenses"
+  ],
+
+  "cons": [
+    "Exynos 9611 struggles with demanding games",
+    "Only 15W charging support",
+    "No high refresh rate display"
+  ],
+
+  "tags": [
+    "Super AMOLED",
+    "Infinity-O Display",
+    "48MP Camera",
+    "Mid-Range Smartphone"
+  ]
+} ,
+
+
+{
+  "id": "samsung-galaxy-a50",
+  "brandId": "samsung",
+  "processorId": "exynos-9610",
+
+  "model": "Samsung Galaxy A50",
+  "price": 19990,
+  "launchDate": "2019-02-28",
+
+  "description": "Samsung Galaxy A50 was one of the most popular mid-range smartphones of 2019, offering a premium design, a vibrant Super AMOLED display, and an in-display fingerprint sensor at an affordable price. Powered by the Exynos 9610 chipset, it featured a versatile triple-camera setup and a large 4000mAh battery, making it a well-rounded choice for everyday users.",
+
+  "images": [
+    "https://images.samsung.com/is/image/samsung/in-galaxy-a50-a505-sm-a505fzkdins-frontblack-153294810",
+    "https://images.samsung.com/is/image/samsung/in-galaxy-a50-a505-sm-a505fzbdins-frontblue-153294816",
+    "https://images.samsung.com/is/image/samsung/in-galaxy-a50-a505-sm-a505fzwdins-frontwhite-153294822"
+  ],
+
+  "ram": "4GB / 6GB LPDDR4X",
+  "storage": "64GB / 128GB UFS 2.1",
+
+  "battery": "4000mAh",
+  "charging": "15W Fast Charging",
+
+  "displayType": "Super AMOLED",
+  "displaySize": "6.4-inch",
+  "refreshRate": "60Hz",
+  "resolution": "1080 x 2340 (FHD+)",
+
+  "rearCamera": "25MP + 8MP Ultra-Wide + 5MP Depth",
+  "frontCamera": "25MP",
+
+  "androidVersion": "Android 9 Pie (Upgradeable to Android 11 / One UI 3.1)",
+  "ipRating": "No Official IP Rating",
+  "weight": "166g",
+
+  "gamingScore": 55,
+  "cameraScore": 74,
+  "batteryScore": 79,
+  "overallScore": 73,
+  "rank": 44,
+
+  "pros": [
+    "Excellent Super AMOLED display with in-display fingerprint sensor",
+    "Lightweight and premium-looking design",
+    "Good battery life and reliable daily performance"
+  ],
+
+  "cons": [
+    "No high refresh rate display",
+    "Exynos 9610 struggles with modern demanding games",
+    "Limited software support by current standards"
+  ],
+
+  "tags": [
+    "Super AMOLED",
+    "In-Display Fingerprint",
+    "Triple Camera",
+    "Mid-Range Smartphone"
+  ]
+}
+
+  
 
   
   ];
