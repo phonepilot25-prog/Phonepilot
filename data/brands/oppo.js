@@ -1,6 +1,3 @@
-
-const oppoPhones = [
-
 {
   id: "oppo-find-x8-ultra",
   brandId: "oppo",
@@ -60,7 +57,7 @@ const oppoPhones = [
     "Ultra Flagship",
     "IP69"
   ]
-}
+} ,
 
 
 {
@@ -122,7 +119,7 @@ const oppoPhones = [
     "Flagship",
     "IP69"
   ]
-}
+} ,
 
 
 
@@ -187,7 +184,7 @@ const oppoPhones = [
     "Hasselblad",
     "IP69"
   ]
-}
+} ,
 
 
 
@@ -251,7 +248,7 @@ const oppoPhones = [
     "Premium",
     "Multitasking"
   ]
-}
+} ,
 
 
 
@@ -316,7 +313,7 @@ const oppoPhones = [
     "AI Camera",
     "IP69"
   ]
-}
+} ,
 
 
 
@@ -380,7 +377,7 @@ const oppoPhones = [
     "IP69",
     "AI Camera"
   ]
-}
+} ,
 
 
 
@@ -446,7 +443,7 @@ const oppoPhones = [
     "80W Charging",
     "Reno Series"
   ]
-}
+} ,
 
 
 
@@ -511,7 +508,7 @@ const oppoPhones = [
     "IP69",
     "50MP Selfie"
   ]
-}
+} ,
 
 
 
@@ -575,7 +572,7 @@ const oppoPhones = [
     "5800mAh",
     "AMOLED"
   ]
-}
+} ,
 
 
 
@@ -639,7 +636,7 @@ const oppoPhones = [
     "80W Charging",
     "Durability"
   ]
-}
+} ,
 
 
 
@@ -703,7 +700,7 @@ const oppoPhones = [
     "AMOLED",
     "5G"
   ]
-}
+} ,
 
 
 
@@ -767,7 +764,7 @@ const oppoPhones = [
     "67W Charging",
     "Durable"
   ]
-}
+} ,
 
 
 {
@@ -829,7 +826,7 @@ const oppoPhones = [
     "IP64",
     "Selfie Camera"
   ]
-}
+} ,
 
 
 
@@ -895,7 +892,7 @@ const oppoPhones = [
     "AMOLED",
     "Value"
   ]
-}
+} ,
 
 {
   id: "oppo-k12x-5g",
@@ -956,7 +953,7 @@ const oppoPhones = [
     "Budget 5G",
     "5100mAh"
   ]
-}
+} ,
 
 
 
@@ -1019,7 +1016,7 @@ const oppoPhones = [
     "AMOLED",
     "5500mAh"
   ]
-}
+} ,
 
 
 
@@ -1084,7 +1081,7 @@ const oppoPhones = [
     "120Hz",
     "Durable"
   ]
-}
+} ,
 
 
 
@@ -1149,7 +1146,7 @@ const oppoPhones = [
     "5G",
     "Budget"
   ]
-}
+} ,
 
 
 
@@ -1223,7 +1220,7 @@ const oppoPhones = [
     "IP65",
     "120Hz"
   ]
-}
+} ,
 
 
 
@@ -1271,7 +1268,7 @@ const oppoPhones = [
   overallScore: 74,
   rank: 65,
 
-pros: [
+  pros: [
     "Strong durability",
     "45W fast charging",
     "120Hz display"
@@ -1289,7 +1286,7 @@ pros: [
     "5G",
     "Durable"
   ]
-}
+} ,
 
 
 {
@@ -1351,7 +1348,7 @@ pros: [
     "5100mAh",
     "Dimensity 6300"
   ]
-}
+} ,
 
 
 
@@ -1416,7 +1413,7 @@ pros: [
     "120Hz",
     "5100mAh"
   ]
-}
+} ,
 
 
 
@@ -1481,7 +1478,7 @@ pros: [
     "5100mAh",
     "Budget"
   ]
-}
+} ,
 
 
 
@@ -1545,7 +1542,7 @@ pros: [
     "33W Charging",
     "Dimensity 6020"
   ]
-}
+} ,
 
 
 
@@ -1608,7 +1605,7 @@ pros: [
     "Budget",
     "5G"
   ]
-}
+} ,
 
 
 {
@@ -1670,7 +1667,7 @@ pros: [
     "Curved AMOLED",
     "AI Features"
   ]
-}
+} ,
 
 
 
@@ -1733,7 +1730,9 @@ pros: [
     "AI Camera",
     "Lightweight"
   ]
-}
+} ,
 
-  
-     ];
+
+
+
+    
