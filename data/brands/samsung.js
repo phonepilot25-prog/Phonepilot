@@ -1622,9 +1622,518 @@ const samsungPhones = [
     "Triple Camera",
     "Mid-Range Smartphone"
   ]
-}
+},
 
-  
+ {
+  "id": "samsung-galaxy-a37",
+  "brandId": "samsung",
+  "processorId": "exynos-1480",
+
+  "model": "Samsung Galaxy A37 5G",
+  "price": 41999,
+  "launchDate": "2026-03-25",
+
+  "description": "Samsung Galaxy A37 5G is a premium mid-range smartphone featuring the Exynos 1480 processor, a large 6.7-inch 120Hz Super AMOLED display, IP68 water resistance, and Galaxy AI features. It offers a 50MP OIS camera system, Gorilla Glass Victus+ protection, 45W fast charging, and six years of Android OS upgrades, making it one of Samsung's most feature-packed A-series devices. 0",
+
+  "images": [
+    "https://images.samsung.com/is/image/samsung/assets/global/galaxy-a37-5g-awesome-charcoal.png",
+    "https://images.samsung.com/is/image/samsung/assets/global/galaxy-a37-5g-awesome-lavender.png",
+    "https://images.samsung.com/is/image/samsung/assets/global/galaxy-a37-5g-awesome-white.png"
+  ],
+
+  "ram": "6GB / 8GB / 12GB LPDDR5X",
+  "storage": "128GB / 256GB UFS 3.1",
+
+  "battery": "5000mAh",
+  "charging": "45W Super Fast Charging",
+
+  "displayType": "Super AMOLED",
+  "displaySize": "6.7-inch",
+  "refreshRate": "120Hz",
+  "resolution": "1080 x 2340 (FHD+)",
+
+  "rearCamera": "50MP OIS + 8MP Ultra-Wide + 5MP Macro",
+  "frontCamera": "12MP",
+
+  "androidVersion": "Android 16 (One UI 8.5)",
+  "ipRating": "IP68",
+  "weight": "196g",
+
+  "gamingScore": 84,
+  "cameraScore": 85,
+  "batteryScore": 87,
+  "overallScore": 86,
+  "rank": 12,
+
+  "pros": [
+    "IP68 water resistance with Gorilla Glass Victus+ protection",
+    "Large 120Hz Super AMOLED display with high brightness",
+    "45W fast charging and six years of software support"
+  ],
+
+  "cons": [
+    "No telephoto camera",
+    "Plastic frame despite premium pricing",
+    "Launch price is higher than previous A3x models"
+  ],
+
+  "tags": [
+    "5G",
+    "IP68",
+    "Galaxy AI",
+    "120Hz AMOLED"
+  ]
+} ,
+
+{
+  "id": "samsung-galaxy-a36",
+  "brandId": "samsung",
+  "processorId": "snapdragon-6-gen-3",
+
+  "model": "Samsung Galaxy A36 5G",
+  "price": 32999,
+  "launchDate": "2025-03-02",
+
+  "description": "Samsung Galaxy A36 5G is a premium mid-range smartphone powered by the Snapdragon 6 Gen 3 chipset. It features a 6.7-inch Super AMOLED display with a 120Hz refresh rate, IP67 water resistance, Galaxy AI features, and a 50MP OIS camera. The device delivers a balanced experience with long software support and fast 45W charging.",
+
+  "images": [
+    "https://images.samsung.com/is/image/samsung/p6pim/in/sm-a366b/",
+    "https://images.samsung.com/is/image/samsung/p6pim/in/sm-a366b-awesome-lavender/",
+    "https://images.samsung.com/is/image/samsung/p6pim/in/sm-a366b-awesome-black/"
+  ],
+
+  "ram": "8GB / 12GB LPDDR4X",
+  "storage": "128GB / 256GB UFS 2.2",
+
+  "battery": "5000mAh",
+  "charging": "45W Super Fast Charging",
+
+  "displayType": "Super AMOLED",
+  "displaySize": "6.7-inch",
+  "refreshRate": "120Hz",
+  "resolution": "1080 x 2340 (FHD+)",
+
+  "rearCamera": "50MP OIS + 8MP Ultra-Wide + 5MP Macro",
+  "frontCamera": "12MP",
+
+  "androidVersion": "Android 15 (One UI 7)",
+  "ipRating": "IP67",
+  "weight": "195g",
+
+  "gamingScore": 80,
+  "cameraScore": 84,
+  "batteryScore": 87,
+  "overallScore": 84,
+  "rank": 17,
+
+  "pros": [
+    "120Hz AMOLED display with excellent brightness",
+    "IP67 protection and six years of software updates",
+    "45W fast charging support"
+  ],
+
+  "cons": [
+    "No telephoto camera",
+    "UFS 2.2 storage instead of UFS 3.1",
+    "Average gaming performance for the price"
+  ],
+
+  "tags": [
+    "5G",
+    "IP67",
+    "120Hz AMOLED",
+    "45W Charging"
+  ]
+} ,
+
+
+
+{
+  "id": "samsung-galaxy-a35",
+  "brandId": "samsung",
+  "processorId": "exynos-1380",
+
+  "model": "Samsung Galaxy A35 5G",
+  "price": 30999,
+  "launchDate": "2024-03-11",
+
+  "description": "Samsung Galaxy A35 5G is a mid-range smartphone featuring the Exynos 1380 chipset, a 120Hz Super AMOLED display, stereo speakers, and IP67 water resistance. It offers a premium glass design, a 50MP OIS camera, and long-term software support, making it one of the best-balanced phones in its segment.",
+
+  "images": [
+    "https://images.samsung.com/is/image/samsung/p6pim/in/sm-a356elbbins/",
+    "https://images.samsung.com/is/image/samsung/p6pim/in/sm-a356elvcins/",
+    "https://images.samsung.com/is/image/samsung/p6pim/in/sm-a356ezkbins/"
+  ],
+
+  "ram": "8GB LPDDR4X",
+  "storage": "128GB / 256GB UFS 2.2",
+
+  "battery": "5000mAh",
+  "charging": "25W Fast Charging",
+
+  "displayType": "Super AMOLED",
+  "displaySize": "6.6-inch",
+  "refreshRate": "120Hz",
+  "resolution": "1080 x 2340 (FHD+)",
+
+  "rearCamera": "50MP OIS + 8MP Ultra-Wide + 5MP Macro",
+  "frontCamera": "13MP",
+
+  "androidVersion": "Android 14 (One UI 6.1)",
+  "ipRating": "IP67",
+  "weight": "209g",
+
+  "gamingScore": 78,
+  "cameraScore": 83,
+  "batteryScore": 86,
+  "overallScore": 82,
+  "rank": 22,
+
+  "pros": [
+    "Premium design with IP67 protection",
+    "Excellent AMOLED display and stereo speakers",
+    "Reliable cameras with OIS"
+  ],
+
+  "cons": [
+    "25W charging is relatively slow",
+    "Heavy at over 200g",
+    "Exynos 1380 is not ideal for intensive gaming"
+  ],
+
+  "tags": [
+    "5G",
+    "IP67",
+    "120Hz AMOLED",
+    "OIS Camera"
+  ]
+} ,
+
+
+
+{
+  "id": "samsung-galaxy-a34",
+  "brandId": "samsung",
+  "processorId": "mediatek-dimensity-1080",
+
+  "model": "Samsung Galaxy A34 5G",
+  "price": 30999,
+  "launchDate": "2023-03-15",
+
+  "description": "Samsung Galaxy A34 5G is a feature-rich mid-range smartphone powered by the MediaTek Dimensity 1080 chipset. It features a 6.6-inch Super AMOLED display with a 120Hz refresh rate, IP67 water resistance, stereo speakers, and a dependable 48MP OIS camera system. The device delivers excellent battery life and strong everyday performance.",
+
+  "images": [
+    "https://images.samsung.com/is/image/samsung/p6pim/in/sm-a346elvbins/",
+    "https://images.samsung.com/is/image/samsung/p6pim/in/sm-a346elgbins/",
+    "https://images.samsung.com/is/image/samsung/p6pim/in/sm-a346ezkbins/"
+  ],
+
+  "ram": "6GB / 8GB LPDDR4X",
+  "storage": "128GB / 256GB UFS 2.2",
+
+  "battery": "5000mAh",
+  "charging": "25W Fast Charging",
+
+  "displayType": "Super AMOLED",
+  "displaySize": "6.6-inch",
+  "refreshRate": "120Hz",
+  "resolution": "1080 x 2340 (FHD+)",
+
+  "rearCamera": "48MP OIS + 8MP Ultra-Wide + 5MP Macro",
+  "frontCamera": "13MP",
+
+  "androidVersion": "Android 13 (Upgradeable to Android 17)",
+  "ipRating": "IP67",
+  "weight": "199g",
+
+  "gamingScore": 79,
+  "cameraScore": 82,
+  "batteryScore": 85,
+  "overallScore": 81,
+  "rank": 25,
+
+  "pros": [
+    "Dimensity 1080 delivers solid gaming performance",
+    "IP67 water resistance and stereo speakers",
+    "Bright 120Hz Super AMOLED display"
+  ],
+
+  "cons": [
+    "25W charging feels outdated",
+    "Macro camera has limited usefulness",
+    "Thick bezels compared to newer models"
+  ],
+
+  "tags": [
+    "5G",
+    "IP67",
+    "120Hz AMOLED",
+    "Dimensity 1080"
+  ]
+} ,
+
+
+
+
+
+
+{
+  "id": "samsung-galaxy-a33",
+  "brandId": "samsung",
+  "processorId": "exynos-1280",
+
+  "model": "Samsung Galaxy A33 5G",
+  "price": 28999,
+  "launchDate": "2022-03-17",
+
+  "description": "Samsung Galaxy A33 5G is a mid-range smartphone featuring the Exynos 1280 processor, IP67 water resistance, stereo speakers, and a 90Hz Super AMOLED display. It offers a 48MP OIS quad-camera system, reliable battery life, and long-term software support, making it a well-rounded device for everyday use.",
+
+  "images": [
+    "https://images.samsung.com/is/image/samsung/p6pim/in/sm-a336elbgins/",
+    "https://images.samsung.com/is/image/samsung/p6pim/in/sm-a336elvwins/",
+    "https://images.samsung.com/is/image/samsung/p6pim/in/sm-a336elbbins/"
+  ],
+
+  "ram": "6GB / 8GB LPDDR4X",
+  "storage": "128GB UFS 2.2",
+
+  "battery": "5000mAh",
+  "charging": "25W Fast Charging",
+
+  "displayType": "Super AMOLED",
+  "displaySize": "6.4-inch",
+  "refreshRate": "90Hz",
+  "resolution": "1080 x 2400 (FHD+)",
+
+  "rearCamera": "48MP OIS + 8MP Ultra-Wide + 5MP Macro + 2MP Depth",
+  "frontCamera": "13MP",
+
+  "androidVersion": "Android 12 (Upgradeable to Android 16)",
+  "ipRating": "IP67",
+  "weight": "186g",
+
+  "gamingScore": 73,
+  "cameraScore": 82,
+  "batteryScore": 85,
+  "overallScore": 81,
+  "rank": 27,
+
+  "pros": [
+    "IP67 water resistance and stereo speakers",
+    "Reliable 48MP OIS camera",
+    "Long software support"
+  ],
+
+  "cons": [
+    "90Hz instead of 120Hz display",
+    "Average gaming performance",
+    "No charger included in the box"
+  ],
+
+  "tags": [
+    "5G",
+    "IP67",
+    "Super AMOLED",
+    "OIS Camera"
+  ]
+} ,
+
+
+
+
+{
+  "id": "samsung-galaxy-a32",
+  "brandId": "samsung",
+  "processorId": "mediatek-helio-g80",
+
+  "model": "Samsung Galaxy A32",
+  "price": 21999,
+  "launchDate": "2021-03-03",
+
+  "description": "Samsung Galaxy A32 is a budget-friendly mid-range smartphone featuring a 90Hz Super AMOLED display, a 64MP quad-camera setup, and a large 5000mAh battery. Powered by the MediaTek Helio G80 chipset, it delivers a strong multimedia experience and excellent battery life.",
+
+  "images": [
+    "https://images.samsung.com/is/image/samsung/p6pim/in/sm-a325fzkdins/",
+    "https://images.samsung.com/is/image/samsung/p6pim/in/sm-a325fzbdins/",
+    "https://images.samsung.com/is/image/samsung/p6pim/in/sm-a325fzwdins/"
+  ],
+
+  "ram": "6GB / 8GB LPDDR4X",
+  "storage": "128GB UFS 2.1",
+
+  "battery": "5000mAh",
+  "charging": "15W Fast Charging",
+
+  "displayType": "Super AMOLED",
+  "displaySize": "6.4-inch",
+  "refreshRate": "90Hz",
+  "resolution": "1080 x 2400 (FHD+)",
+
+  "rearCamera": "64MP + 8MP Ultra-Wide + 5MP Macro + 5MP Depth",
+  "frontCamera": "20MP",
+
+  "androidVersion": "Android 11 (Upgradeable to Android 13)",
+  "ipRating": "No Official IP Rating",
+  "weight": "184g",
+
+  "gamingScore": 62,
+  "cameraScore": 78,
+  "batteryScore": 84,
+  "overallScore": 76,
+  "rank": 39,
+
+  "pros": [
+    "90Hz Super AMOLED display",
+    "Good 64MP primary camera",
+    "Excellent battery life"
+  ],
+
+  "cons": [
+    "Helio G80 is weak for heavy gaming",
+    "15W charging is slow",
+    "No water resistance rating"
+  ],
+
+  "tags": [
+    "90Hz Display",
+    "Super AMOLED",
+    "64MP Camera",
+    "5000mAh Battery"
+  ]
+} ,
+
+
+
+
+
+
+
+{
+  "id": "samsung-galaxy-a31",
+  "brandId": "samsung",
+  "processorId": "mediatek-helio-p65",
+
+  "model": "Samsung Galaxy A31",
+  "price": 17999,
+  "launchDate": "2020-06-04",
+
+  "description": "Samsung Galaxy A31 is a mid-range smartphone featuring a large Super AMOLED display, a versatile 48MP quad-camera setup, and a 5000mAh battery. Powered by the MediaTek Helio P65 processor, it focuses on battery life, multimedia consumption, and everyday performance.",
+
+  "images": [
+    "https://images.samsung.com/is/image/samsung/in-galaxy-a31-a315-sm-a315fzkdins-frontblack",
+    "https://images.samsung.com/is/image/samsung/in-galaxy-a31-a315-sm-a315fzbdins-frontblue",
+    "https://images.samsung.com/is/image/samsung/in-galaxy-a31-a315fzwdins-frontwhite"
+  ],
+
+  "ram": "4GB / 6GB LPDDR4X",
+  "storage": "64GB / 128GB UFS 2.1",
+
+  "battery": "5000mAh",
+  "charging": "15W Fast Charging",
+
+  "displayType": "Super AMOLED",
+  "displaySize": "6.4-inch",
+  "refreshRate": "60Hz",
+  "resolution": "1080 x 2400 (FHD+)",
+
+  "rearCamera": "48MP + 8MP Ultra-Wide + 5MP Macro + 5MP Depth",
+  "frontCamera": "20MP",
+
+  "androidVersion": "Android 10 (Upgradeable to Android 12)",
+  "ipRating": "No Official IP Rating",
+  "weight": "185g",
+
+  "gamingScore": 55,
+  "cameraScore": 74,
+  "batteryScore": 83,
+  "overallScore": 72,
+  "rank": 46,
+
+  "pros": [
+    "Bright Super AMOLED display",
+    "Strong battery endurance",
+    "Good camera versatility"
+  ],
+
+  "cons": [
+    "No high refresh rate display",
+    "Helio P65 feels dated",
+    "Limited software support today"
+  ],
+
+  "tags": [
+    "Super AMOLED",
+    "48MP Camera",
+    "5000mAh Battery",
+    "Mid-Range"
+  ]
+} ,
+
+
+
+
+
+{
+  "id": "samsung-galaxy-a30",
+  "brandId": "samsung",
+  "processorId": "exynos-7904",
+
+  "model": "Samsung Galaxy A30",
+  "price": 16990,
+  "launchDate": "2019-02-28",
+
+  "description": "Samsung Galaxy A30 is a budget-friendly smartphone that introduced Samsung's modern Infinity-U design and Super AMOLED display to the affordable segment. It features the Exynos 7904 processor, dual rear cameras, and a 4000mAh battery with fast charging support.",
+
+  "images": [
+    "https://images.samsung.com/is/image/samsung/in-galaxy-a30-a305-sm-a305fzkdins-frontblack",
+    "https://images.samsung.com/is/image/samsung/in-galaxy-a30-a305-sm-a305fzbdins-frontblue",
+    "https://images.samsung.com/is/image/samsung/in-galaxy-a30-a305fzwdins-frontwhite"
+  ],
+
+  "ram": "3GB / 4GB LPDDR4X",
+  "storage": "32GB / 64GB eMMC 5.1",
+
+  "battery": "4000mAh",
+  "charging": "15W Fast Charging",
+
+  "displayType": "Super AMOLED",
+  "displaySize": "6.4-inch",
+  "refreshRate": "60Hz",
+  "resolution": "1080 x 2340 (FHD+)",
+
+  "rearCamera": "16MP + 5MP Ultra-Wide",
+  "frontCamera": "16MP",
+
+  "androidVersion": "Android 9 Pie (Upgradeable to Android 11)",
+  "ipRating": "No Official IP Rating",
+  "weight": "165g",
+
+  "gamingScore": 48,
+  "cameraScore": 68,
+  "batteryScore": 78,
+  "overallScore": 67,
+  "rank": 56,
+
+  "pros": [
+    "Excellent Super AMOLED display",
+    "Lightweight and comfortable design",
+    "Ultra-wide camera at an affordable price"
+  ],
+
+  "cons": [
+    "Aging Exynos 7904 processor",
+    "eMMC storage is slow",
+    "Software support has ended"
+  ],
+
+  "tags": [
+    "Super AMOLED",
+    "Infinity-U Display",
+    "Ultra-Wide Camera",
+    "Budget Smartphone"
+  ]
+}
+    
 
   
   ];
