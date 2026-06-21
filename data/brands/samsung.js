@@ -1,4 +1,4 @@
-
+const samsungPhones = [
 
 
 
@@ -4649,3 +4649,4 @@
 
 
 
+]
