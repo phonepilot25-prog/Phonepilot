@@ -9,7 +9,7 @@ const smartphoneData = [
   ...motorolaPhones,
   ...oneplusPhones,
   ...nothingPhones,
-  ...googlePixelPhones,
+  ...pixelPhones,
   ...applePhones,
   ...tecnoPhones,
   ...infinixPhones
