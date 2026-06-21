@@ -326,8 +326,9 @@ alert(typeof smartphoneData);
 alert(smartphoneData.length); </script>
   
   <script>
-  alert("Script started");
-alert("Length: " + smartphoneData.length);
+  alert(typeof smartphoneData);
+alert(Array.isArray(smartphoneData));
+alert(smartphoneData.length);
 
 document.getElementById("phoneCount").textContent =
   smartphoneData.length;
