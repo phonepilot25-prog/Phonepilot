@@ -1,3 +1,7 @@
+const realmePhones = [
+
+
+
 {
   id: "realme-gt-7-pro",
   brandId: "realme",
@@ -1225,4 +1229,4 @@
 
 
 
-    
+    ]
