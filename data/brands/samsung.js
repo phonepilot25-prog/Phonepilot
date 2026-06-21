@@ -687,7 +687,569 @@ const samsungPhones = [
     "64MP Camera",
     "Long Battery Life"
   ]
+},
+
+
+{
+  "id": "samsung-galaxy-m30",
+  "brandId": "samsung",
+  "processorId": "exynos-7904",
+
+  "model": "Samsung Galaxy M30",
+  "price": 14990,
+  "launchDate": "2019-02-27",
+
+  "description": "Samsung Galaxy M30 is a budget smartphone that helped popularize large batteries and AMOLED displays in the affordable segment. Powered by the Exynos 7904 processor, it features a 6.4-inch Super AMOLED Infinity-U display, a 5000mAh battery with fast charging support, and a versatile triple-camera setup.",
+
+  "images": [
+    "https://images.samsung.com/is/image/samsung/in-galaxy-m30-m305-sm-m305fzkdins-frontblack-147808402",
+    "https://images.samsung.com/is/image/samsung/in-galaxy-m30-m305-sm-m305fzbdins-frontblue-147808407",
+    "https://images.samsung.com/is/image/samsung/in-galaxy-m30-m305f-front-gradient-blue"
+  ],
+
+  "ram": "4GB / 6GB LPDDR4X",
+  "storage": "64GB / 128GB eMMC 5.1",
+
+  "battery": "5000mAh",
+  "charging": "15W Fast Charging",
+
+  "displayType": "Super AMOLED",
+  "displaySize": "6.4-inch",
+  "refreshRate": "60Hz",
+  "resolution": "1080 x 2340 (FHD+)",
+
+  "rearCamera": "13MP + 5MP Ultra-Wide + 5MP Depth",
+  "frontCamera": "16MP",
+
+  "androidVersion": "Android 8.1 Oreo (Upgradeable to Android 10 / One UI 2.0)",
+  "ipRating": "No Official IP Rating",
+  "weight": "174g",
+
+  "gamingScore": 45,
+  "cameraScore": 68,
+  "batteryScore": 85,
+  "overallScore": 66,
+  "rank": 58,
+
+  "pros": [
+    "Super AMOLED display was rare in its price segment",
+    "Excellent 5000mAh battery life",
+    "Lightweight and comfortable design"
+  ],
+
+  "cons": [
+    "Aging Exynos 7904 processor",
+    "eMMC storage is noticeably slow",
+    "Limited software support by modern standards"
+  ],
+
+  "tags": [
+    "Super AMOLED",
+    "5000mAh Battery",
+    "Triple Camera",
+    "Budget Smartphone"
+  ]
+} ,
+
+{
+  "id": "samsung-galaxy-m15",
+  "brandId": "samsung",
+  "processorId": "mediatek-dimensity-6100-plus",
+
+  "model": "Samsung Galaxy M15 5G",
+  "price": 12999,
+  "launchDate": "2024-04-05",
+
+  "description": "Samsung Galaxy M15 5G is an entry-level 5G smartphone featuring the MediaTek Dimensity 6100+ processor, a smooth 90Hz Super AMOLED display, and a massive 6000mAh battery. It focuses on delivering long battery life, reliable daily performance, and Samsung's extended software support at an affordable price point.",
+
+  "images": [
+    "https://images.samsung.com/is/image/samsung/p6pim/in/sm-m156b/",
+    "https://images.samsung.com/is/image/samsung/p6pim/in/sm-m156b-blue-topaz/",
+    "https://images.samsung.com/is/image/samsung/p6pim/in/sm-m156b-celestial-blue/"
+  ],
+
+  "ram": "4GB / 6GB LPDDR4X",
+  "storage": "128GB UFS 2.2",
+
+  "battery": "6000mAh",
+  "charging": "25W Fast Charging",
+
+  "displayType": "Super AMOLED",
+  "displaySize": "6.5-inch",
+  "refreshRate": "90Hz",
+  "resolution": "1080 x 2340 (FHD+)",
+
+  "rearCamera": "50MP + 5MP Ultra-Wide + 2MP Macro",
+  "frontCamera": "13MP",
+
+  "androidVersion": "Android 14 (One UI 6)",
+  "ipRating": "No Official IP Rating",
+  "weight": "217g",
+
+  "gamingScore": 68,
+  "cameraScore": 74,
+  "batteryScore": 92,
+  "overallScore": 79,
+  "rank": 33,
+
+  "pros": [
+    "Excellent 6000mAh battery life",
+    "Super AMOLED display with vibrant colors",
+    "Four years of Android OS upgrades and five years of security updates"
+  ],
+
+  "cons": [
+    "Heavy and bulky design",
+    "90Hz refresh rate instead of 120Hz",
+    "Average ultra-wide and macro cameras"
+  ],
+
+  "tags": [
+    "5G",
+    "6000mAh Battery",
+    "Super AMOLED",
+    "Budget Smartphone"
+  ]
+} ,
+
+
+{
+  "id": "samsung-galaxy-m14",
+  "brandId": "samsung",
+  "processorId": "exynos-1330",
+
+  "model": "Samsung Galaxy M14 5G",
+  "price": 13990,
+  "launchDate": "2023-04-17",
+
+  "description": "Samsung Galaxy M14 5G is an affordable 5G smartphone featuring the Exynos 1330 processor, a 90Hz Full HD+ display, and a massive 6000mAh battery. It focuses on delivering excellent battery life, dependable daily performance, and long-term software support while maintaining an affordable price point.",
+
+  "images": [
+    "https://images.samsung.com/is/image/samsung/p6pim/in/sm-m146b/",
+    "https://images.samsung.com/is/image/samsung/p6pim/in/sm-m146b-berry-blue/",
+    "https://images.samsung.com/is/image/samsung/p6pim/in/sm-m146b-icy-silver/"
+  ],
+
+  "ram": "4GB / 6GB LPDDR4X",
+  "storage": "128GB UFS 2.2",
+
+  "battery": "6000mAh",
+  "charging": "25W Fast Charging",
+
+  "displayType": "PLS LCD",
+  "displaySize": "6.6-inch",
+  "refreshRate": "90Hz",
+  "resolution": "1080 x 2408 (FHD+)",
+
+  "rearCamera": "50MP + 2MP Macro + 2MP Depth",
+  "frontCamera": "13MP",
+
+  "androidVersion": "Android 13 (One UI Core 5.1)",
+  "ipRating": "No Official IP Rating",
+  "weight": "206g",
+
+  "gamingScore": 66,
+  "cameraScore": 72,
+  "batteryScore": 91,
+  "overallScore": 77,
+  "rank": 37,
+
+  "pros": [
+    "Outstanding 6000mAh battery life",
+    "Reliable Exynos 1330 processor with 5G support",
+    "Long software support with multiple Android updates"
+  ],
+
+  "cons": [
+    "PLS LCD display instead of AMOLED",
+    "No ultra-wide camera",
+    "Bulky and heavy design"
+  ],
+
+  "tags": [
+    "5G",
+    "6000mAh Battery",
+    "90Hz Display",
+    "Budget Smartphone"
+  ]
+} ,
+
+
+
+{
+  "id": "samsung-galaxy-m13",
+  "brandId": "samsung",
+  "processorId": "exynos-850",
+
+  "model": "Samsung Galaxy M13",
+  "price": 11999,
+  "launchDate": "2022-07-14",
+
+  "description": "Samsung Galaxy M13 is an entry-level smartphone designed for everyday use. Powered by the Exynos 850 processor, it features a large 6.6-inch Full HD+ display, a 50MP triple-camera setup, and a 6000mAh battery in the Indian variant. The device focuses on battery life, basic performance, and affordability.",
+
+  "images": [
+    "https://images.samsung.com/is/image/samsung/p6pim/in/sm-m135f/",
+    "https://images.samsung.com/is/image/samsung/p6pim/in/sm-m135f-midnight-blue/",
+    "https://images.samsung.com/is/image/samsung/p6pim/in/sm-m135f-aqua-green/"
+  ],
+
+  "ram": "4GB / 6GB LPDDR4X",
+  "storage": "64GB / 128GB eMMC 5.1",
+
+  "battery": "6000mAh",
+  "charging": "15W Fast Charging",
+
+  "displayType": "PLS LCD",
+  "displaySize": "6.6-inch",
+  "refreshRate": "60Hz",
+  "resolution": "1080 x 2408 (FHD+)",
+
+  "rearCamera": "50MP + 5MP Ultra-Wide + 2MP Depth",
+  "frontCamera": "8MP",
+
+  "androidVersion": "Android 12 (One UI Core 4.1)",
+  "ipRating": "No Official IP Rating",
+  "weight": "207g",
+
+  "gamingScore": 50,
+  "cameraScore": 68,
+  "batteryScore": 90,
+  "overallScore": 70,
+  "rank": 49,
+
+  "pros": [
+    "Excellent 6000mAh battery life",
+    "Sharp Full HD+ display for the price",
+    "50MP main camera performs well in daylight"
+  ],
+
+  "cons": [
+    "Exynos 850 is weak for gaming and multitasking",
+    "60Hz display feels dated",
+    "eMMC storage is slower than UFS alternatives"
+  ],
+
+  "tags": [
+    "6000mAh Battery",
+    "50MP Camera",
+    "Budget Smartphone",
+    "Long Battery Life"
+  ]
+} ,
+
+
+{
+  "id": "samsung-galaxy-m12",
+  "brandId": "samsung",
+  "processorId": "exynos-850",
+
+  "model": "Samsung Galaxy M12",
+  "price": 10999,
+  "launchDate": "2021-03-11",
+
+  "description": "Samsung Galaxy M12 is a budget smartphone focused on long battery life and smooth everyday performance. Powered by the Exynos 850 chipset, it features a 6.5-inch HD+ display with a 90Hz refresh rate, a versatile 48MP quad-camera system, and a large 6000mAh battery designed to last up to two days on moderate usage.",
+
+  "images": [
+    "https://images.samsung.com/is/image/samsung/p6pim/in/sm-m127f/",
+    "https://images.samsung.com/is/image/samsung/p6pim/in/sm-m127fzkgins/",
+    "https://images.samsung.com/is/image/samsung/p6pim/in/sm-m127fzbains/"
+  ],
+
+  "ram": "4GB / 6GB LPDDR4X",
+  "storage": "64GB / 128GB eMMC 5.1",
+
+  "battery": "6000mAh",
+  "charging": "15W Fast Charging",
+
+  "displayType": "PLS LCD",
+  "displaySize": "6.5-inch",
+  "refreshRate": "90Hz",
+  "resolution": "720 x 1600 (HD+)",
+
+  "rearCamera": "48MP + 5MP Ultra-Wide + 2MP Macro + 2MP Depth",
+  "frontCamera": "8MP",
+
+  "androidVersion": "Android 11 (Upgradeable to Android 13 / One UI Core 5)",
+  "ipRating": "No Official IP Rating",
+  "weight": "221g",
+
+  "gamingScore": 46,
+  "cameraScore": 65,
+  "batteryScore": 91,
+  "overallScore": 68,
+  "rank": 52,
+
+  "pros": [
+    "Excellent 6000mAh battery life",
+    "90Hz refresh rate display at an affordable price",
+    "Dedicated microSD card slot and headphone jack"
+  ],
+
+  "cons": [
+    "HD+ resolution is less sharp than FHD+ displays",
+    "Heavy and bulky design",
+    "Entry-level processor struggles with demanding tasks"
+  ],
+
+  "tags": [
+    "6000mAh Battery",
+    "90Hz Display",
+    "Budget Smartphone",
+    "Long Battery Life"
+  ]
+} ,
+
+
+
+
+{
+  "id": "samsung-galaxy-m11",
+  "brandId": "samsung",
+  "processorId": "snapdragon-450",
+
+  "model": "Samsung Galaxy M11",
+  "price": 10999,
+  "launchDate": "2020-06-02",
+
+  "description": "Samsung Galaxy M11 is an entry-level smartphone designed for users seeking long battery life and a large display at an affordable price. Powered by the Qualcomm Snapdragon 450 processor, it features a 6.4-inch HD+ Infinity-O display, a versatile triple-camera setup, and a 5000mAh battery with 15W fast charging support.",
+
+  "images": [
+    "https://images.samsung.com/is/image/samsung/p6pim/in/sm-m115fzkgins/",
+    "https://images.samsung.com/is/image/samsung/p6pim/in/sm-m115fzbdins/",
+    "https://images.samsung.com/is/image/samsung/p6pim/in/sm-m115fzkdins/"
+  ],
+
+  "ram": "3GB / 4GB LPDDR3",
+  "storage": "32GB / 64GB eMMC 5.1",
+
+  "battery": "5000mAh",
+  "charging": "15W Fast Charging",
+
+  "displayType": "PLS TFT LCD",
+  "displaySize": "6.4-inch",
+  "refreshRate": "60Hz",
+  "resolution": "720 x 1560 (HD+)",
+
+  "rearCamera": "13MP + 5MP Ultra-Wide + 2MP Depth",
+  "frontCamera": "8MP",
+
+  "androidVersion": "Android 10 (Upgradeable to Android 12 / One UI Core 4.1)",
+  "ipRating": "No Official IP Rating",
+  "weight": "197g",
+
+  "gamingScore": 38,
+  "cameraScore": 60,
+  "batteryScore": 84,
+  "overallScore": 62,
+  "rank": 61,
+
+  "pros": [
+    "Reliable 5000mAh battery life",
+    "Large Infinity-O display for media consumption",
+    "Includes ultra-wide camera at a budget price"
+  ],
+
+  "cons": [
+    "Aging Snapdragon 450 chipset",
+    "HD+ display lacks sharpness",
+    "Slow performance for modern multitasking and gaming"
+  ],
+
+  "tags": [
+    "5000mAh Battery",
+    "Budget Smartphone",
+    "Infinity-O Display",
+    "Triple Camera"
+  ]
+} ,
+
+
+{
+  "id": "samsung-galaxy-m10",
+  "brandId": "samsung",
+  "processorId": "exynos-7870",
+
+  "model": "Samsung Galaxy M10",
+  "price": 7990,
+  "launchDate": "2019-02-05",
+
+  "description": "Samsung Galaxy M10 is an entry-level smartphone from Samsung's first-generation Galaxy M series. It features a 6.22-inch Infinity-V display, a dual-camera setup with an ultra-wide lens, and the Exynos 7870 processor. The device was aimed at budget-conscious users seeking a modern design and reliable day-to-day performance.",
+
+  "images": [
+    "https://images.samsung.com/is/image/samsung/in-galaxy-m10-m105-sm-m105fzkdins-frontblack-145620942",
+    "https://images.samsung.com/is/image/samsung/in-galaxy-m10-m105-sm-m105fzbdins-frontblue-145620945",
+    "https://images.samsung.com/is/image/samsung/in-galaxy-m10-m105fzrdins-front-charcoal-black"
+  ],
+
+  "ram": "2GB / 3GB LPDDR3",
+  "storage": "16GB / 32GB eMMC 5.1",
+
+  "battery": "3400mAh",
+  "charging": "5W Standard Charging",
+
+  "displayType": "PLS TFT LCD",
+  "displaySize": "6.22-inch",
+  "refreshRate": "60Hz",
+  "resolution": "720 x 1520 (HD+)",
+
+  "rearCamera": "13MP + 5MP Ultra-Wide",
+  "frontCamera": "5MP",
+
+  "androidVersion": "Android 8.1 Oreo (Upgradeable to Android 10 / One UI 2.0)",
+  "ipRating": "No Official IP Rating",
+  "weight": "163g",
+
+  "gamingScore": 32,
+  "cameraScore": 55,
+  "batteryScore": 65,
+  "overallScore": 58,
+  "rank": 65,
+
+  "pros": [
+    "Lightweight and comfortable design",
+    "Ultra-wide camera was uncommon in its price segment",
+    "Large Infinity-V display for media consumption"
+  ],
+
+  "cons": [
+    "Limited performance by modern standards",
+    "Only 3400mAh battery with slow charging",
+    "Low RAM and storage options"
+  ],
+
+  "tags": [
+    "Budget Smartphone",
+    "Infinity-V Display",
+    "Ultra-Wide Camera",
+    "Entry-Level"
+  ]
+} ,
+
+
+{
+  "id": "samsung-galaxy-a57",
+  "brandId": "samsung",
+  "processorId": "exynos-1680",
+
+  "model": "Samsung Galaxy A57 5G",
+  "price": 54999,
+  "launchDate": "2026-03-25",
+
+  "description": "Samsung Galaxy A57 5G is Samsung's premium upper mid-range smartphone featuring the Exynos 1680 processor, a 6.7-inch Super AMOLED+ 120Hz display, IP68 water resistance, and advanced Galaxy AI features. It offers a refined slim design, long-term software support, a 50MP OIS camera system, and a 5000mAh battery with 45W fast charging. 0",
+
+  "images": [
+    "https://images.samsung.com/is/image/samsung/assets/global/galaxy-a57-5g-awesome-navy.png",
+    "https://images.samsung.com/is/image/samsung/assets/global/galaxy-a57-5g-awesome-lilac.png",
+    "https://images.samsung.com/is/image/samsung/assets/global/galaxy-a57-5g-awesome-icyblue.png"
+  ],
+
+  "ram": "8GB / 12GB LPDDR5X",
+  "storage": "128GB / 256GB / 512GB UFS 4.0",
+
+  "battery": "5000mAh",
+  "charging": "45W Super Fast Charging",
+
+  "displayType": "Super AMOLED+",
+  "displaySize": "6.7-inch",
+  "refreshRate": "120Hz",
+  "resolution": "1080 x 2340 (FHD+)",
+
+  "rearCamera": "50MP OIS + 12MP Ultra-Wide + 5MP Macro",
+  "frontCamera": "12MP",
+
+  "androidVersion": "Android 16 (One UI 8.5)",
+  "ipRating": "IP68",
+  "weight": "179g",
+
+  "gamingScore": 88,
+  "cameraScore": 89,
+  "batteryScore": 88,
+  "overallScore": 89,
+  "rank": 8,
+
+  "pros": [
+    "Premium IP68 design with Gorilla Glass Victus+",
+    "Excellent 120Hz Super AMOLED+ display and long software support",
+    "Powerful Exynos 1680 chipset with Galaxy AI features"
+  ],
+
+  "cons": [
+    "More expensive than previous Galaxy A5x models",
+    "No wireless charging",
+    "Macro camera remains of limited practical use"
+  ],
+
+  "tags": [
+    "5G",
+    "IP68",
+    "Galaxy AI",
+    "120Hz AMOLED"
+  ]
+} ,
+
+{
+  "id": "samsung-galaxy-a56",
+  "brandId": "samsung",
+  "processorId": "exynos-1580",
+
+  "model": "Samsung Galaxy A56 5G",
+  "price": 41999,
+  "launchDate": "2025-03-02",
+
+  "description": "Samsung Galaxy A56 5G is a premium mid-range smartphone featuring the Exynos 1580 chipset, a 6.7-inch Super AMOLED display with a 120Hz refresh rate, a versatile 50MP OIS triple-camera system, and a premium glass-and-metal design. It offers Galaxy AI features, IP67 water resistance, 45W fast charging, and six years of Android OS and security updates.",
+
+  "images": [
+    "https://images.samsung.com/is/image/samsung/assets/global/galaxy-a56-5g-awesome-graphite.png",
+    "https://images.samsung.com/is/image/samsung/assets/global/galaxy-a56-5g-awesome-lightgray.png",
+    "https://images.samsung.com/is/image/samsung/assets/global/galaxy-a56-5g-awesome-olive.png"
+  ],
+
+  "ram": "8GB / 12GB LPDDR5",
+  "storage": "128GB / 256GB UFS 3.1",
+
+  "battery": "5000mAh",
+  "charging": "45W Super Fast Charging",
+
+  "displayType": "Super AMOLED",
+  "displaySize": "6.7-inch",
+  "refreshRate": "120Hz",
+  "resolution": "1080 x 2340 (FHD+)",
+
+  "rearCamera": "50MP OIS + 12MP Ultra-Wide + 5MP Macro",
+  "frontCamera": "12MP",
+
+  "androidVersion": "Android 15 (One UI 7)",
+  "ipRating": "IP67",
+  "weight": "198g",
+
+  "gamingScore": 86,
+  "cameraScore": 88,
+  "batteryScore": 87,
+  "overallScore": 88,
+  "rank": 10,
+
+  "pros": [
+    "Premium metal-frame design with IP67 protection",
+    "Excellent 120Hz Super AMOLED display and stereo speakers",
+    "Long software support with Galaxy AI features"
+  ],
+
+  "cons": [
+    "No telephoto camera",
+    "Wireless charging not supported",
+    "Performance trails some similarly priced competitors"
+  ],
+
+  "tags": [
+    "5G",
+    "IP67",
+    "Galaxy AI",
+    "120Hz AMOLED"
+  ]
 } 
 
+    
+
+  
   ];
     
