@@ -2132,9 +2132,710 @@ const samsungPhones = [
     "Ultra-Wide Camera",
     "Budget Smartphone"
   ]
-}
+},
     
 
+{
+  "id": "samsung-galaxy-a26",
+  "brandId": "samsung",
+  "processorId": "exynos-1380",
+
+  "model": "Samsung Galaxy A26 5G",
+  "price": 24999,
+  "launchDate": "2025-03-02",
+
+  "description": "Samsung Galaxy A26 5G is an affordable mid-range smartphone featuring the Exynos 1380 chipset, a 120Hz Super AMOLED display, IP67 water resistance, and a 50MP OIS camera. It offers premium features, long software support, and reliable performance for everyday users.",
+
+  "images": ["", "", ""],
+
+  "ram": "6GB / 8GB LPDDR4X",
+  "storage": "128GB / 256GB UFS 2.2",
+
+  "battery": "5000mAh",
+  "charging": "25W Fast Charging",
+
+  "displayType": "Super AMOLED",
+  "displaySize": "6.7-inch",
+  "refreshRate": "120Hz",
+  "resolution": "1080 x 2340 (FHD+)",
+
+  "rearCamera": "50MP OIS + 8MP Ultra-Wide + 2MP Macro",
+  "frontCamera": "13MP",
+
+  "androidVersion": "Android 15",
+  "ipRating": "IP67",
+  "weight": "200g",
+
+  "gamingScore": 77,
+  "cameraScore": 82,
+  "batteryScore": 86,
+  "overallScore": 82,
+  "rank": 28,
+
+  "pros": [
+    "120Hz AMOLED display",
+    "IP67 water resistance",
+    "Long software support"
+  ],
+
+  "cons": [
+    "25W charging only",
+    "Average gaming performance",
+    "Heavy design"
+  ],
+
+  "tags": ["5G", "IP67", "120Hz AMOLED", "OIS Camera"]
+} ,
+
+
+
+
+
+
+
+
+
+{
+  "id": "samsung-galaxy-a25",
+  "brandId": "samsung",
+  "processorId": "exynos-1280",
+
+  "model": "Samsung Galaxy A25 5G",
+  "price": 26999,
+  "launchDate": "2023-12-11",
+
+  "description": "Samsung Galaxy A25 5G offers a 120Hz Super AMOLED display, stereo speakers, a 50MP OIS camera, and the Exynos 1280 processor. It is one of Samsung's most balanced budget 5G smartphones.",
+
+  "images": ["", "", ""],
+
+  "ram": "6GB / 8GB",
+  "storage": "128GB / 256GB",
+
+  "battery": "5000mAh",
+  "charging": "25W Fast Charging",
+
+  "displayType": "Super AMOLED",
+  "displaySize": "6.5-inch",
+  "refreshRate": "120Hz",
+  "resolution": "1080 x 2340 (FHD+)",
+
+  "rearCamera": "50MP OIS + 8MP Ultra-Wide + 2MP Macro",
+  "frontCamera": "13MP",
+
+  "androidVersion": "Android 14",
+  "ipRating": "No Official IP Rating",
+  "weight": "197g",
+
+  "gamingScore": 74,
+  "cameraScore": 81,
+  "batteryScore": 85,
+  "overallScore": 80,
+  "rank": 30,
+
+  "pros": [
+    "120Hz AMOLED display",
+    "Stereo speakers",
+    "50MP OIS camera"
+  ],
+
+  "cons": [
+    "No IP rating",
+    "25W charging is slow",
+    "Exynos 1280 heats under load"
+  ],
+
+  "tags": ["5G", "120Hz AMOLED", "OIS Camera", "Stereo Speakers"]
+} ,
+
+
+
+
+
+
+{
+  "id": "samsung-galaxy-a24",
+  "brandId": "samsung",
+  "processorId": "mediatek-helio-g99",
+
+  "model": "Samsung Galaxy A24",
+  "price": 22999,
+  "launchDate": "2023-04-19",
+
+  "description": "Samsung Galaxy A24 features a 90Hz Super AMOLED display, Helio G99 processor, and a 50MP OIS camera. It provides excellent battery life and smooth daily performance.",
+
+  "images": ["", "", ""],
+
+  "ram": "6GB / 8GB",
+  "storage": "128GB",
+
+  "battery": "5000mAh",
+  "charging": "25W Fast Charging",
+
+  "displayType": "Super AMOLED",
+  "displaySize": "6.5-inch",
+  "refreshRate": "90Hz",
+  "resolution": "1080 x 2340 (FHD+)",
+
+  "rearCamera": "50MP OIS + 5MP Ultra-Wide + 2MP Macro",
+  "frontCamera": "13MP",
+
+  "androidVersion": "Android 13",
+  "ipRating": "No Official IP Rating",
+  "weight": "195g",
+
+  "gamingScore": 73,
+  "cameraScore": 80,
+  "batteryScore": 84,
+  "overallScore": 79,
+  "rank": 33,
+
+  "pros": [
+    "Efficient Helio G99 chipset",
+    "AMOLED display",
+    "Good battery life"
+  ],
+
+  "cons": [
+    "No 5G support",
+    "90Hz instead of 120Hz",
+    "No stereo speakers"
+  ],
+
+  "tags": ["AMOLED", "90Hz Display", "OIS Camera", "Helio G99"]
+} ,
+
+
+
+
+
+
+
+
+
+
+{
+  "id": "samsung-galaxy-a23",
+  "brandId": "samsung",
+  "processorId": "snapdragon-695",
+
+  "model": "Samsung Galaxy A23 5G",
+  "price": 23999,
+  "launchDate": "2022-09-01",
+
+  "description": "Samsung Galaxy A23 5G combines Snapdragon 695 performance with a 120Hz display and a 50MP OIS camera, offering dependable performance and battery life.",
+
+  "images": ["", "", ""],
+
+  "ram": "6GB / 8GB",
+  "storage": "128GB",
+
+  "battery": "5000mAh",
+  "charging": "25W Fast Charging",
+
+  "displayType": "PLS LCD",
+  "displaySize": "6.6-inch",
+  "refreshRate": "120Hz",
+  "resolution": "1080 x 2408 (FHD+)",
+
+  "rearCamera": "50MP OIS + 5MP Ultra-Wide + 2MP Macro + 2MP Depth",
+  "frontCamera": "8MP",
+
+  "androidVersion": "Android 12",
+  "ipRating": "No Official IP Rating",
+  "weight": "197g",
+
+  "gamingScore": 70,
+  "cameraScore": 76,
+  "batteryScore": 84,
+  "overallScore": 76,
+  "rank": 38,
+
+  "pros": [
+    "120Hz display",
+    "Reliable Snapdragon 695",
+    "OIS camera support"
+  ],
+
+  "cons": [
+    "LCD panel",
+    "Average low-light camera",
+    "No stereo speakers"
+  ],
+
+  "tags": ["5G", "120Hz Display", "Snapdragon 695", "OIS Camera"]
+} ,
+
+
+
+{
+  "id": "samsung-galaxy-a22",
+  "brandId": "samsung",
+  "processorId": "mediatek-dimensity-700",
+
+  "model": "Samsung Galaxy A22 5G",
+  "price": 19999,
+  "launchDate": "2021-07-23",
+
+  "description": "Samsung Galaxy A22 5G is an affordable 5G smartphone powered by the Dimensity 700 chipset with a 90Hz display and excellent battery life.",
+
+  "images": ["", "", ""],
+
+  "ram": "4GB / 6GB / 8GB",
+  "storage": "64GB / 128GB",
+
+  "battery": "5000mAh",
+  "charging": "15W Fast Charging",
+
+  "displayType": "TFT LCD",
+  "displaySize": "6.6-inch",
+  "refreshRate": "90Hz",
+  "resolution": "1080 x 2400 (FHD+)",
+
+  "rearCamera": "48MP + 5MP Ultra-Wide + 2MP Depth",
+  "frontCamera": "8MP",
+
+  "androidVersion": "Android 11",
+  "ipRating": "No Official IP Rating",
+  "weight": "203g",
+
+  "gamingScore": 64,
+  "cameraScore": 70,
+  "batteryScore": 84,
+  "overallScore": 72,
+  "rank": 45,
+
+  "pros": [
+    "Affordable 5G connectivity",
+    "Good battery life",
+    "Smooth 90Hz display"
+  ],
+
+  "cons": [
+    "LCD panel",
+    "Slow charging",
+    "Average cameras"
+  ],
+
+  "tags": ["5G", "90Hz Display", "Dimensity 700", "Budget Phone"]
+} ,
+
+
+
+
+
+{
+  "id": "samsung-galaxy-a21",
+  "brandId": "samsung",
+  "processorId": "mediatek-helio-p35",
+
+  "model": "Samsung Galaxy A21",
+  "price": 15999,
+  "launchDate": "2020-06-26",
+
+  "description": "Samsung Galaxy A21 is an entry-level smartphone featuring a large display, quad cameras, and a 4000mAh battery for everyday usage.",
+
+  "images": ["", "", ""],
+
+  "ram": "3GB / 4GB",
+  "storage": "32GB / 64GB",
+
+  "battery": "4000mAh",
+  "charging": "15W Fast Charging",
+
+  "displayType": "PLS TFT LCD",
+  "displaySize": "6.5-inch",
+  "refreshRate": "60Hz",
+  "resolution": "720 x 1600 (HD+)",
+
+  "rearCamera": "16MP + 8MP Ultra-Wide + 2MP Macro + 2MP Depth",
+  "frontCamera": "13MP",
+
+  "androidVersion": "Android 10",
+  "ipRating": "No Official IP Rating",
+  "weight": "193g",
+
+  "gamingScore": 45,
+  "cameraScore": 62,
+  "batteryScore": 76,
+  "overallScore": 63,
+  "rank": 60,
+
+  "pros": [
+    "Decent battery life",
+    "Large display",
+    "Quad-camera setup"
+  ],
+
+  "cons": [
+    "HD+ resolution",
+    "Weak gaming performance",
+    "Outdated hardware"
+  ],
+
+  "tags": ["Budget Smartphone", "Quad Camera", "Large Display", "Entry Level"]
+} ,
+
+
+
+
+
+
+
+
+{
+  "id": "samsung-galaxy-a20",
+  "brandId": "samsung",
+  "processorId": "exynos-7884",
+
+  "model": "Samsung Galaxy A20",
+  "price": 12490,
+  "launchDate": "2019-04-05",
+
+  "description": "Samsung Galaxy A20 was a budget smartphone featuring a Super AMOLED display, dual rear cameras, and a 4000mAh battery. It delivered excellent display quality for its price segment.",
+
+  "images": ["", "", ""],
+
+  "ram": "3GB LPDDR4X",
+  "storage": "32GB eMMC 5.1",
+
+  "battery": "4000mAh",
+  "charging": "15W Fast Charging",
+
+  "displayType": "Super AMOLED",
+  "displaySize": "6.4-inch",
+  "refreshRate": "60Hz",
+  "resolution": "720 x 1560 (HD+)",
+
+  "rearCamera": "13MP + 5MP Ultra-Wide",
+  "frontCamera": "8MP",
+
+  "androidVersion": "Android 9 Pie (Upgradeable to Android 11)",
+  "ipRating": "No Official IP Rating",
+  "weight": "169g",
+
+  "gamingScore": 42,
+  "cameraScore": 64,
+  "batteryScore": 77,
+  "overallScore": 65,
+  "rank": 59,
+
+  "pros": [
+    "Super AMOLED display",
+    "Good battery life",
+    "Lightweight design"
+  ],
+
+  "cons": [
+    "HD+ resolution",
+    "Limited performance",
+    "Software support ended"
+  ],
+
+  "tags": ["Super AMOLED", "Budget Smartphone", "Ultra-Wide Camera", "4000mAh Battery"]
+} ,
+
+
+
+{
+  "id": "samsung-galaxy-a16",
+  "brandId": "samsung",
+  "processorId": "mediatek-dimensity-6300",
+
+  "model": "Samsung Galaxy A16 5G",
+  "price": 18999,
+  "launchDate": "2024-10-01",
+
+  "description": "Samsung Galaxy A16 5G is an affordable 5G smartphone featuring a large 6.7-inch Super AMOLED display, Dimensity 6300 processor, and long-term software support. It offers solid battery life and dependable everyday performance.",
+
+  "images": ["", "", ""],
+
+  "ram": "6GB / 8GB",
+  "storage": "128GB / 256GB",
+
+  "battery": "5000mAh",
+  "charging": "25W Fast Charging",
+
+  "displayType": "Super AMOLED",
+  "displaySize": "6.7-inch",
+  "refreshRate": "90Hz",
+  "resolution": "1080 x 2340 (FHD+)",
+
+  "rearCamera": "50MP + 5MP Ultra-Wide + 2MP Macro",
+  "frontCamera": "13MP",
+
+  "androidVersion": "Android 14",
+  "ipRating": "IP54",
+  "weight": "200g",
+
+  "gamingScore": 68,
+  "cameraScore": 74,
+  "batteryScore": 85,
+  "overallScore": 76,
+  "rank": 41,
+
+  "pros": [
+    "AMOLED display",
+    "Good battery life",
+    "Long software support"
+  ],
+
+  "cons": [
+    "Average gaming performance",
+    "90Hz instead of 120Hz",
+    "Basic ultra-wide camera"
+  ],
+
+  "tags": [
+    "5G",
+    "AMOLED",
+    "5000mAh Battery",
+    "Budget Smartphone"
+  ]
+} ,
+
+
+
+{
+  "id": "samsung-galaxy-a15",
+  "brandId": "samsung",
+  "processorId": "mediatek-dimensity-6100-plus",
+
+  "model": "Samsung Galaxy A15 5G",
+  "price": 17999,
+  "launchDate": "2023-12-11",
+
+  "description": "Samsung Galaxy A15 5G combines a 90Hz Super AMOLED display with the Dimensity 6100+ chipset, delivering smooth everyday performance and reliable battery life.",
+
+  "images": ["", "", ""],
+
+  "ram": "6GB / 8GB",
+  "storage": "128GB / 256GB",
+
+  "battery": "5000mAh",
+  "charging": "25W Fast Charging",
+
+  "displayType": "Super AMOLED",
+  "displaySize": "6.5-inch",
+  "refreshRate": "90Hz",
+  "resolution": "1080 x 2340 (FHD+)",
+
+  "rearCamera": "50MP + 5MP Ultra-Wide + 2MP Macro",
+  "frontCamera": "13MP",
+
+  "androidVersion": "Android 14",
+  "ipRating": "No Official IP Rating",
+  "weight": "200g",
+
+  "gamingScore": 66,
+  "cameraScore": 72,
+  "batteryScore": 84,
+  "overallScore": 74,
+  "rank": 44,
+
+  "pros": [
+    "Super AMOLED display",
+    "Reliable battery life",
+    "Good value for money"
+  ],
+
+  "cons": [
+    "No stereo speakers",
+    "No IP rating",
+    "Average cameras in low light"
+  ],
+
+  "tags": [
+    "5G",
+    "AMOLED",
+    "Dimensity 6100+",
+    "Budget Phone"
+  ]
+} ,
+
+
+
+
+{
+  "id": "samsung-galaxy-a14",
+  "brandId": "samsung",
+  "processorId": "exynos-1330",
+
+  "model": "Samsung Galaxy A14 5G",
+  "price": 16999,
+  "launchDate": "2023-01-04",
+
+  "description": "Samsung Galaxy A14 5G is an entry-level 5G smartphone featuring a large FHD+ display, Exynos 1330 processor, and a 5000mAh battery.",
+
+  "images": ["", "", ""],
+
+  "ram": "4GB / 6GB / 8GB",
+  "storage": "64GB / 128GB",
+
+  "battery": "5000mAh",
+  "charging": "15W Fast Charging",
+
+  "displayType": "PLS LCD",
+  "displaySize": "6.6-inch",
+  "refreshRate": "90Hz",
+  "resolution": "1080 x 2408 (FHD+)",
+
+  "rearCamera": "50MP + 2MP Macro + 2MP Depth",
+  "frontCamera": "13MP",
+
+  "androidVersion": "Android 13",
+  "ipRating": "No Official IP Rating",
+  "weight": "204g",
+
+  "gamingScore": 63,
+  "cameraScore": 69,
+  "batteryScore": 84,
+  "overallScore": 72,
+  "rank": 48,
+
+  "pros": [
+    "Good battery life",
+    "FHD+ display",
+    "Affordable 5G connectivity"
+  ],
+
+  "cons": [
+    "LCD display",
+    "15W charging only",
+    "No ultra-wide camera"
+  ],
+
+  "tags": [
+    "5G",
+    "FHD+ Display",
+    "5000mAh Battery",
+    "Budget Smartphone"
+  ]
+} ,
+
+
+
+
+
+{
+  "id": "samsung-galaxy-a13",
+  "brandId": "samsung",
+  "processorId": "exynos-850",
+
+  "model": "Samsung Galaxy A13",
+  "price": 14999,
+  "launchDate": "2022-03-23",
+
+  "description": "Samsung Galaxy A13 is a budget smartphone with a 50MP camera, FHD+ display, and a large 5000mAh battery for everyday use.",
+
+  "images": ["", "", ""],
+
+  "ram": "4GB / 6GB",
+  "storage": "64GB / 128GB",
+
+  "battery": "5000mAh",
+  "charging": "15W Fast Charging",
+
+  "displayType": "PLS LCD",
+  "displaySize": "6.6-inch",
+  "refreshRate": "60Hz",
+  "resolution": "1080 x 2408 (FHD+)",
+
+  "rearCamera": "50MP + 5MP Ultra-Wide + 2MP Macro + 2MP Depth",
+  "frontCamera": "8MP",
+
+  "androidVersion": "Android 12",
+  "ipRating": "No Official IP Rating",
+  "weight": "195g",
+
+  "gamingScore": 55,
+  "cameraScore": 68,
+  "batteryScore": 83,
+  "overallScore": 68,
+  "rank": 53,
+
+  "pros": [
+    "Large battery",
+    "FHD+ display",
+    "50MP camera"
+  ],
+
+  "cons": [
+    "Weak gaming performance",
+    "LCD panel",
+    "60Hz refresh rate"
+  ],
+
+  "tags": [
+    "Budget Phone",
+    "50MP Camera",
+    "5000mAh Battery",
+    "FHD+ Display"
+  ]
+} ,
+
+
+
+
+
+{
+  "id": "samsung-galaxy-a12",
+  "brandId": "samsung",
+  "processorId": "mediatek-helio-p35",
+
+  "model": "Samsung Galaxy A12",
+  "price": 12999,
+  "launchDate": "2020-11-24",
+
+  "description": "Samsung Galaxy A12 is an entry-level smartphone focused on battery life and basic daily tasks with a quad-camera setup and large display.",
+
+  "images": ["", "", ""],
+
+  "ram": "3GB / 4GB / 6GB",
+  "storage": "32GB / 64GB / 128GB",
+
+  "battery": "5000mAh",
+  "charging": "15W Fast Charging",
+
+  "displayType": "PLS LCD",
+  "displaySize": "6.5-inch",
+  "refreshRate": "60Hz",
+  "resolution": "720 x 1600 (HD+)",
+
+  "rearCamera": "48MP + 5MP Ultra-Wide + 2MP Macro + 2MP Depth",
+  "frontCamera": "8MP",
+
+  "androidVersion": "Android 10",
+  "ipRating": "No Official IP Rating",
+  "weight": "205g",
+
+  "gamingScore": 48,
+  "cameraScore": 63,
+  "batteryScore": 82,
+  "overallScore": 64,
+  "rank": 61,
+
+  "pros": [
+    "Long battery life",
+    "Affordable price",
+    "Quad-camera setup"
+  ],
+
+  "cons": [
+    "HD+ display",
+    "Slow chipset",
+    "Bulky design"
+  ],
+
+  "tags": [
+    "Budget Smartphone",
+    "5000mAh Battery",
+    "Quad Camera",
+    "Entry Level"
+  ]
+} 
+
+
+  
   
   ];
     
