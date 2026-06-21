@@ -301,10 +301,10 @@ a{
   
   <script>
 
-const smartphoneData =
-  typeof redmiPhones !== "undefined"
-    ? redmiPhones
-    : [];
+const smartphoneData = [
+  ...(typeof redmiPhones !== "undefined" ? redmiPhones : []),
+  ...(typeof samsungPhones !== "undefined" ? samsungPhones : [])
+];
 
 document.getElementById("phoneCount").textContent =
   smartphoneData.length;
