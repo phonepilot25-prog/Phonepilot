@@ -1,3 +1,5 @@
+const oneplusPhones = [
+
 {
   "id": "oneplus-13",
   "brandId": "oneplus",
@@ -1715,5 +1717,5 @@
 
 
 
-
+]
   
