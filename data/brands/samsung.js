@@ -3836,4 +3836,816 @@
   "rearCamera": "50MP + 12MP Ultra-Wide + 10MP Telephoto",
   "frontCamera": "10MP Cover + 4MP Under Display",
 
-  "and
+  "androidVersion": "Android 13 (One UI 5.1.1)",
+  "ipRating": "IPX8",
+  "weight": "253g",
+
+  "gamingScore": 94,
+  "cameraScore": 89,
+  "batteryScore": 82,
+  "overallScore": 91,
+  "rank": 9,
+
+  "pros": [
+    "Excellent foldable display",
+    "Powerful Snapdragon chipset",
+    "Premium build quality"
+  ],
+
+  "cons": [
+    "Expensive",
+    "25W charging only",
+    "Heavy device"
+  ],
+
+  "tags": [
+    "Foldable",
+    "Snapdragon 8 Gen 2",
+    "120Hz AMOLED",
+    "Flagship"
+  ]
+} ,
+
+
+
+
+
+{
+  "id": "samsung-galaxy-z-flip5",
+  "brandId": "samsung",
+  "processorId": "snapdragon-8-gen-2-for-galaxy",
+
+  "model": "Samsung Galaxy Z Flip5",
+  "price": 99999,
+  "launchDate": "2023-07-26",
+
+  "description": "Samsung Galaxy Z Flip5 is a premium clamshell foldable smartphone featuring a larger Flex Window, flagship performance, and compact design.",
+
+  "images": [
+    "Not Officially Announced",
+    "Not Officially Announced",
+    "Not Officially Announced"
+  ],
+
+  "ram": "8GB",
+  "storage": "256GB / 512GB",
+
+  "battery": "3700mAh",
+  "charging": "25W Fast Charging",
+
+  "displayType": "Dynamic AMOLED 2X",
+  "displaySize": "6.7-inch Foldable + 3.4-inch Cover",
+  "refreshRate": "120Hz",
+  "resolution": "2640 x 1080",
+
+  "rearCamera": "12MP Wide + 12MP Ultra-Wide",
+  "frontCamera": "10MP",
+
+  "androidVersion": "Android 13 (One UI 5.1.1)",
+  "ipRating": "IPX8",
+  "weight": "187g",
+
+  "gamingScore": 92,
+  "cameraScore": 84,
+  "batteryScore": 74,
+  "overallScore": 87,
+  "rank": 14,
+
+  "pros": [
+    "Compact foldable design",
+    "Large Flex Window",
+    "Excellent performance"
+  ],
+
+  "cons": [
+    "Small battery",
+    "25W charging only",
+    "No telephoto camera"
+  ],
+
+  "tags": [
+    "Flip Phone",
+    "Foldable",
+    "120Hz AMOLED",
+    "Snapdragon 8 Gen 2"
+  ]
+} ,
+
+
+
+
+
+
+{
+  "id": "samsung-galaxy-s23-ultra",
+  "brandId": "samsung",
+  "processorId": "snapdragon-8-gen-2-for-galaxy",
+
+  "model": "Samsung Galaxy S23 Ultra",
+  "price": 124999,
+  "launchDate": "2023-02-01",
+
+  "description": "Samsung Galaxy S23 Ultra is a premium flagship smartphone featuring a 200MP camera, built-in S Pen, Snapdragon 8 Gen 2 for Galaxy processor, and a QHD+ AMOLED display.",
+
+  "images": [
+    "Not Officially Announced",
+    "Not Officially Announced",
+    "Not Officially Announced"
+  ],
+
+  "ram": "8GB / 12GB",
+  "storage": "256GB / 512GB / 1TB",
+
+  "battery": "5000mAh",
+  "charging": "45W Fast Charging",
+
+  "displayType": "Dynamic AMOLED 2X",
+  "displaySize": "6.8-inch",
+  "refreshRate": "120Hz",
+  "resolution": "3088 x 1440 (QHD+)",
+
+  "rearCamera": "200MP + 10MP Telephoto + 10MP Periscope + 12MP Ultra-Wide",
+  "frontCamera": "12MP",
+
+  "androidVersion": "Android 13 (One UI 5.1)",
+  "ipRating": "IP68",
+  "weight": "234g",
+
+  "gamingScore": 95,
+  "cameraScore": 96,
+  "batteryScore": 91,
+  "overallScore": 95,
+  "rank": 4,
+
+  "pros": [
+    "Excellent 200MP camera",
+    "Built-in S Pen",
+    "Outstanding battery life"
+  ],
+
+  "cons": [
+    "Heavy device",
+    "Large size",
+    "Premium pricing"
+  ],
+
+  "tags": [
+    "Ultra Flagship",
+    "200MP Camera",
+    "S Pen",
+    "Snapdragon 8 Gen 2"
+  ]
+} ,
+
+
+
+
+{
+  "id": "samsung-galaxy-s23-plus",
+  "brandId": "samsung",
+  "processorId": "snapdragon-8-gen-2-for-galaxy",
+
+  "model": "Samsung Galaxy S23+",
+  "price": 94999,
+  "launchDate": "2023-02-01",
+
+  "description": "Samsung Galaxy S23+ is a premium flagship smartphone featuring Snapdragon 8 Gen 2 for Galaxy, a large AMOLED display, excellent cameras, and strong battery life.",
+
+  "images": [
+    "Not Officially Announced",
+    "Not Officially Announced",
+    "Not Officially Announced"
+  ],
+
+  "ram": "8GB",
+  "storage": "256GB / 512GB",
+
+  "battery": "4700mAh",
+  "charging": "45W Fast Charging",
+
+  "displayType": "Dynamic AMOLED 2X",
+  "displaySize": "6.6-inch",
+  "refreshRate": "120Hz",
+  "resolution": "2340 x 1080 (FHD+)",
+
+  "rearCamera": "50MP + 12MP Ultra-Wide + 10MP Telephoto",
+  "frontCamera": "12MP",
+
+  "androidVersion": "Android 13 (One UI 5.1)",
+  "ipRating": "IP68",
+  "weight": "196g",
+
+  "gamingScore": 94,
+  "cameraScore": 89,
+  "batteryScore": 90,
+  "overallScore": 92,
+  "rank": 8,
+
+  "pros": [
+    "Excellent battery life",
+    "Flagship performance",
+    "Premium AMOLED display"
+  ],
+
+  "cons": [
+    "No QHD+ resolution",
+    "Premium price",
+    "Camera upgrades are minor"
+  ],
+
+  "tags": [
+    "Flagship",
+    "120Hz AMOLED",
+    "Snapdragon 8 Gen 2",
+    "5G"
+  ]
+} ,
+
+
+
+
+
+{
+  "id": "samsung-galaxy-s23",
+  "brandId": "samsung",
+  "processorId": "snapdragon-8-gen-2-for-galaxy",
+
+  "model": "Samsung Galaxy S23",
+  "price": 74999,
+  "launchDate": "2023-02-01",
+
+  "description": "Samsung Galaxy S23 is a compact flagship smartphone offering premium performance, excellent cameras, and Samsung's Dynamic AMOLED 2X display.",
+
+  "images": [
+    "Not Officially Announced",
+    "Not Officially Announced",
+    "Not Officially Announced"
+  ],
+
+  "ram": "8GB",
+  "storage": "128GB / 256GB",
+
+  "battery": "3900mAh",
+  "charging": "25W Fast Charging",
+
+  "displayType": "Dynamic AMOLED 2X",
+  "displaySize": "6.1-inch",
+  "refreshRate": "120Hz",
+  "resolution": "2340 x 1080 (FHD+)",
+
+  "rearCamera": "50MP + 12MP Ultra-Wide + 10MP Telephoto",
+  "frontCamera": "12MP",
+
+  "androidVersion": "Android 13 (One UI 5.1)",
+  "ipRating": "IP68",
+  "weight": "168g",
+
+  "gamingScore": 93,
+  "cameraScore": 88,
+  "batteryScore": 78,
+  "overallScore": 89,
+  "rank": 13,
+
+  "pros": [
+    "Compact flagship design",
+    "Excellent performance",
+    "Premium build quality"
+  ],
+
+  "cons": [
+    "Small battery",
+    "25W charging only",
+    "No charger in box"
+  ],
+
+  "tags": [
+    "Compact Flagship",
+    "120Hz AMOLED",
+    "Snapdragon 8 Gen 2",
+    "5G"
+  ]
+} ,
+
+
+
+
+
+{
+  "id": "samsung-galaxy-s23-fe",
+  "brandId": "samsung",
+  "processorId": "exynos-2200",
+
+  "model": "Samsung Galaxy S23 FE",
+  "price": 59999,
+  "launchDate": "2023-10-04",
+
+  "description": "Samsung Galaxy S23 FE is a Fan Edition flagship smartphone offering premium Galaxy features, a 120Hz AMOLED display, flagship-grade cameras, and wireless charging.",
+
+  "images": [
+    "Not Officially Announced",
+    "Not Officially Announced",
+    "Not Officially Announced"
+  ],
+
+  "ram": "8GB",
+  "storage": "128GB / 256GB",
+
+  "battery": "4500mAh",
+  "charging": "25W Fast Charging",
+
+  "displayType": "Dynamic AMOLED 2X",
+  "displaySize": "6.4-inch",
+  "refreshRate": "120Hz",
+  "resolution": "2340 x 1080 (FHD+)",
+
+  "rearCamera": "50MP + 12MP Ultra-Wide + 8MP Telephoto",
+  "frontCamera": "10MP",
+
+  "androidVersion": "Android 13 (One UI 5.1)",
+  "ipRating": "IP68",
+  "weight": "209g",
+
+  "gamingScore": 86,
+  "cameraScore": 85,
+  "batteryScore": 86,
+  "overallScore": 85,
+  "rank": 18,
+
+  "pros": [
+    "Premium build quality",
+    "IP68 water resistance",
+    "Good camera system"
+  ],
+
+  "cons": [
+    "Exynos chipset runs warm",
+    "25W charging only",
+    "Heavy for its size"
+  ],
+
+  "tags": [
+    "Fan Edition",
+    "120Hz AMOLED",
+    "IP68",
+    "Wireless Charging"
+  ]
+} ,
+
+
+
+
+
+
+{
+  "id": "samsung-galaxy-z-fold4",
+  "brandId": "samsung",
+  "processorId": "snapdragon-8-plus-gen-1",
+
+  "model": "Samsung Galaxy Z Fold4",
+  "price": 154999,
+  "launchDate": "2022-08-10",
+
+  "description": "Samsung Galaxy Z Fold4 is a premium foldable smartphone featuring a large foldable AMOLED display, multitasking capabilities, and flagship performance.",
+
+  "images": [
+    "Not Officially Announced",
+    "Not Officially Announced",
+    "Not Officially Announced"
+  ],
+
+  "ram": "12GB",
+  "storage": "256GB / 512GB / 1TB",
+
+  "battery": "4400mAh",
+  "charging": "25W Fast Charging",
+
+  "displayType": "Dynamic AMOLED 2X",
+  "displaySize": "7.6-inch Foldable + 6.2-inch Cover",
+  "refreshRate": "120Hz",
+  "resolution": "2176 x 1812",
+
+  "rearCamera": "50MP + 12MP Ultra-Wide + 10MP Telephoto",
+  "frontCamera": "10MP Cover + 4MP Under Display",
+
+  "androidVersion": "Android 12L (One UI 4.1.1)",
+  "ipRating": "IPX8",
+  "weight": "263g",
+
+  "gamingScore": 89,
+  "cameraScore": 87,
+  "batteryScore": 80,
+  "overallScore": 88,
+  "rank": 16,
+
+  "pros": [
+    "Large foldable display",
+    "Excellent multitasking",
+    "Premium build quality"
+  ],
+
+  "cons": [
+    "Very expensive",
+    "Heavy device",
+    "25W charging only"
+  ],
+
+  "tags": [
+    "Foldable",
+    "Snapdragon 8+ Gen 1",
+    "120Hz AMOLED",
+    "Multitasking"
+  ]
+} ,
+
+
+
+
+{
+  "id": "samsung-galaxy-z-flip4",
+  "brandId": "samsung",
+  "processorId": "snapdragon-8-plus-gen-1",
+
+  "model": "Samsung Galaxy Z Flip4",
+  "price": 89999,
+  "launchDate": "2022-08-10",
+
+  "description": "Samsung Galaxy Z Flip4 is a compact foldable smartphone featuring flagship performance, Flex Mode functionality, and an improved battery compared to its predecessor.",
+
+  "images": [
+    "Not Officially Announced",
+    "Not Officially Announced",
+    "Not Officially Announced"
+  ],
+
+  "ram": "8GB",
+  "storage": "128GB / 256GB / 512GB",
+
+  "battery": "3700mAh",
+  "charging": "25W Fast Charging",
+
+  "displayType": "Dynamic AMOLED 2X",
+  "displaySize": "6.7-inch Foldable + 1.9-inch Cover",
+  "refreshRate": "120Hz",
+  "resolution": "2640 x 1080",
+
+  "rearCamera": "12MP Wide + 12MP Ultra-Wide",
+  "frontCamera": "10MP",
+
+  "androidVersion": "Android 12 (One UI 4.1.1)",
+  "ipRating": "IPX8",
+  "weight": "187g",
+
+  "gamingScore": 88,
+  "cameraScore": 80,
+  "batteryScore": 73,
+  "overallScore": 82,
+  "rank": 22,
+
+  "pros": [
+    "Compact foldable design",
+    "Flagship performance",
+    "Premium build quality"
+  ],
+
+  "cons": [
+    "Small battery",
+    "No telephoto camera",
+    "25W charging only"
+  ],
+
+  "tags": [
+    "Flip Phone",
+    "Foldable",
+    "120Hz AMOLED",
+    "Snapdragon 8+ Gen 1"
+  ]
+} ,
+
+
+
+{
+  "id": "samsung-galaxy-s22-ultra",
+  "brandId": "samsung",
+  "processorId": "snapdragon-8-gen-1",
+
+  "model": "Samsung Galaxy S22 Ultra",
+  "price": 109999,
+  "launchDate": "2022-02-09",
+
+  "description": "Samsung Galaxy S22 Ultra is a premium flagship smartphone featuring a built-in S Pen, advanced 108MP camera system, powerful performance, and a premium Dynamic AMOLED 2X display.",
+
+  "images": [
+    "Not Officially Announced",
+    "Not Officially Announced",
+    "Not Officially Announced"
+  ],
+
+  "ram": "8GB / 12GB",
+  "storage": "128GB / 256GB / 512GB / 1TB",
+
+  "battery": "5000mAh",
+  "charging": "45W Fast Charging",
+
+  "displayType": "Dynamic AMOLED 2X",
+  "displaySize": "6.8-inch",
+  "refreshRate": "120Hz",
+  "resolution": "3088 x 1440 (QHD+)",
+
+  "rearCamera": "108MP + 12MP Ultra-Wide + 10MP Telephoto + 10MP Periscope",
+  "frontCamera": "40MP",
+
+  "androidVersion": "Android 12 (One UI 4.1)",
+  "ipRating": "IP68",
+  "weight": "228g",
+
+  "gamingScore": 89,
+  "cameraScore": 94,
+  "batteryScore": 88,
+  "overallScore": 92,
+  "rank": 11,
+
+  "pros": [
+    "Built-in S Pen",
+    "Excellent camera system",
+    "Premium QHD+ display"
+  ],
+
+  "cons": [
+    "Can get warm under heavy load",
+    "Large and heavy",
+    "Premium price"
+  ],
+
+  "tags": [
+    "Ultra Flagship",
+    "S Pen",
+    "108MP Camera",
+    "120Hz AMOLED"
+  ]
+} ,
+
+
+
+{
+  "id": "samsung-galaxy-s22-plus",
+  "brandId": "samsung",
+  "processorId": "snapdragon-8-gen-1",
+
+  "model": "Samsung Galaxy S22+",
+  "price": 84999,
+  "launchDate": "2022-02-09",
+
+  "description": "Samsung Galaxy S22+ is a premium flagship smartphone offering strong performance, a bright AMOLED display, and a versatile triple-camera setup.",
+
+  "images": [
+    "Not Officially Announced",
+    "Not Officially Announced",
+    "Not Officially Announced"
+  ],
+
+  "ram": "8GB",
+  "storage": "128GB / 256GB",
+
+  "battery": "4500mAh",
+  "charging": "45W Fast Charging",
+
+  "displayType": "Dynamic AMOLED 2X",
+  "displaySize": "6.6-inch",
+  "refreshRate": "120Hz",
+  "resolution": "2340 x 1080 (FHD+)",
+
+  "rearCamera": "50MP + 12MP Ultra-Wide + 10MP Telephoto",
+  "frontCamera": "10MP",
+
+  "androidVersion": "Android 12 (One UI 4.1)",
+  "ipRating": "IP68",
+  "weight": "195g",
+
+  "gamingScore": 87,
+  "cameraScore": 86,
+  "batteryScore": 84,
+  "overallScore": 86,
+  "rank": 19,
+
+  "pros": [
+    "Bright AMOLED display",
+    "Premium build quality",
+    "Reliable cameras"
+  ],
+
+  "cons": [
+    "Battery life could be better",
+    "No charger in box",
+    "Can heat during gaming"
+  ],
+
+  "tags": [
+    "Flagship",
+    "120Hz AMOLED",
+    "IP68",
+    "5G"
+  ]
+} ,
+
+
+
+
+{
+  "id": "samsung-galaxy-s22",
+  "brandId": "samsung",
+  "processorId": "snapdragon-8-gen-1",
+
+  "model": "Samsung Galaxy S22",
+  "price": 72999,
+  "launchDate": "2022-02-09",
+
+  "description": "Samsung Galaxy S22 is a compact flagship smartphone featuring premium cameras, flagship performance, and a high-quality Dynamic AMOLED 2X display.",
+
+  "images": [
+    "Not Officially Announced",
+    "Not Officially Announced",
+    "Not Officially Announced"
+  ],
+
+  "ram": "8GB",
+  "storage": "128GB / 256GB",
+
+  "battery": "3700mAh",
+  "charging": "25W Fast Charging",
+
+  "displayType": "Dynamic AMOLED 2X",
+  "displaySize": "6.1-inch",
+  "refreshRate": "120Hz",
+  "resolution": "2340 x 1080 (FHD+)",
+
+  "rearCamera": "50MP + 12MP Ultra-Wide + 10MP Telephoto",
+  "frontCamera": "10MP",
+
+  "androidVersion": "Android 12 (One UI 4.1)",
+  "ipRating": "IP68",
+  "weight": "168g",
+
+  "gamingScore": 85,
+  "cameraScore": 85,
+  "batteryScore": 72,
+  "overallScore": 83,
+  "rank": 24,
+
+  "pros": [
+    "Compact flagship design",
+    "Excellent display quality",
+    "Good camera performance"
+  ],
+
+  "cons": [
+    "Small battery",
+    "25W charging only",
+    "Can warm up during gaming"
+  ],
+
+  "tags": [
+    "Compact Flagship",
+    "120Hz AMOLED",
+    "IP68",
+    "5G"
+  ]
+} ,
+
+
+
+
+{
+  "id": "samsung-galaxy-z-fold3",
+  "brandId": "samsung",
+  "processorId": "snapdragon-888",
+
+  "model": "Samsung Galaxy Z Fold3",
+  "price": 149999,
+  "launchDate": "2021-08-11",
+
+  "description": "Samsung Galaxy Z Fold3 is a premium foldable smartphone featuring a 7.6-inch foldable AMOLED display, S Pen support, IPX8 water resistance, and flagship performance.",
+
+  "images": [
+    "Not Officially Announced",
+    "Not Officially Announced",
+    "Not Officially Announced"
+  ],
+
+  "ram": "12GB",
+  "storage": "256GB / 512GB",
+
+  "battery": "4400mAh",
+  "charging": "25W Fast Charging",
+
+  "displayType": "Dynamic AMOLED 2X",
+  "displaySize": "7.6-inch Foldable + 6.2-inch Cover",
+  "refreshRate": "120Hz",
+  "resolution": "2208 x 1768",
+
+  "rearCamera": "12MP Wide + 12MP Ultra-Wide + 12MP Telephoto",
+  "frontCamera": "10MP Cover + 4MP Under Display",
+
+  "androidVersion": "Android 11 (One UI 3.1.1)",
+  "ipRating": "IPX8",
+  "weight": "271g",
+
+  "gamingScore": 84,
+  "cameraScore": 82,
+  "batteryScore": 78,
+  "overallScore": 83,
+  "rank": 28,
+
+  "pros": [
+    "Large foldable display",
+    "S Pen support",
+    "IPX8 water resistance"
+  ],
+
+  "cons": [
+    "Heavy device",
+    "Expensive",
+    "Average battery life"
+  ],
+
+  "tags": [
+    "Foldable",
+    "S Pen",
+    "120Hz AMOLED",
+    "Snapdragon 888"
+  ]
+} ,
+
+
+
+
+
+
+
+{
+  "id": "samsung-galaxy-z-flip3",
+  "brandId": "samsung",
+  "processorId": "snapdragon-888",
+
+  "model": "Samsung Galaxy Z Flip3",
+  "price": 84999,
+  "launchDate": "2021-08-11",
+
+  "description": "Samsung Galaxy Z Flip3 is a compact foldable smartphone featuring a stylish clamshell design, 120Hz AMOLED display, and flagship-grade performance.",
+
+  "images": [
+    "Not Officially Announced",
+    "Not Officially Announced",
+    "Not Officially Announced"
+  ],
+
+  "ram": "8GB",
+  "storage": "128GB / 256GB",
+
+  "battery": "3300mAh",
+  "charging": "15W Fast Charging",
+
+  "displayType": "Dynamic AMOLED 2X",
+  "displaySize": "6.7-inch Foldable + 1.9-inch Cover",
+  "refreshRate": "120Hz",
+  "resolution": "2640 x 1080",
+
+  "rearCamera": "12MP Wide + 12MP Ultra-Wide",
+  "frontCamera": "10MP",
+
+  "androidVersion": "Android 11 (One UI 3.1.1)",
+  "ipRating": "IPX8",
+  "weight": "183g",
+
+  "gamingScore": 82,
+  "cameraScore": 78,
+  "batteryScore": 65,
+  "overallScore": 77,
+  "rank": 35,
+
+  "pros": [
+    "Compact foldable design",
+    "120Hz AMOLED display",
+    "Premium build quality"
+  ],
+
+  "cons": [
+    "Small battery",
+    "Slow charging speed",
+    "No telephoto camera"
+  ],
+
+  "tags": [
+    "Flip Phone",
+    "Foldable",
+    "120Hz AMOLED",
+    "Snapdragon 888"
+  ]
+} ,
+
+
+
+
+
+
+
+
