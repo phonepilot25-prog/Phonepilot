@@ -2113,7 +2113,7 @@ const vivoPhones = [
     "5000mAh",
     "Entry Level"
   ]
-} ,
+} 
 
 
 
