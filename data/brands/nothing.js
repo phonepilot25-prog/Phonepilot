@@ -1,3 +1,6 @@
+const nothingPhones = [
+
+
 {
   "id": "nothing-phone-3",
   "brandId": "nothing",
@@ -625,7 +628,7 @@
 } ,
 
 
-
+  ]
 
 
 
