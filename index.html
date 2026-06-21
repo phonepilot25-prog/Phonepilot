@@ -317,7 +317,10 @@ alert(typeof smartphoneData);
 alert(Array.isArray(smartphoneData));
 alert(smartphoneData.length);
 </script>
-
+<script>
+console.log(smartphoneData[0]);
+console.log(smartphoneData[0].model);
+</script>
   <script>
   
 document.getElementById("phoneCount").textContent =
@@ -420,74 +423,13 @@ function findPhones() {
 }
 
   function searchPhone() {
+  const results = smartphoneData.filter(
+    phone =>
+      phone.model &&
+      phone.model.toLowerCase().includes("samsung")
+  );
 
-  const query =
-    document.getElementById("phoneSearch")
-      .value
-      .trim()
-      .toLowerCase();
-
-  const budget =
-    Number(
-      document.getElementById("budget").value
-    ) || Infinity;
-
-  const phones = smartphoneData;
-
-  const results = phones.filter(phone => {
-
-    const matchesSearch =
-      query === "" ||
-      phone.model
-        .toLowerCase()
-        .includes(query);
-
-    const matchesBudget =
-      phone.price <= budget;
-
-    return matchesSearch && matchesBudget;
-
-  });
-
-  let html = "";
-
-  if (results.length === 0) {
-
-    html = "<h3>No matching phone found.</h3>";
-
-  } else {
-
-    results.forEach(phone => {
-
-      html += `
-        <div class="card">
-
-          <h3>
-            <a href="phone.html?id=${phone.id}">
-              ${phone.model}
-            </a>
-          </h3>
-
-          <p><b>Price:</b> ₹${phone.price}</p>
-
-          <p>
-            ⭐ View detailed specifications,
-            rankings and analysis
-          </p>
-
-          <p><b>Processor:</b> ${phone.processorId}</p>
-          <p><b>RAM:</b> ${phone.ram}</p>
-          <p><b>Storage:</b> ${phone.storage}</p>
-
-        </div>
-      `;
-
-    });
-
-  }
-
-  document.getElementById("resultsTitle").style.display = "block";
-  document.getElementById("results").innerHTML = html;
+  alert(results.length);
   }
 
   function comparePhones() {
