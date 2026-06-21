@@ -1,6 +1,3 @@
-const realmePhones = [
-
-
 {
   id: "realme-gt-7-pro",
   brandId: "realme",
@@ -60,7 +57,7 @@ const realmePhones = [
     "120W Charging",
     "IP69"
   ]
-}
+} ,
 
 
 
@@ -125,7 +122,7 @@ const realmePhones = [
     "120W Charging",
     "IP69"
   ]
-}
+} ,
 
 
 
@@ -189,7 +186,7 @@ const realmePhones = [
     "120W Charging",
     "Dimensity 8400 Max"
   ]
-}
+} ,
 
 
 
@@ -253,7 +250,7 @@ const realmePhones = [
     "80W Charging",
     "IP69"
   ]
-}
+} ,
 
 
 
@@ -318,7 +315,7 @@ const realmePhones = [
     "6000mAh",
     "IP69"
   ]
-}
+} ,
 
 
 
@@ -383,7 +380,7 @@ const realmePhones = [
     "6000mAh",
     "IP69"
   ]
-}
+} ,
 
 
 
@@ -448,7 +445,7 @@ const realmePhones = [
     "6000mAh",
     "Budget"
   ]
-}
+} ,
 
 
 
@@ -514,7 +511,7 @@ const realmePhones = [
     "IP69",
     "Budget"
   ]
-}
+} ,
 
 
 
@@ -579,7 +576,7 @@ const realmePhones = [
     "Gaming",
     "IP69"
   ]
-}
+} ,
 
 
 
@@ -643,7 +640,7 @@ const realmePhones = [
     "6000mAh",
     "IP69"
   ]
-}
+} ,
 
 
 
@@ -708,7 +705,7 @@ const realmePhones = [
     "6000mAh",
     "Budget"
   ]
-}
+} ,
 
 
 
@@ -773,7 +770,7 @@ const realmePhones = [
     "IP69",
     "Budget"
   ]
-}
+} ,
 
 
 
@@ -838,7 +835,7 @@ const realmePhones = [
     "80W Charging",
     "6000mAh"
   ]
-}
+} ,
 
 
 
@@ -903,7 +900,7 @@ const realmePhones = [
     "120Hz",
     "Budget"
   ]
-}
+} ,
 
 
 
@@ -968,7 +965,7 @@ const realmePhones = [
     "Budget",
     "Dimensity 6300"
   ]
-}
+} ,
 
 
 
@@ -1031,7 +1028,7 @@ const realmePhones = [
     "IP69",
     "Budget"
   ]
-}
+} ,
 
 
 
@@ -1095,7 +1092,7 @@ const realmePhones = [
     "120Hz",
     "Budget"
   ]
-}
+} ,
 
 
 
@@ -1159,7 +1156,7 @@ const realmePhones = [
     "Budget",
     "Entry Level"
   ]
-}
+} ,
 
 {
   id: "realme-c63",
@@ -1220,10 +1217,12 @@ const realmePhones = [
     "90Hz",
     "Entry Level"
   ]
-}
+} ,
 
 
 
 
 
-];
+
+
+    
