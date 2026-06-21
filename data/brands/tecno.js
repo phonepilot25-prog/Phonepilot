@@ -1,3 +1,6 @@
+const tecnoPhones = [
+
+
 {
   "id": "",
   "brandId": "tecno",
@@ -1461,5 +1464,5 @@
 
 
 
-
+]
     
