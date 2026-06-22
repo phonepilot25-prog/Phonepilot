@@ -1733,9 +1733,9 @@ const oppoPhones = [
     "AI Camera",
     "Lightweight"
   ]
-} ,
+}
 
 
 
-] ;
+];
     
