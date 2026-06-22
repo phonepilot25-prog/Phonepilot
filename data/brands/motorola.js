@@ -1839,9 +1839,9 @@ const motorolaPhones = [
     "Flagship",
     "pOLED"
   ]
-} ,
+}
 
 
 
-] ;
+];
     
