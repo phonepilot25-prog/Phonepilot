@@ -1460,9 +1460,9 @@ const tecnoPhones = [
     "120Hz",
     "Battery"
   ]
-} ,
+} 
 
 
 
-] ;
+];
     
