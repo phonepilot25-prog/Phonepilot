@@ -625,10 +625,10 @@ const nothingPhones = [
     "transparent",
     "5g"
   ]
-} ,
+} 
 
 
-  ] ;
+  ];
 
 
 
