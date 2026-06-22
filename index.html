@@ -308,7 +308,8 @@ a{
   <script src="data/brands/oneplus.js"></script>
 <script src="data/brands/oppo.js"></script>
 <script src="data/brands/pixel.js"></script>
-<script src="data/brands/tecno.js"></script>  
+<script src="data/brands/tecno.js"></script>
+<script src="data/brands/vivo.js"></script>  
   <script>
 
 const smartphoneData = [
@@ -324,7 +325,8 @@ const smartphoneData = [
   ...(typeof oneplusPhones !== "undefined" ? oneplusPhones : []),
   ...(typeof oppoPhones !== "undefined" ? oppoPhones : []),
   ...(typeof pixelPhones !== "undefined" ? pixelPhones : []),
-  ...(typeof tecnoPhones !== "undefined" ? tecnoPhones : [])
+  ...(typeof tecnoPhones !== "undefined" ? tecnoPhones : []),
+  ...(typeof vivoPhones !== "undefined" ? vivoPhones : [])
 ];
 
 document.getElementById("phoneCount").textContent =
