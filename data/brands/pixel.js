@@ -18,7 +18,7 @@ const pixelPhones = [
     ""
   ],
 
-  "ram": "16GB",
+  "ram": "116GB",
   "storage": "128GB / 256GB / 512GB / 1TB",
 
   "battery": "5060mAh",
