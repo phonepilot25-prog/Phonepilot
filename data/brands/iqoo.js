@@ -1862,6 +1862,6 @@ const iqooPhones = [
     "55W Charging",
     "Flagship"
   ]
-} ,
+} 
     
 ] ;
