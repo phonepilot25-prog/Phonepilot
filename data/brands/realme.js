@@ -1221,7 +1221,7 @@ const realmePhones = [
     "90Hz",
     "Entry Level"
   ]
-} ,
+} 
 
 
 
@@ -1229,4 +1229,4 @@ const realmePhones = [
 
 
 
-    ] ;
+    ];
