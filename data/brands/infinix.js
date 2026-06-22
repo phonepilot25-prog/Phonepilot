@@ -1516,7 +1516,7 @@ const infinixPhones = [
     "90Hz",
     "Entry Level"
   ]
-} ,
+} 
 
 
 
