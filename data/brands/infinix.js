@@ -1521,6 +1521,6 @@ const infinixPhones = [
 
 
 
-] ;
+];
   
   
