@@ -302,6 +302,7 @@ a{
 <script src="data/brands/realme.js"></script>
 <script src="data/brands/infinix.js"></script> 
 <script src="data/brands/iphone.js"></script>
+<script src="data/brands/iqoo.js"></script>  
   <script>
 
 const smartphoneData = [
@@ -310,7 +311,8 @@ const smartphoneData = [
   ...(typeof pocoPhones !== "undefined" ? pocoPhones : []),
   ...(typeof realmePhones !== "undefined" ? realmePhones : []),
   ...(typeof infinixPhones !== "undefined" ? infinixPhones : []),
-  ...(typeof iphonePhones !== "undefined" ? iphonePhones : [])
+  ...(typeof iphonePhones !== "undefined" ? iphonePhones : []),
+  ...(typeof iqooPhones !== "undefined" ? iqooPhones : [])
 ];
 
 document.getElementById("phoneCount").textContent =
