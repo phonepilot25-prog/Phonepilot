@@ -2118,6 +2118,6 @@ const vivoPhones = [
 
 
 
-] ;
+];
 
     
