@@ -304,7 +304,8 @@ a{
 <script src="data/brands/iphone.js"></script>
 <script src="data/brands/iqoo.js"></script>
 <script src="data/brands/motorola.js"></script>
-<script src="data/brands/nothing.js"></script>  
+<script src="data/brands/nothing.js"></script>
+  <script src="data/brands/oneplus.js"></script>
   <script>
 
 const smartphoneData = [
@@ -316,7 +317,8 @@ const smartphoneData = [
   ...(typeof iphonePhones !== "undefined" ? iphonePhones : []),
   ...(typeof iqooPhones !== "undefined" ? iqooPhones : []),
   ...(typeof motorolaPhones !== "undefined" ? motorolaPhones : []),
-  ...(typeof nothingPhones !== "undefined" ? nothingPhones : [])
+  ...(typeof nothingPhones !== "undefined" ? nothingPhones : []),
+  ...(typeof oneplusPhones !== "undefined" ? oneplusPhones : [])
 ];
 
 document.getElementById("phoneCount").textContent =
