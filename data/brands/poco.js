@@ -1,4 +1,4 @@
-
+const pocoPhones = [
 
 
 {
@@ -576,11 +576,11 @@
     "Entry Level",
     "Large Battery"
   ]
-} ,
+} 
 
 
 
 
-
+];
 
   
