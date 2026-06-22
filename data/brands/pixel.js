@@ -312,6 +312,6 @@ const pixelPhones = [
     "Camera Phone",
     "Google"
   ]
-} ,
+} 
     
-] ;
+];
