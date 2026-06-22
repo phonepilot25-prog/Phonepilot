@@ -1911,8 +1911,8 @@ const iphonePhones = [
     "Face ID",
     "Classic"
   ]
-} ,
+} 
 
 
 
-  ] ;
+  ];
