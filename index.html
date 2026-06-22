@@ -298,12 +298,13 @@ a{
 
 <script src="data/brands/redmi.js"></script>
 <script src="data/brands/samsung.js"></script>
-  
+<script src="data/brands/poco.js"></script> 
   <script>
 
 const smartphoneData = [
   ...(typeof redmiPhones !== "undefined" ? redmiPhones : []),
   ...(typeof samsungPhones !== "undefined" ? samsungPhones : [])
+  ...(typeof pocoPhones !== "undefined" ? pocoPhones : [])
 ];
 
 document.getElementById("phoneCount").textContent =
