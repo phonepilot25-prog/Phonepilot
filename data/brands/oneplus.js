@@ -1712,10 +1712,10 @@ const oneplusPhones = [
     "battery",
     "nord"
   ]
-} ,
+} 
 
 
 
 
-] ;
+];
   
